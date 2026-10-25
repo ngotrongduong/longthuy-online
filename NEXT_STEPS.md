@@ -43,8 +43,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      "profile is still private" banner is gone. Upwork shows the account name "Zu Finches"; it must match his ID.
    - Next for Claude: the time zone (Upwork has Adelaide; Geelong is Melbourne time), a portfolio item, and 2–3
      proposals a day as the freelancer (the Agency is on the free plan and cannot bid).
-3. **2026-11-16: the Freelancer Plus gate** (in `PLAN.md` > Capital). A scheduled task in the Claude app runs the
-   check that day: Upwork net so far against USD 20; below it, cancel the renewal before Nov 24.
+3. **2026-11-16: the Freelancer Plus gate** (in `PLAN.md` > Capital). Done in the weekly round ("tuần kinh doanh")
+   of that week, or in any session on or after that date: Upwork net so far against USD 20; below it, cancel the
+   renewal before Nov 24. (A scheduled task for it was refused by the app's permission check on 2026-10-26.)
 
 ## The owner, once
 

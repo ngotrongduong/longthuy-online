@@ -41,10 +41,11 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      and filled the Agency "Long Thuy" on the free plan (details and costs in `listings/upwork.md`).
    - 2026-10-26: the owner bought Freelancer Plus (9.99 now, 19.99 from Nov 25; 100 Connects a month); the
      "profile is still private" banner is gone. Upwork shows the account name "Zu Finches"; it must match his ID.
-     Claude entered the owner's real name in Settings > Contact info; Upwork then asks for a new password and a
-     security question before it saves, which only the owner may set.
-   - Next for Claude: the time zone (Upwork has Adelaide; Geelong is Melbourne time), a portfolio item, and 2–3
-     proposals a day as the freelancer (the Agency is on the free plan and cannot bid).
+     Claude entered the owner's real name (Duong Ngo); the owner set the password and security question, and Upwork
+     says the name change is under review, "processed within 48 hours" (check on or after 2026-10-28). Time zone
+     set to Sydney, Melbourne.
+   - Next for Claude: a portfolio item, and 2–3 proposals a day as the freelancer (the Agency is on the free plan and
+     cannot bid).
 3. **2026-11-16: the Freelancer Plus gate** (in `PLAN.md` > Capital): Upwork net so far against USD 20; below it,
    cancel the renewal before Nov 24. The Claude app's scheduled task `upwork-plus-gate` runs it at 09:00 that day
    (the app must be open; otherwise it runs at next launch). If it has not run, do it in any session on or after

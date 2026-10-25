@@ -36,6 +36,11 @@ details. Claude does the rest and leaves the final "Publish" click to him.
      `fiverr.com/users/dngng1/manage_gigs/<gig-slug>/edit?tab=publish&wizard=5` (slugs:
      `script-a-complete-exploit-safe-system-for-your-roblox-game`, `make-your-3d-model-roblox-ready-low-poly-and-rigged`).
      The owner presses Publish Gig on both.
+   - Checked 2026-10-26 after the owner said he had pressed Publish Gig on both: Active and Pending approval are
+     empty, both gigs are still in Draft, and the dashboard still offers "Publish Gig". The publish page shows no
+     error. Fiverr's own text says a gig can be published "once you received a notification that your Form W-9
+     check was completed successfully", so the tax-form check may still be running: the owner presses Publish Gig
+     again, reads any message Fiverr shows, and waits for Fiverr's email if it says so.
    - Fiverr titles take letters and numbers only (no commas or hyphens). Its pages may show a "Press & Hold" bot
      check: the owner does it.
 3. **Better covers (optional; the ones in place are good enough to publish).**

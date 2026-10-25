@@ -2,20 +2,33 @@
 
 Done items move to the KPI row of `PLAN.md` and leave this list.
 
-## Needs the owner's computer: a Claude Code session there, in `C:\longthuy-online`
+## Needs the owner's computer: a Claude Code session there, in `C:\Ai kiem tien`
+
+`C:\Ai kiem tien` is the owner's folder for this business (2026-10-25): everything of it is kept there, and it is
+the clone of this repository.
 
 The owner allowed Claude to use his whole computer for this business (2026-10-25). The limits of `CLAUDE.md` still
 hold: the owner himself signs up, signs in, does the identity checks, accepts terms, and enters payout or tax
 details. Claude does the rest and leaves the final "Publish" click to him.
 
-1. **Clone the repository.** `git clone https://github.com/ngotrongduong/longthuy-online C:\longthuy-online`
-2. **Draw the gig pictures.**
-   - Send the two prompts of `listings/fiverr.md` to ChatGPT in the browser, on its highest reasoning setting.
-   - Save them as `listings/img/g1.png` and `listings/img/g2.png` (1280 x 769).
-   - Commit and push.
-3. **Fiverr.**
+1. **Clone the repository into `C:\Ai kiem tien`.**
+   - If the folder is empty: `git clone https://github.com/ngotrongduong/longthuy-online "C:\Ai kiem tien"`.
+   - If it already holds the owner's files, keep them and make the folder the clone, one command per call:
+     `git -C "C:\Ai kiem tien" init`, then `git -C "C:\Ai kiem tien" remote add origin
+     https://github.com/ngotrongduong/longthuy-online`, then `git -C "C:\Ai kiem tien" fetch origin main`, then
+     `git -C "C:\Ai kiem tien" checkout -b main --track origin/main`.
+   - The owner's own files stay out of git until he says what they are; private ones (ID, bank, tax) never go in.
+2. **Fiverr.**
    - The owner creates the seller account (payouts to PayPal).
-   - Then Claude fills in G1 and G2 from `listings/fiverr.md`, and the owner presses Publish.
+   - Then Claude fills in G1 and G2 from `listings/fiverr.md`, with the covers `listings/img/g1.png` and
+     `listings/img/g2.png`, and the owner presses Publish.
+   - The owner can also do this step alone, from any browser: paste the texts and upload the two covers.
+3. **Better covers (optional; the ones in place are good enough to publish).**
+   - Send the two prompts of `listings/fiverr.md` to ChatGPT in the browser, on its highest reasoning setting.
+   - Keep whichever cover reads better at thumbnail size, and note it in the KPI row: a cover change is the week's
+     one change.
+   - The covers in place are HTML (`listings/img/src/`), rendered by `node listings/img/src/render.js <in.html>
+     <out.png>` (Playwright, 1280 x 769).
 4. **Upwork.**
    - The owner creates the account and the Agency "Long Thuy" (Long Thuy Pty Ltd), its payout method, and the
      W-8BEN-E form when it is asked for.

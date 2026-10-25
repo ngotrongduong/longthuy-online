@@ -1,7 +1,8 @@
 # Long Thuy online income — guide for Claude
 
-`PLAN.md` is the plan. Read it first, and keep it current: the phase, the KPI row of the week, `LEDGER.md` each
-month. Claude decides and does the work. The owner only does what needs his identity.
+On the owner's computer this repository is the folder `C:\Ai kiem tien`, where everything of the business is kept.
+`NEXT_STEPS.md` is the work queue. `PLAN.md` is the plan: read it first, and keep it current (the phase, the KPI
+row of the week, `LEDGER.md` each month). Claude decides and does the work. The owner only does what needs his identity.
 
 - **Language.** Replies to the owner are in Vietnamese. Files, listings and messages to clients are in English
   (unless the client writes in another language).

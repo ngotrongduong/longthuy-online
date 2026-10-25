@@ -50,7 +50,7 @@ Not sure which package fits? Message me first.
 
 **Tags (5)**: roblox, roblox scripting, luau, roblox developer, roblox game
 
-**Gig picture (1280 x 769), prompt for ChatGPT**: A bright, clean cover picture, 1280 x 769, flat modern 3D style, no
+**Gig picture**: `img/g1.png` (1280 x 769, ready). **Prompt for a ChatGPT version**: A bright, clean cover picture, 1280 x 769, flat modern 3D style, no
 logos. Left: a small low-poly island game world with a market stall, a glowing speckled egg and a cute round pet.
 Right: a dark code panel with a few lines of code and a large green shield with a check mark. Bold white title on a
 navy band at the top: "GAME SYSTEMS - SAFE & TESTED". High contrast, readable at thumbnail size.
@@ -98,7 +98,7 @@ animations (Premium).
 
 **Tags**: roblox, 3d model, low poly, rigging, blender
 
-**Gig picture, prompt for ChatGPT**: A bright cover picture, 1280 x 769, no logos. A before/after split: left, a
+**Gig picture**: `img/g2.png` (1280 x 769, ready). **Prompt for a ChatGPT version**: A bright cover picture, 1280 x 769, no logos. A before/after split: left, a
 dense grey wireframe of a fox-like creature labelled "BEFORE 120k"; right, the same creature low poly, coloured, with
 a visible orange skeleton inside and a game-ready look, labelled "AFTER 6k + RIG". Bold title on top: "3D MODEL ->
 GAME READY". Clean background, high contrast, readable at thumbnail size.

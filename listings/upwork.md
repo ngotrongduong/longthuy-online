@@ -14,7 +14,21 @@ As entered 2026-10-26:
 - **Introduction**: the Agency overview below in the first person, without the ABN.
 - **Photo**: the owner's (Upwork asks for a real headshot).
 
+Submitted 2026-10-26. It stays private until the owner buys Connects and verifies his ID (see Costs).
+
 ## Agency
+
+Created 2026-10-26: `upwork.com/agencies/2114480719645303812/`, free plan ("browse without bidding"). Entered: the
+tagline (= Title), the Overview below, skills (Roblox Studio, Lua, Blender, 3D Rigging, Game Development, Low Poly,
+3D Model), size 1, founded 2012, English (Fluent), office Geelong.
+
+## Costs (checked 2026-10-26)
+
+- Freelancer: a Connects Starter pack is USD 15 for 100 Connects and includes the identity check; the profile goes
+  public only after it. Freelancer Plus is USD 19.99 a month (USD 9.99 the first month).
+- Agency: bidding as the Agency needs Agency Plus, USD 19.99 a month, plus Connects at USD 0.15 each.
+- Claude's advice: buy the one-time Starter pack, bid as the freelancer (who is the Agency's owner), and leave
+  Agency Plus until Upwork brings steady work. Money is the owner's call.
 
 **Agency name**: Long Thuy
 

@@ -37,8 +37,13 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    - 2026-10-26: signed in (the account's name shows as "Zu Finches"). Claude filled profile steps 1–3 (see
      `listings/upwork.md`). Step 3 will not go on without a profile photo: the owner adds a real headshot. Upwork's
      name must match the owner's ID, so the owner checks the account name too.
-   - Photo added; steps 1–3 done. Step 4 "personal info" (date of birth, street address, phone) is the owner's;
-     then Claude does step 5, publishes the profile and creates the Agency.
+   - Photo added; the owner filled step 4 (personal info); Claude did step 5 and submitted the profile, and created
+     and filled the Agency "Long Thuy" on the free plan (details and costs in `listings/upwork.md`).
+   - Left for the owner (money and identity): buy the USD 15 Connects Starter pack (it includes the ID check), then
+     verify his ID. The profile turns public after that. Upwork shows the account name "Zu Finches"; it must match
+     his ID, so he fixes it in Settings > Contact info if it is not his name.
+   - Then Claude: the time zone (Upwork has Adelaide; Geelong is Melbourne time), a portfolio item, and 2–3
+     proposals a day.
 
 ## The owner, once
 

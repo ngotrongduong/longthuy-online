@@ -39,11 +39,12 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      name must match the owner's ID, so the owner checks the account name too.
    - Photo added; the owner filled step 4 (personal info); Claude did step 5 and submitted the profile, and created
      and filled the Agency "Long Thuy" on the free plan (details and costs in `listings/upwork.md`).
-   - Left for the owner (money and identity): buy the USD 15 Connects Starter pack (it includes the ID check), then
-     verify his ID. The profile turns public after that. Upwork shows the account name "Zu Finches"; it must match
-     his ID, so he fixes it in Settings > Contact info if it is not his name.
-   - Then Claude: the time zone (Upwork has Adelaide; Geelong is Melbourne time), a portfolio item, and 2–3
-     proposals a day.
+   - 2026-10-26: the owner bought Freelancer Plus (9.99 now, 19.99 from Nov 25; 100 Connects a month); the
+     "profile is still private" banner is gone. Upwork shows the account name "Zu Finches"; it must match his ID.
+   - Next for Claude: the time zone (Upwork has Adelaide; Geelong is Melbourne time), a portfolio item, and 2–3
+     proposals a day as the freelancer (the Agency is on the free plan and cannot bid).
+3. **2026-11-16: the Freelancer Plus gate** (in `PLAN.md` > Capital). A scheduled task in the Claude app runs the
+   check that day: Upwork net so far against USD 20; below it, cancel the renewal before Nov 24.
 
 ## The owner, once
 

@@ -69,8 +69,12 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 
 ## Capital
 
-- USD 0 now.
 - Ads: at most AUD 150 in total, only after a gig or a product sells without ads, and with a stop rule.
+- **Upwork Freelancer Plus** (the owner bought it 2026-10-26): USD 9.99 for the cycle Oct 25 – Nov 24, then
+  USD 19.99 a month from Nov 25. It brings 100 Connects a month and the identity check.
+  - **Gate, 2026-11-16 (3 weeks):** keep it if Upwork has brought at least USD 20 net (paid, or funded in escrow
+    on a signed contract). Otherwise Claude cancels the renewal before Nov 24, as the owner agreed on 2026-10-26,
+    and the account drops to Basic; the Connects already bought stay usable for a year.
 
 ## Who does what
 

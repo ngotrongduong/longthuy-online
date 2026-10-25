@@ -37,6 +37,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    - 2026-10-26: signed in (the account's name shows as "Zu Finches"). Claude filled profile steps 1–3 (see
      `listings/upwork.md`). Step 3 will not go on without a profile photo: the owner adds a real headshot. Upwork's
      name must match the owner's ID, so the owner checks the account name too.
+   - Photo added; steps 1–3 done. Step 4 "personal info" (date of birth, street address, phone) is the owner's;
+     then Claude does step 5, publishes the profile and creates the Agency.
 
 ## The owner, once
 

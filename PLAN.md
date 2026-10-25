@@ -4,6 +4,12 @@ The owner's order (2026-10-25): Claude finds and runs a way to earn money online
 own tools (Claude and ChatGPT, about USD 300 a month). After that the goal is a monthly profit. It is NOT done
 through Egg Heist (the owner's Roblox game).
 
+The owner's order (2026-10-26): Claude decides the business from start to finish (jobs, prices, proposals, replies,
+listings, delivery), as long as it makes a profit over what the business spends. Keep the target modest until the
+brand and the work are understood, then raise it; take easy, well-paid work whenever it comes, to make the profit
+as large as possible. Each week Claude reviews itself, writes the lessons in `LESSONS.md` and improves the next week.
+Spending money stays the owner's call.
+
 ## The entity
 
 - Long Thuy Pty Ltd, ABN 15 161 126 647, ACN 161 126 647, Victoria 3220.
@@ -13,9 +19,12 @@ through Egg Heist (the owner's Roblox game).
 
 ## Targets
 
-- **Break-even: USD 300 a month, net of platform fees.** Paid through the company, the tools are a business expense:
-  they come off the taxable profit, and the GST credit is the accountant's question.
-- Then a monthly profit that keeps coming in.
+- **Step 1, now: a profit over the business's own spending.** First on what this business pays out of pocket
+  (platform plans and Connects, USD 9.99–19.99 a month now), then on the tools too (Claude and ChatGPT, about
+  USD 300 a month). Paid through the company, the tools are a business expense: they come off the taxable profit,
+  and the GST credit is the accountant's question.
+- **Step 2: break-even on everything, USD 300+ a month net of platform fees.**
+- Then a monthly profit that keeps coming in, raised as the brand grows.
 
 ## The decision
 
@@ -86,15 +95,15 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 - **Claude** does the rest, buttons included (the owner's order, 2026-10-26): the listings and publishing them, the
   quotes and messages, the work, the tests, the deliveries, this plan, the ledger and the weekly review.
 
-## The weekly round (the owner says "tuần kinh doanh")
+## The weekly round (every Monday morning by the scheduled task `weekly-business-review`; or when the owner says "tuần kinh doanh")
 
-1. Read the numbers of each platform:
-   - impressions, clicks, orders and messages for each gig;
-   - proposals, interviews and contracts on Upwork.
-
-   The owner pastes them, or Claude reads them through Claude in Chrome on his machine (reading only).
+1. Read the numbers of each platform in the desktop app's built-in browser, where the owner is signed in:
+   - Fiverr: impressions, clicks, orders and messages for each gig;
+   - Upwork: proposals, views, interviews, contracts, Connects left, earnings.
 2. Fill the KPI row of the week. At the start of a month, fill the ledger row (`LEDGER.md`).
-3. Make one change to the listings, so that each number moves for one known reason, and set the work queue.
+3. Review the week in `LESSONS.md`: what worked, what did not and why, profit against spending, and the lessons.
+4. Make one change to the listings, so that each number moves for one known reason; adjust the proposal rules in
+   `listings/upwork-log.md` if the lessons say so; set the work queue.
 
 ## Rules
 

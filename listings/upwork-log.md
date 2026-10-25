@@ -2,6 +2,8 @@
 
 Rules for choosing (2026-10-26):
 - Only jobs in our scope: Roblox Luau systems, Roblox-ready 3D models (optimise, rig, animate), Lua scripting.
+  Also any job that is easy for us and pays well (scripting, small web or 3D tools), since the owner wants the
+  largest profit (2026-10-26). Rank candidates by expected profit: price × chance of winning − Connects cost − time.
 - Skip: posts that forbid AI-generated work (our pipeline is AI-assisted, and every listing says so); payment not
   verified; a hire already made; mass posters paying a few dollars an hour; "preferred location" we do not meet
   when the job also costs 15+ Connects.

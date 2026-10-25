@@ -34,6 +34,9 @@ Rejected:
 The evidence (2026-10-25): generic pet systems on BuiltByBit sell for USD 9–16 and show 0 purchases. A generic kit
 does not sell by itself, so a product must come from demand we have already seen.
 
+Roblox scripting gigs on Fiverr range from about USD 50 to 1,400 a package (a sample of live gigs, 2026-10-25). Ours
+start in the low middle (45 / 120 / 280) to win the first reviews; prices go up after 5 reviews.
+
 ## Streams
 
 | # | Stream | Account | Fees | When |

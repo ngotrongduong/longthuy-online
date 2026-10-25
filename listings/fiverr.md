@@ -1,5 +1,21 @@
 # Fiverr gigs (paste as written; one change a week, logged in the KPI row of PLAN.md)
 
+## Seller profile
+
+The owner sets the display name and the photo (Fiverr asks for a real person) and does the phone check.
+
+**Title**: Roblox developer and 3D model optimiser
+
+**About** (600 max)
+
+I build Roblox games and tools: server-side Luau systems (Robux shops with safe receipts, DataStore saving with
+session locking, pets and eggs, NPCs, leaderboards) and 3D models made ready for Roblox (low poly, rigged, animated).
+I run a small Australian studio, Long Thuy, and built and run a public Roblox game end to end. I use AI-assisted
+tools and my own test harness, and every delivery is tested in Roblox Studio before you get it. Fixed scope, fixed
+price, clear dates. Message me first if you are unsure what you need.
+
+**Skills**: Roblox, Lua, Game Development, Blender, 3D Rigging, Low Poly Modeling (the nearest ones Fiverr lists).
+
 ## G1 — Roblox systems
 
 **Title** (80 max): I will script a complete, exploit-safe system for your Roblox game

@@ -14,8 +14,10 @@ details. Claude does the rest and leaves the final "Publish" click to him.
 1. **Clone the repository into `C:\Ai kiem tien`.** Done 2026-10-26 (the folder was empty; it is now the clone, and
    git pushes from it with the owner's saved GitHub login). The owner's own files stay out of git until he says what
    they are; private ones (ID, bank, tax) never go in.
-   - Checked 2026-10-26 in the owner's Chrome: not signed in to Fiverr or Upwork yet, so steps 2 and 4 wait for him.
 2. **Fiverr.**
+   - 2026-10-26: the owner's Fiverr account (@dngng1) is signed in, in the desktop app's built-in browser. Claude
+     filled the seller profile (title, About, skills: Roblox development, Roblox scripts, Blender) from
+     `listings/fiverr.md`. Fiverr will not go on until the owner adds a display name and a profile photo.
    - The owner creates the seller account (payouts to PayPal).
    - Then Claude fills in G1 and G2 from `listings/fiverr.md`, with the covers `listings/img/g1.png` and
      `listings/img/g2.png`, and the owner presses Publish.
@@ -30,6 +32,7 @@ details. Claude does the rest and leaves the final "Publish" click to him.
    - The owner creates the account and the Agency "Long Thuy" (Long Thuy Pty Ltd), its payout method, and the
      W-8BEN-E form when it is asked for.
    - Then Claude fills in the profile from `listings/upwork.md`.
+   - 2026-10-26: not signed in to Upwork in the built-in browser yet.
 5. **Write it down.** Fill the first KPI row of `PLAN.md` (what is live, the date) and push.
 
 ## The owner, once

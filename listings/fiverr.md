@@ -74,7 +74,7 @@ navy band at the top: "GAME SYSTEMS - SAFE & TESTED". High contrast, readable at
 
 ## G2 — 3D model ready for Roblox
 
-**Title**: I will make your 3D model Roblox ready, low poly and rigged
+**Title**: I will make your 3D model Roblox ready low poly and rigged
 
 **Category**: Graphics & Design > 3D Design > 3D Game Models (or Programming & Tech > Game Development > Roblox)
 

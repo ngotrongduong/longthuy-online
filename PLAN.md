@@ -110,4 +110,4 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 
 | Week of | Fiverr impr. | clicks | orders | Upwork proposals | interviews | contracts | Gross USD | Net USD | Change made |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | | | | | | | 0 | 0 | listings drafted |
+| 2026-10-26 | | | | | | | 0 | 0 | Fiverr profile, G1 and G2 created; not visible until the owner's ID check and tax form |

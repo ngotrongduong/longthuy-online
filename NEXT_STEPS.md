@@ -15,13 +15,19 @@ details. Claude does the rest and leaves the final "Publish" click to him.
    git pushes from it with the owner's saved GitHub login). The owner's own files stay out of git until he says what
    they are; private ones (ID, bank, tax) never go in.
 2. **Fiverr.**
-   - 2026-10-26: the owner's Fiverr account (@dngng1) is signed in, in the desktop app's built-in browser. Claude
-     filled the seller profile (title, About, skills: Roblox development, Roblox scripts, Blender) from
-     `listings/fiverr.md`. Fiverr will not go on until the owner adds a display name and a profile photo.
-   - The owner creates the seller account (payouts to PayPal).
-   - Then Claude fills in G1 and G2 from `listings/fiverr.md`, with the covers `listings/img/g1.png` and
-     `listings/img/g2.png`, and the owner presses Publish.
-   - The owner can also do this step alone, from any browser: paste the texts and upload the two covers.
+   - Done 2026-10-26 (account @dngng1, display name DuongN, signed in in the desktop app's built-in browser): the
+     seller profile, and G1 and G2 filled from `listings/fiverr.md` with their covers.
+     - G1: Programming & Tech > Game Development > Customization (Roblox, scripting, 3D, PC/console/mobile).
+     - G2: Graphics & Design > Game Art > Character Design (3D, low poly; FBX, Blend, GLTF, GLB, rbxl), because
+       Fiverr suggested Game Art and Character Modeling would promise modelling from scratch.
+   - Left for the owner:
+     - G2 gallery: tick the declaration that the materials are ours, then Save & Continue (an attestation is his
+       to make).
+     - ID verification, and the tax form (non-US: W-8BEN, not W-9), in the Freelancer dashboard. Fiverr shows no
+       gig to buyers before both are done, so this is the real "Publish".
+     - Payouts to PayPal, when Fiverr asks.
+   - Fiverr titles take letters and numbers only (no commas or hyphens). Its pages may show a "Press & Hold" bot
+     check: the owner does it.
 3. **Better covers (optional; the ones in place are good enough to publish).**
    - Send the two prompts of `listings/fiverr.md` to ChatGPT in the browser, on its highest reasoning setting.
    - Keep whichever cover reads better at thumbnail size, and note it in the KPI row: a cover change is the week's

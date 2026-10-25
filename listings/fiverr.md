@@ -18,7 +18,8 @@ price, clear dates. Message me first if you are unsure what you need.
 
 ## G1 — Roblox systems
 
-**Title** (80 max): I will script a complete, exploit-safe system for your Roblox game
+**Title** (80 max; Fiverr allows letters and numbers only): I will script a complete exploit safe system for your
+Roblox game
 
 **Category**: Programming & Tech > Game Development > Roblox (or the nearest Roblox category Fiverr shows)
 

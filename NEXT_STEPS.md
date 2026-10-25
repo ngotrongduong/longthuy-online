@@ -31,7 +31,11 @@ details. Claude does the rest and leaves the final "Publish" click to him.
      the verification page (Persona) lists three steps left for the owner: phone number, security question, ID
      upload. After the owner did them, the dashboard's ID step has no button left, and step 4 "Submit your Form
      W-9" shows "Complete W-9": the owner answers it as a non-US person (whether as himself or as Long Thuy Pty Ltd
-     is the accountant's question). Step 5, Publish, comes after.
+     is the accountant's question). Step 5, Publish, comes after. The owner filed the tax form as non-US; the
+     dashboard now offers "Publish Gig", and each gig's publish page is
+     `fiverr.com/users/dngng1/manage_gigs/<gig-slug>/edit?tab=publish&wizard=5` (slugs:
+     `script-a-complete-exploit-safe-system-for-your-roblox-game`, `make-your-3d-model-roblox-ready-low-poly-and-rigged`).
+     The owner presses Publish Gig on both.
    - Fiverr titles take letters and numbers only (no commas or hyphens). Its pages may show a "Press & Hold" bot
      check: the owner does it.
 3. **Better covers (optional; the ones in place are good enough to publish).**

@@ -11,13 +11,10 @@ The owner allowed Claude to use his whole computer for this business (2026-10-25
 hold: the owner himself signs up, signs in, does the identity checks, accepts terms, and enters payout or tax
 details. Claude does the rest and leaves the final "Publish" click to him.
 
-1. **Clone the repository into `C:\Ai kiem tien`.**
-   - If the folder is empty: `git clone https://github.com/ngotrongduong/longthuy-online "C:\Ai kiem tien"`.
-   - If it already holds the owner's files, keep them and make the folder the clone, one command per call:
-     `git -C "C:\Ai kiem tien" init`, then `git -C "C:\Ai kiem tien" remote add origin
-     https://github.com/ngotrongduong/longthuy-online`, then `git -C "C:\Ai kiem tien" fetch origin main`, then
-     `git -C "C:\Ai kiem tien" checkout -b main --track origin/main`.
-   - The owner's own files stay out of git until he says what they are; private ones (ID, bank, tax) never go in.
+1. **Clone the repository into `C:\Ai kiem tien`.** Done 2026-10-26 (the folder was empty; it is now the clone, and
+   git pushes from it with the owner's saved GitHub login). The owner's own files stay out of git until he says what
+   they are; private ones (ID, bank, tax) never go in.
+   - Checked 2026-10-26 in the owner's Chrome: not signed in to Fiverr or Upwork yet, so steps 2 and 4 wait for him.
 2. **Fiverr.**
    - The owner creates the seller account (payouts to PayPal).
    - Then Claude fills in G1 and G2 from `listings/fiverr.md`, with the covers `listings/img/g1.png` and

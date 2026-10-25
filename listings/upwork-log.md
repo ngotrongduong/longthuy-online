@@ -8,6 +8,7 @@ Rules for choosing (2026-10-26):
 - Budget: Freelancer Plus gives 100 Connects a month and a proposal costs 11–19, so about 6–8 proposals a month.
   At most 2 proposals a day, only on strong fits, and keep 20 Connects in reserve. Buying more Connects is the
   owner's call (money). Boost bids only when it costs 1–2 Connects.
+- The Claude app's scheduled task `upwork-daily-proposals` runs this every day at about 10:00 (the app must be open).
 - Cover letters follow the template in `upwork.md`, in English, signed "Long Thuy", with an honest note when we
   lack a portfolio piece.
 

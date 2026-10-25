@@ -29,7 +29,9 @@ details. Claude does the rest and leaves the final "Publish" click to him.
    - Checked 2026-10-26 after the owner said he had done them: G1 and G2 sit under Gigs > Draft, and the dashboard
      still shows "ID verification: Complete verification" (step 3 of 5), so the gigs are not live yet. Checked again:
      the verification page (Persona) lists three steps left for the owner: phone number, security question, ID
-     upload.
+     upload. After the owner did them, the dashboard's ID step has no button left, and step 4 "Submit your Form
+     W-9" shows "Complete W-9": the owner answers it as a non-US person (whether as himself or as Long Thuy Pty Ltd
+     is the accountant's question). Step 5, Publish, comes after.
    - Fiverr titles take letters and numbers only (no commas or hyphens). Its pages may show a "Press & Hold" bot
      check: the owner does it.
 3. **Better covers (optional; the ones in place are good enough to publish).**

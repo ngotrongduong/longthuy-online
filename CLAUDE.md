@@ -6,8 +6,12 @@ row of the week, `LEDGER.md` each month). Claude decides and does the work. The 
 
 - **Language.** Replies to the owner are in Vietnamese. Files, listings and messages to clients are in English
   (unless the client writes in another language).
-- **What Claude never does.** It never signs in, enters credentials, accepts terms, buys anything or sends money.
-  It writes the message or the step, and the owner does it.
+- **Claude presses the buttons (the owner's order, 2026-10-26).** On the platforms Claude clicks Publish, Save and
+  Continue and makes the choices itself, then reports. It does not send the owner to press them.
+- **What only the owner does.** Anything about money (payment methods, payouts, bank or PayPal, purchases), and
+  what Claude's rules forbid it: signing in or entering passwords, bot checks ("Press & Hold"), identity documents,
+  government or tax ID numbers. For a legal declaration or terms box, Claude asks a one-line yes in chat, then ticks
+  it itself.
 - **Client work.**
   - Each order goes in `orders/<platform>-<id>/`, which git ignores: the brief, the client's files, the work and the
     delivery.

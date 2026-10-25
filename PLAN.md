@@ -74,12 +74,12 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 
 ## Who does what
 
-- **The owner** does what needs his identity:
-  - the accounts (identity checks, KYC, the W-8BEN-E form when a US platform asks, PayPal or the bank);
-  - pressing "deliver" and sending the messages Claude drafts;
+- **The owner** does the money and what needs his identity:
+  - sign-ups and sign-ins, identity checks, ID and tax numbers (the W-8BEN-E form when a US platform asks);
+  - payouts, PayPal or the bank, and anything that spends money;
   - the accountant.
-- **Claude** does the rest: the listings, the quotes, the work, the tests, the delivery files, this plan, the
-  ledger and the weekly review.
+- **Claude** does the rest, buttons included (the owner's order, 2026-10-26): the listings and publishing them, the
+  quotes and messages, the work, the tests, the deliveries, this plan, the ledger and the weekly review.
 
 ## The weekly round (the owner says "tuần kinh doanh")
 
@@ -110,4 +110,4 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 
 | Week of | Fiverr impr. | clicks | orders | Upwork proposals | interviews | contracts | Gross USD | Net USD | Change made |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | 0 | 0 | 0 | | | | 0 | 0 | Fiverr profile, G1 and G2 created; ID check and tax form done; G1 live (Active), G2 still Draft |
+| 2026-10-26 | 0 | 0 | 0 | | | | 0 | 0 | Fiverr profile, G1 and G2 live (Active) on 2026-10-26 |

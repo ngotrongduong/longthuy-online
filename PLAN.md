@@ -56,7 +56,8 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 ## Phases and gates
 
 1. **Weeks 1–4: listings live.**
-   - Fiverr G1 and G2 and the Upwork Agency are online, with 2–3 proposals a day on Upwork.
+   - Fiverr G1 and G2 and the Upwork Agency are online, with up to 2 strong-fit proposals a day on Upwork, within the Connects
+     budget (`listings/upwork-log.md`).
    - Gate: 3 orders delivered with 5-star reviews.
    - If there is no order after 3 weeks: change one thing a week (title, picture, price, a cheaper entry package).
 2. **Weeks 5–12: grow.**
@@ -114,4 +115,4 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 
 | Week of | Fiverr impr. | clicks | orders | Upwork proposals | interviews | contracts | Gross USD | Net USD | Change made |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | 0 | 0 | 0 | | | | 0 | 0 | Fiverr profile, G1 and G2 live (Active) on 2026-10-26 |
+| 2026-10-26 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | Fiverr G1 and G2 live; Upwork profile public, first 2 proposals |

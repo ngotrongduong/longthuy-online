@@ -44,8 +44,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      Claude entered the owner's real name (Duong Ngo); the owner set the password and security question, and Upwork
      says the name change is under review, "processed within 48 hours" (check on or after 2026-10-28). Time zone
      set to Sydney, Melbourne.
-   - Next for Claude: a portfolio item, and 2–3 proposals a day as the freelancer (the Agency is on the free plan and
-     cannot bid).
+   - Proposals started 2026-10-26 (2 sent; rules, budget and log in `listings/upwork-log.md`). As the freelancer:
+     the Agency is on the free plan and cannot bid.
+   - Next for Claude: a portfolio item (a Roblox system clip and a rigged model), which every 3D client asks for.
 3. **2026-11-16: the Freelancer Plus gate** (in `PLAN.md` > Capital): Upwork net so far against USD 20; below it,
    cancel the renewal before Nov 24. The Claude app's scheduled task `upwork-plus-gate` runs it at 09:00 that day
    (the app must be open; otherwise it runs at next launch). If it has not run, do it in any session on or after
@@ -57,8 +58,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
 
 ## After the listings are live
 
-- Upwork: 2–3 proposals a day, written and sent by Claude from `listings/upwork.md`. Buying Connects is the
-  owner's (money).
+- Upwork: up to 2 strong-fit proposals a day, written and sent by Claude (rules and log in
+  `listings/upwork-log.md`). Buying Connects is the owner's (money).
 - Each order: `orders/<platform>-<id>/`, the work tested in Roblox Studio, then the delivery and the message, sent by
   Claude.
 - Each week: "tuần kinh doanh" (the weekly round of `PLAN.md`).

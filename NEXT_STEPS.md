@@ -34,7 +34,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      tax ID on the W-8BEN-E form.
    - Claude does the rest: the freelancer profile and the Agency "Long Thuy" (Long Thuy Pty Ltd) from
      `listings/upwork.md`, and publishes them.
-   - 2026-10-26: not signed in to Upwork in the built-in browser yet.
+   - 2026-10-26: signed in (the account's name shows as "Zu Finches"). Claude filled profile steps 1–3 (see
+     `listings/upwork.md`). Step 3 will not go on without a profile photo: the owner adds a real headshot. Upwork's
+     name must match the owner's ID, so the owner checks the account name too.
 
 ## The owner, once
 

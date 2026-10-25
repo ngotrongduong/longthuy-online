@@ -41,6 +41,8 @@ details. Claude does the rest and leaves the final "Publish" click to him.
      error. Fiverr's own text says a gig can be published "once you received a notification that your Form W-9
      check was completed successfully", so the tax-form check may still be running: the owner presses Publish Gig
      again, reads any message Fiverr shows, and waits for Fiverr's email if it says so.
+   - After the second try: **G1 is Active (live)**. G2 is still Draft; all its wizard steps are ticked and its
+     publish page shows no error, so it only needs the owner's Publish Gig click.
    - Fiverr titles take letters and numbers only (no commas or hyphens). Its pages may show a "Press & Hold" bot
      check: the owner does it.
 3. **Better covers (optional; the ones in place are good enough to publish).**

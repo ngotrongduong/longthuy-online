@@ -26,6 +26,8 @@ details. Claude does the rest and leaves the final "Publish" click to him.
      - ID verification, and the tax form (non-US: W-8BEN, not W-9), in the Freelancer dashboard. Fiverr shows no
        gig to buyers before both are done, so this is the real "Publish".
      - Payouts to PayPal, when Fiverr asks.
+   - Checked 2026-10-26 after the owner said he had done them: G1 and G2 sit under Gigs > Draft, and the dashboard
+     still shows "ID verification: Complete verification" (step 3 of 5), so the gigs are not live yet.
    - Fiverr titles take letters and numbers only (no commas or hyphens). Its pages may show a "Press & Hold" bot
      check: the owner does it.
 3. **Better covers (optional; the ones in place are good enough to publish).**

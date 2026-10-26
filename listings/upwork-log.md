@@ -19,4 +19,4 @@ Rules for choosing (2026-10-26):
 | 2026-10-26 | [Roblox Tycoon: Rebirth System + Gamepass Shop (trial)](https://www.upwork.com/jobs/~022112082325470722379) | Fixed (client budget USD 5) | USD 20, < 1 month | 11 + boost 1 | Sent |
 | 2026-10-26 | [Stylized Blender character refinement & rigging (Meshy model → Three.js GLB)](https://www.upwork.com/jobs/~022114380119304878200) | Hourly; asked for fixed quotes | USD 30/h; fixed 180 / 80 / 120 for the 3 phases, free head test | 18 | Sent |
 
-Connects left after 2026-10-26: 121.
+Connects left after 2026-10-26: 121, plus 8 free for Upwork's one-minute safety video = 129.

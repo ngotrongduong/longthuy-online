@@ -42,8 +42,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    - 2026-10-26: the owner bought Freelancer Plus (9.99 now, 19.99 from Nov 25; 100 Connects a month); the
      "profile is still private" banner is gone. Upwork shows the account name "Zu Finches"; it must match his ID.
      Claude entered the owner's real name (Duong Ngo); the owner set the password and security question, and Upwork
-     says the name change is under review, "processed within 48 hours" (check on or after 2026-10-28). Time zone
-     set to Sydney, Melbourne.
+     says the name change is under review. Approved 2026-10-26 (Upwork email "Your profile name change was
+     approved"). Time zone set to Sydney, Melbourne.
    - Proposals started 2026-10-26 (2 sent; rules, budget and log in `listings/upwork-log.md`). As the freelancer:
      the Agency is on the free plan and cannot bid.
    - Next for Claude: a portfolio item (a Roblox system clip and a rigged model), which every 3D client asks for.

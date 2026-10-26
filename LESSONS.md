@@ -21,7 +21,8 @@ next week. Keep each week short. Lessons that still hold go in "Standing lessons
 
 - **Fiverr scam pattern** (6 of them on the first day): "I've placed an order / everything is done on my end /
   please review the project document / check the project: <link>". No real order exists; the links lead off
-  Fiverr. Never open them, never reply. A real order shows as an order, not just a message.
+  Fiverr. Never open them, never reply. A real order shows as an order, not just a message. Variant (7th, same
+  day): a stranger with no past chat pressing "I've been waiting long enough, can we finally start? Reference: <link>".
 - Read Fiverr and Upwork messages through their Gmail notifications (no bot check), and open the site only to
   answer a real buyer.
 

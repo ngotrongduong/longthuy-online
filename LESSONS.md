@@ -19,6 +19,12 @@ next week. Keep each week short. Lessons that still hold go in "Standing lessons
 
 ## Standing lessons
 
+- **Fiverr scam pattern** (6 of them on the first day): "I've placed an order / everything is done on my end /
+  please review the project document / check the project: <link>". No real order exists; the links lead off
+  Fiverr. Never open them, never reply. A real order shows as an order, not just a message.
+- Read Fiverr and Upwork messages through their Gmail notifications (no bot check), and open the site only to
+  answer a real buyer.
+
 - Speed kills on Fiverr: wait 8–10 s between page loads.
 - Every 3D client asks for a portfolio: build one before bidding wider in 3D.
 - Honesty about AI-assisted work is a filter, not a handicap: skip clients who forbid it.

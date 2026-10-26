@@ -124,4 +124,4 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 
 | Week of | Fiverr impr. | clicks | orders | Upwork proposals | interviews | contracts | Gross USD | Net USD | Change made |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | Fiverr G1 and G2 live; Upwork profile public, first 2 proposals |
+| 2026-10-26 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | Fiverr G1 and G2 live; Upwork profile public, first 2 proposals; 1 more on Oct 27 |

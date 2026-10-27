@@ -30,7 +30,11 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      USD 9.99 and logs it.
    - S3, then: a rigged, animated low-poly animal pack for Roblox (the fox pipeline, 6–8 animals), USD 14.99.
    - S5: Claude reads the Talent Hub and DevForum hiring posts and applies to Roblox scripting jobs that fit. The
-     Talent Hub needs a Roblox sign-in: the owner signs in as Mue_you in the desktop app's built-in browser.
+     Talent Hub needs a Roblox sign-in. Mue_you is signed in in the owner's Chrome (Claude in Chrome), not in the
+     app's built-in browser. 2026-10-27: Talent Hub asks to accept its Consent page; Creator Store "Priced assets"
+     (create.roblox.com/settings/eligibility/priced-assets) shows all three prerequisites met (account status, ID
+     verification, 2-step verification); next: country = Australia, accept the Creator Store Terms, Continue, then the
+     Stripe form (bank, tax), which is the owner's.
 1. **Better covers (optional; the ones in place are good enough to publish).**
    - Send the two prompts of `listings/fiverr.md` to ChatGPT in the browser, on its highest reasoning setting.
    - Keep whichever cover reads better at thumbnail size, and note it in the KPI row: a cover change is the week's

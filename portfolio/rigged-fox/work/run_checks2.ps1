@@ -1,0 +1,6 @@
+$B = "C:\Program Files\Blender Foundation\Blender 5.2\blender.exe"
+$W = "C:\Ai kiem tien\portfolio\rigged-fox\work"
+& $B --background --factory-startup --python "$W\render.py" -- S8 "120" 32 2>&1 | Select-String -Pattern "DONE|Error|Traceback|line \d+"
+& $B --background --factory-startup --python "$W\render.py" -- still1 1 32 2>&1 | Select-String -Pattern "DONE|Error|Traceback|line \d+"
+& $B --background --factory-startup --python "$W\render.py" -- still2 1 32 2>&1 | Select-String -Pattern "DONE|Error|Traceback|line \d+"
+& $B --background --factory-startup --python "$W\render.py" -- still3 8 32 2>&1 | Select-String -Pattern "DONE|Error|Traceback|line \d+"

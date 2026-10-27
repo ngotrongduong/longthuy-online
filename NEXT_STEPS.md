@@ -23,6 +23,13 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
   may do: wait 10 s or more between page loads.
 - ID verification and the tax form (filed as non-US) are done. Payouts to PayPal: the owner, when Fiverr asks.
 
+0. **New streams (2026-10-27, `research/2026-10-27-income-options.md`).**
+   - S3, Creator Store: Claude packages the Tycoon Systems Kit as a sellable model (no demo driver, README, clean
+     scripts that pass the store's script rules, tested in Studio). The owner, once: on create.roblox.com as Mue_you,
+     turn on 2-step verification and open the Stripe seller account (bank details). Then Claude publishes it at
+     USD 9.99 and logs it.
+   - S3, then: a rigged, animated low-poly animal pack for Roblox (the fox pipeline, 6–8 animals), USD 14.99.
+   - S5: Claude reads the Talent Hub and DevForum hiring posts and applies to Roblox scripting jobs that fit.
 1. **Better covers (optional; the ones in place are good enough to publish).**
    - Send the two prompts of `listings/fiverr.md` to ChatGPT in the browser, on its highest reasoning setting.
    - Keep whichever cover reads better at thumbnail size, and note it in the KPI row: a cover change is the week's

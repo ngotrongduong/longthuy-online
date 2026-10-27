@@ -52,8 +52,13 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 |---|---|---|---|---|
 | S1 | Fiverr gigs G1 (Roblox systems) and G2 (3D model → Roblox) | the owner, with the company's details | 20 % | week 1 |
 | S2 | Upwork Agency "Long Thuy" | the company | 0–15 % a contract, about 10 % typical | week 1 |
-| S3 | Digital products: Roblox Creator Store, BuiltByBit, itch.io | the company | Creator Store: tax and processing only, 30-day hold, plugins from USD 4.99. BuiltByBit: 9.9 % + gateway | month 2 |
+| S3 | Digital products on the Roblox Creator Store (models USD 2.99–49.99, plugins 4.99–249.99): first the Tycoon Systems Kit (built for the portfolio), then a rigged, animated low-poly animal pack | the owner's Roblox account (Mue_you), Stripe seller | tax and card fees only, 30-day escrow, paid monthly | **brought forward to week 1** (2026-10-27): the kit already exists |
+| S3b | The animal pack also on Fab (88 %), itch.io, Unity Asset Store | the owner | 12 % / ~10 % / 30 % | after the Creator Store version |
 | S4 | Optional: websites with a monthly care plan for small businesses near Geelong, AUD 49–99 a month each | the company | none | when the owner wants to sell locally |
+| S5 | Roblox Talent Hub, DevForum hiring posts and hiring Discords: commissions and part-time scripter roles | the owner's Roblox account | none (payment off-platform: milestones up front) | week 2 |
+| S6 | Contra (0 % commission) and paid open-source bounties (Algora) | the owner | 0 % / ~10 % | when idle |
+
+Research behind S3–S6, with sources: `research/2026-10-27-income-options.md`.
 
 ## The sums (USD 300 net a month)
 

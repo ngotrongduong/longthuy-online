@@ -78,7 +78,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
 Scheduled tasks in the Claude app (they run only while the app is open; missed runs run at next launch):
 - `marketplace-inbox-watch`: 08:00, 11:00, 14:00, 17:00, 20:00. Reads Fiverr and Upwork notifications in Gmail,
   ignores scams, answers real buyers, opens order folders.
-- `upwork-daily-proposals`: about 10:00 daily. Up to 2 strong-fit proposals (`listings/upwork-log.md`).
+- `upwork-daily-proposals`: about 10:00 daily. Up to 2 strong-fit proposals (`listings/upwork-log.md`); since
+  2026-10-27 also the Roblox round in Chrome: Talent Hub replies, and whether priced selling is approved (then it
+  publishes the Tycoon Kit).
 - `weekly-business-review`: Mondays about 08:30. KPI, ledger, `LESSONS.md`, one listing change.
 - `upwork-plus-gate`: once, 2026-11-16 09:00. Keep or cancel Freelancer Plus.
 

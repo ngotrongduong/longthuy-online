@@ -30,6 +30,10 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      2-step verification code from the owner's authenticator app (create.roblox.com/settings/eligibility/priced-assets
      in Chrome), then Stripe's form (bank, tax). Both are the owner's. Stripe review takes up to 7 days. Then Claude
      publishes the kit at USD 9.99 and logs it.
+     2026-10-27: the owner entered the code and filled Stripe's form. Not approved yet: an asset's Configure page
+     still shows "Distribute priced assets: Get approval to set prices / Register" under USD Pricing, and the Priced
+     assets page shows the empty form again (it gives no status). No Stripe or Roblox email so far. Check that
+     Configure page each day (without saving); when it offers a price, publish the kit.
    - S3, then: a rigged, animated low-poly animal pack for Roblox (the fox pipeline, 6–8 animals), USD 14.99.
    - S5: Claude reads the Talent Hub and DevForum hiring posts and applies to Roblox scripting jobs that fit
      (`listings/talent-hub.md`: rules and log). Mue_you is signed in in the owner's Chrome (Claude in Chrome), not in

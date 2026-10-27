@@ -4,8 +4,9 @@ Media is in `portfolio/`. Only pictures, clips and links of our own games; never
 as a kit). Say plainly what is ours: the code and systems; Tile Smash uses some Creator Store environment models;
 Egg Heist's store key art is AI-generated illustration, not a screenshot.
 
-Published on Upwork 2026-10-27: items 1, 2 and 3 (thumbnail of 3: the rebirth still). Fiverr G1 gallery: pending
-(a "Press & Hold" bot check stopped the upload).
+Published on Upwork 2026-10-27: all four items (thumbnails: item 3 the rebirth still, item 4 the beauty shot).
+Fiverr galleries (G1: Tile Smash and Egg Heist images + the systems clip; G2: fox stills + the fox clip): pending,
+a "Press & Hold" bot check stopped the upload.
 
 ## 1. Egg Heist: Steal & Hatch Pets (live Roblox game)
 
@@ -52,5 +53,11 @@ Published on Upwork 2026-10-27: items 1, 2 and 3 (thumbnail of 3: the rebirth st
 
 - Media: `portfolio/rigged-fox-demo.mp4`, `portfolio/rigged-fox-1.png` … `-3.png`, files in `portfolio/rigged-fox/`.
 - Title (Upwork): Low-poly rigged creature, Roblox-ready (rig, idle, walk)
-- Description: filled in when the render is done.
+- Description (as published):
+  A stylized low-poly fox built the way we deliver client models for Roblox: 3,808 triangles (from a 120k-triangle
+  source), one small texture, pivot at the feet. A 28-bone skeleton with clean weights (max 4 influences per vertex),
+  checked at strong poses for tearing. Two looping animations: an idle (breathing, head look, tail and ears) and a
+  four-beat walk with planted feet. Delivered as .blend, .fbx (idle and walk) and .glb, with a README on importing
+  into Roblox Studio.
+- Not yet checked inside Roblox Studio (the README gives the import steps); do that before quoting it as tested.
 - Skills: Blender, 3D Rigging, Low Poly, 3D Model

@@ -129,4 +129,4 @@ Research behind S3–S6, with sources: `research/2026-10-27-income-options.md`.
 
 | Week of | Fiverr impr. | clicks | orders | Upwork proposals | interviews | contracts | Gross USD | Net USD | Change made |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-10-26 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | Fiverr G1 and G2 live; Upwork profile public, first 2 proposals; 1 more on Oct 27; the week's change (Oct 27): portfolio (both live games, systems clip, rigged fox) on Upwork and both Fiverr galleries, because every 3D client asked for one |
+| 2026-10-26 | 0 | 0 | 0 | 4 | 0 | 0 | 0 | 0 | Fiverr G1 and G2 live; Upwork profile public, first 2 proposals; 1 more on Oct 27; 1 on Oct 28 (FPS viewmodel animations, hourly); the week's change (Oct 27): portfolio (both live games, systems clip, rigged fox) on Upwork and both Fiverr galleries, because every 3D client asked for one |

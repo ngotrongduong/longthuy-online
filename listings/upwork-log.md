@@ -21,9 +21,16 @@ Rules for choosing (2026-10-26):
 
 | 2026-10-27 | [Flight Simulator GUI built with FlyWithLua (X-Plane 11)](https://www.upwork.com/jobs/~022113815955323894777) | Hourly (USD 5–60) | USD 30/h, rate increase Never, est. 6–8 h, fixed quote offered after seeing his code | 13 (no boost: 1st place was 41) | Sent |
 | 2026-10-27 | [Blender LOD + Texture Baking (3 LODs, 4 maps 1024)](https://www.upwork.com/jobs/~022114791800937774789) | Fixed (client budget USD 11) | USD 35, < 1 month (3 days), boost 2 | 7 + 2 | Not sent: the scheduled run may not tick the fixed-price "Yes, I understand" notice |
+| 2026-10-28 | [FPS Roblox Viewmodel Animations (~24 weapons)](https://www.upwork.com/jobs/~022114404312621172821) | Hourly | USD 30/h, rate increase Never, start with one weapon family | 12 (no boost: 4th place needed 5+) | Sent |
+
+Seen and skipped on 2026-10-28: "Roblox developer and more" (19 Connects, Americas only); simulator/pets/DataStore and
+obby jobs at USD 5 fixed (same mass-poster pattern); Discord manager, video creators, Shorts animator (not our scope);
+3D jobs at USD 3–5/h or USD 20–30 fixed, unverified clients, Unreal realistic art (20–50 proposals). Invites: Airbnb
+consultant and voice actors (not our scope, ignored). No client messages.
 
 Connects left after 2026-10-26: 121, plus 8 free for Upwork's one-minute safety video = 129.
 Connects left after 2026-10-27: 116.
+Connects left after 2026-10-28: 114 (Upwork showed 126 before today's proposal).
 
 Note (2026-10-27): in an unattended scheduled run, the app's permission check refuses ticking the fixed-price
 "Yes, I understand" notice, so fixed-price proposals only go out from a live session. The scheduled run prefers

@@ -46,7 +46,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      approved"). Time zone set to Sydney, Melbourne.
    - Proposals started 2026-10-26 (2 sent; rules, budget and log in `listings/upwork-log.md`). As the freelancer:
      the Agency is on the free plan and cannot bid.
-   - Next for Claude: a portfolio item (a Roblox system clip and a rigged model), which every 3D client asks for.
+   - Portfolio done 2026-10-27 (`listings/portfolio.md`): 4 items on Upwork, both Fiverr galleries. Next: import
+     the fox into Roblox Studio once to check scale and facing, so it can be called "tested in Roblox".
 3. **2026-11-16: the Freelancer Plus gate** (in `PLAN.md` > Capital): Upwork net so far against USD 20; below it,
    cancel the renewal before Nov 24. The Claude app's scheduled task `upwork-plus-gate` runs it at 09:00 that day
    (the app must be open; otherwise it runs at next launch). If it has not run, do it in any session on or after

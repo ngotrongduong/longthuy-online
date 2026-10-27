@@ -5,8 +5,9 @@ as a kit). Say plainly what is ours: the code and systems; Tile Smash uses some 
 Egg Heist's store key art is AI-generated illustration, not a screenshot.
 
 Published on Upwork 2026-10-27: all four items (thumbnails: item 3 the rebirth still, item 4 the beauty shot).
-Fiverr galleries (G1: Tile Smash and Egg Heist images + the systems clip; G2: fox stills + the fox clip): pending,
-a "Press & Hold" bot check stopped the upload.
+Fiverr galleries updated 2026-10-27 (both gigs re-published, "open for business"): G1 = cover + tilesmash-1 +
+eggheist-1 + the systems clip; G2 = cover + rigged-fox-1 + rigged-fox-2 + the fox clip. Fiverr's Trust & Safety
+reviews each video before it shows.
 
 ## 1. Egg Heist: Steal & Hatch Pets (live Roblox game)
 

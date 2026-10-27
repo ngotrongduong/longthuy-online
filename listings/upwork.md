@@ -37,9 +37,11 @@ tagline (= Title), the Overview below, skills (Roblox Studio, Lua, Blender, 3D R
 **Overview**
 
 Long Thuy is a small Australian studio (Long Thuy Pty Ltd, Victoria, ABN 15 161 126 647) that builds Roblox games
-and tools. We built and run our own public Roblox game end to end: server-authoritative gameplay, a Robux shop with
-safe receipts, data saving, bots, creature models and their motion. We work with AI-assisted tools and our own test
-harness, and every delivery is tested in Roblox Studio.
+and tools. We built and run two public Roblox games end to end, Egg Heist (pets, bosses, mounts) and Tile Smash (a
+round-based party game): server-authoritative gameplay, Robux shops with safe receipts, data saving, bots, creature
+models and their motion. We work with AI-assisted tools and our own test harness, and every delivery is tested in
+Roblox Studio. (The freelancer profile uses this text in the first person, without the ABN, since 2026-10-27; the
+Agency page still shows the older one-game text until it is updated.)
 
 Services:
 - Roblox Luau systems: shops (passes, developer products, receipts), DataStore saving with session locking, pets

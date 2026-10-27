@@ -4,6 +4,9 @@ Media is in `portfolio/`. Only pictures, clips and links of our own games; never
 as a kit). Say plainly what is ours: the code and systems; Tile Smash uses some Creator Store environment models;
 Egg Heist's store key art is AI-generated illustration, not a screenshot.
 
+Published on Upwork 2026-10-27: items 1, 2 and 3 (thumbnail of 3: the rebirth still). Fiverr G1 gallery: pending
+(a "Press & Hold" bot check stopped the upload).
+
 ## 1. Egg Heist: Steal & Hatch Pets (live Roblox game)
 
 - Link: https://www.roblox.com/games/126235139339038

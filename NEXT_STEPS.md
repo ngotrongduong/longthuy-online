@@ -35,7 +35,13 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      assets page shows the empty form again (it gives no status). No Stripe or Roblox email so far. Check that
      Configure page each day (without saving); when it offers a price, publish the kit.
      Not approved yet (2026-10-28): still "Get approval to set prices / Register".
-   - S3, then: a rigged, animated low-poly animal pack for Roblox (the fox pipeline, 6–8 animals), USD 14.99.
+   - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
+     Eat), built by a background agent in `products/animal-pack/` (sellable files git-ignored). Listings, prices and
+     the owner's sign-ups in `products/animal-pack/STORE.md`: Creator Store USD 9.99, itch.io 7.99 at launch, Fab 9.99.
+     Owner, once: sign up on itch.io (PayPal payout) and Fab (Epic account, payout and tax). Claude makes the pages
+     and uploads. Before selling it as "Roblox-ready", import one animal into Roblox Studio and check it.
+   - S5b, owner's sign-ups when he has 10 minutes: Contra (0 % commission, Claude copies the Upwork profile and
+     portfolio) and BuiltByBit (sell the Tycoon Kit there too; PayPal payout).
    - S5: Claude reads the Talent Hub and DevForum hiring posts and applies to Roblox scripting jobs that fit
      (`listings/talent-hub.md`: rules and log). Mue_you is signed in in the owner's Chrome (Claude in Chrome), not in
      the app's built-in browser. 2026-10-27: consent accepted, Creator Page public, first application sent.

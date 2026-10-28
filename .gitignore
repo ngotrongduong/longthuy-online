@@ -1,2 +1,12 @@
 orders/
 *.rbxlx.lock
+
+# Animal pack: the sellable files and big intermediates stay off the public repo
+products/animal-pack/dist/
+products/animal-pack/*.zip
+products/animal-pack/work/frames/
+products/animal-pack/work/qa/
+products/animal-pack/work/out/
+products/animal-pack/media/frames/
+products/animal-pack/**/__pycache__/
+products/animal-pack/work/

@@ -36,6 +36,7 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      Configure page each day (without saving); when it offers a price, publish the kit.
      Not approved yet (2026-10-28): still "Get approval to set prices / Register".
      Not approved yet (2026-10-29): same.
+     Not approved yet (2026-10-30): same.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

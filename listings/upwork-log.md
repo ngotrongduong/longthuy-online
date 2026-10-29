@@ -41,6 +41,14 @@ layered clothing portfolio); video creators, Discord manager (not our scope); 3D
 clients, USD 15 fixed renders. Invites: Airbnb consultant and voice actors (ignored). No client messages; the 4
 earlier proposals not yet opened.
 
+2026-10-30: no proposal sent (no strong fit); Connects left 106. Seen and skipped: Clydesdale horse rig and
+animation for Unity (USD 1,000 fixed, 23 Connects, forbids generative AI); Blender female mannequin rig for an
+acupressure app (16 Connects, wants two human-character projects we do not have, 3 already interviewing); Roblox 3D
+artist for 1,000+ UGC designs (layered-clothing portfolio, 6 interviewing, 20 % hire rate); horror mall builder
+(fixed, building only, again); Roblox Shorts animators, Brookhaven filmmaker, video creators (not our scope).
+No client messages; the 5 open proposals not answered yet (the FlyWithLua one no longer listed as submitted).
+Invites: same Airbnb and voice-actor ones (ignored).
+
 Note (2026-10-27): in an unattended scheduled run, the app's permission check refuses ticking the fixed-price
 "Yes, I understand" notice, so fixed-price proposals only go out from a live session. The scheduled run prefers
 hourly jobs and leaves strong fixed-price ones listed in its report.

@@ -36,6 +36,9 @@ USD 110. Placeholder models; their art drops in. Payment by PayPal to the compan
 2026-10-29: no reply yet (job still Open, notifications empty); no new application (new posts: games for sale,
 investors, full-time roles, one "develop my game idea" for one payment).
 2026-10-30: no reply yet (job still Open, notifications "all caught up"); no new application.
+2026-10-31: no reply yet (job still Open, notifications "all caught up"); no new application (newest commissions:
+games for sale, builders and map work, UI fix and car animations at 1,000–1,500 Robux, GFX art, an R15 werewolf for
+revenue share only). The commission list is at create.roblox.com/talent/search/jobs?jobTypes=Commission.
 
 Seen and passed over on 2026-10-27: Soviet elevator building (no budget, art-heavy), football system (wants prior
 football systems), full-time programmer at USD 1,500–2,000 a month (one person's full-time hours), and the posts

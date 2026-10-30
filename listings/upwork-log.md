@@ -49,6 +49,14 @@ artist for 1,000+ UGC designs (layered-clothing portfolio, 6 interviewing, 20 % 
 No client messages; the 5 open proposals not answered yet (the FlyWithLua one no longer listed as submitted).
 Invites: same Airbnb and voice-actor ones (ignored).
 
+2026-10-31: no proposal sent (no strong fit); Connects left 106. Seen and skipped: 3D modular boats and docks for a
+mobile game (6 Connects, forbids AI, prefers an Arabic speaker); stylized Unity character with rig and run cycles
+(7 Connects, forbids AI meshes, 9 already interviewing); Roblox Game Producer (Argentina; pays once only at the end,
+wants proof of front-page hits); horror mall builder (building only, again); Roblox market researcher (unverified,
+not our scope); Roblox and Blender video animators, Brookhaven filmmaker, thumbnail art, USD 5 fixed jobs, unverified
+clients. No client messages (Messages is empty; its rules notice was left unconfirmed); 5 proposals still submitted,
+0 active. Invites: same Airbnb and voice-actor ones (ignored).
+
 Note (2026-10-27): in an unattended scheduled run, the app's permission check refuses ticking the fixed-price
 "Yes, I understand" notice, so fixed-price proposals only go out from a live session. The scheduled run prefers
 hourly jobs and leaves strong fixed-price ones listed in its report.

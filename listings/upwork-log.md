@@ -57,6 +57,8 @@ not our scope); Roblox and Blender video animators, Brookhaven filmmaker, thumbn
 clients. No client messages (Messages is empty; its rules notice was left unconfirmed); 5 proposals still submitted,
 0 active. Invites: same Airbnb and voice-actor ones (ignored).
 
+2026-11-01: no proposal sent (no strong fit); Connects left 106. Seen and skipped: [Fantasy boar animation set, USD 150 fixed](https://www.upwork.com/jobs/~022116637653501188388) (very close to our animal pack and allows AI, but payment unverified and fixed price); Mystery ASMR simulator repair, USD 2,000 (payment unverified, 15–20 proposals); 3D character for Godot 4 with facial rig, USD 250 (wants original human characters and lip-sync we cannot show); Unity 6 co-op party game (wants a shipped Unity multiplayer game, FishNet, Steamworks); recycling yard simulator (Unity or Unreal, not our scope); realistic avatars, UE5 AAA character, Krishna model, Maya creature clip (not our style or unverified); Roblox Shorts animators, Brookhaven filmmaker, icon art, USD 5 fixed jobs. No client messages (rules notice left unconfirmed); 5 proposals still submitted, 0 active. Invites: same Airbnb and voice-actor ones (ignored).
+
 Note (2026-10-27): in an unattended scheduled run, the app's permission check refuses ticking the fixed-price
 "Yes, I understand" notice, so fixed-price proposals only go out from a live session. The scheduled run prefers
 hourly jobs and leaves strong fixed-price ones listed in its report.

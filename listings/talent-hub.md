@@ -26,6 +26,7 @@ Chrome). Creator Page: https://create.roblox.com/talent/creators/2366260872 (pub
 | Date | Job | Budget | Message | Status |
 |---|---|---|---|---|
 | 2026-10-27 | "steal a TIME MACHINE" (Grampaeatsme), create.roblox.com/talent/jobs/8621210611906297 | USD 455, paid at the end (Cash App, Venmo, Robux) | Egg Heist has the same loop; 3 milestones, the first (gym, carry, theft) in 5 days; each tested before payment | Sent |
+| 2026-11-01 | "Roblox Gothic Horror RPG Developer" (Momo Kyoi), create.roblox.com/talent/jobs/5687579501721195 | USD 2,500, milestones preferred, scope to be agreed | 2 live games; 3 milestones, each played in a test place; source and written rights after payment | Sent |
 
 Our quote, for when they reply: USD 455 in 3 milestones: (1) gym strength, capsule spawns by zone and rarity,
 weld-carry with weight slowdown, base placement, server-checked theft: USD 180, 5 days; (2) repair bay timers,
@@ -39,6 +40,13 @@ investors, full-time roles, one "develop my game idea" for one payment).
 2026-10-31: no reply yet (job still Open, notifications "all caught up"); no new application (newest commissions:
 games for sale, builders and map work, UI fix and car animations at 1,000–1,500 Robux, GFX art, an R15 werewolf for
 revenue share only). The commission list is at create.roblox.com/talent/search/jobs?jobTypes=Commission.
+2026-11-01: no reply on the time machine job (still Open, notifications "all caught up"). 1 new application: the
+Gothic Horror RPG. Our quote, for when they reply: USD 2,500 in 3 milestones:
+(1) melee combat, dodging, enemy AI: USD 900; (2) village, dialogue and clues, the changing hidden room: USD 800;
+(3) boss, currency, inventory, merchant, saving, the first chapter's end: USD 800. Any Creator Store models listed
+with their licences (their term 4), and the village built from those or our low-poly models; custom gothic art is
+quoted apart. Passed over: map builders, game sales, R6 animators (Robux), "[HIRING] Professional Roblox Developers"
+(USD 1,000 for a whole game, no spec).
 
 Seen and passed over on 2026-10-27: Soviet elevator building (no budget, art-heavy), football system (wants prior
 football systems), full-time programmer at USD 1,500–2,000 a month (one person's full-time hours), and the posts

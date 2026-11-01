@@ -9,7 +9,9 @@ Rules for choosing (2026-10-26):
   when the job also costs 15+ Connects.
 - Budget: Freelancer Plus gives 100 Connects a month and a proposal costs 11–19, so about 6–8 proposals a month.
   At most 2 proposals a day, only on strong fits, and keep 20 Connects in reserve. Buying more Connects is the
-  owner's call (money). Boost bids only when it costs 1–2 Connects.
+  owner's call (money). Boost bids only when it costs 1–2 Connects. Since 2026-11-02 (0 of 6 proposals viewed, 106
+  Connects unused): on a strong fit, boost up to 10 Connects if that reaches the top 4, and prefer posts under 24
+  hours old with fewer than 5 proposals. The skip rules stay as they are.
 - The Claude app's scheduled task `upwork-daily-proposals` runs this every day at about 10:00 (the app must be open).
 - Cover letters follow the template in `upwork.md`, in English, signed "Long Thuy", with an honest note when we
   lack a portfolio piece.
@@ -58,6 +60,8 @@ clients. No client messages (Messages is empty; its rules notice was left unconf
 0 active. Invites: same Airbnb and voice-actor ones (ignored).
 
 2026-11-01: no proposal sent (no strong fit); Connects left 106. Seen and skipped: [Fantasy boar animation set, USD 150 fixed](https://www.upwork.com/jobs/~022116637653501188388) (very close to our animal pack and allows AI, but payment unverified and fixed price); Mystery ASMR simulator repair, USD 2,000 (payment unverified, 15–20 proposals); 3D character for Godot 4 with facial rig, USD 250 (wants original human characters and lip-sync we cannot show); Unity 6 co-op party game (wants a shipped Unity multiplayer game, FishNet, Steamworks); recycling yard simulator (Unity or Unreal, not our scope); realistic avatars, UE5 AAA character, Krishna model, Maya creature clip (not our style or unverified); Roblox Shorts animators, Brookhaven filmmaker, icon art, USD 5 fixed jobs. No client messages (rules notice left unconfirmed); 5 proposals still submitted, 0 active. Invites: same Airbnb and voice-actor ones (ignored).
+
+2026-11-02 (weekly review): 6 proposals sent in 7 days, 0 viewed, 0 interviews, 5 still submitted, FlyWithLua archived (job closed, 13 Connects refunded); Connects left 106. For the next daily round: a job alert email "Low Poly Animal Artist" came in, close to the animal pack; not read yet.
 
 Note (2026-10-27): in an unattended scheduled run, the app's permission check refuses ticking the fixed-price
 "Yes, I understand" notice, so fixed-price proposals only go out from a live session. The scheduled run prefers

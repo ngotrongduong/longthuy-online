@@ -77,6 +77,10 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      the Agency is on the free plan and cannot bid.
    - Portfolio done 2026-10-27 (`listings/portfolio.md`): 4 items on Upwork, both Fiverr galleries. Next: import
      the fox into Roblox Studio once to check scale and facing, so it can be called "tested in Roblox".
+   - Next listing change (weekly round of 2026-11-09, if Upwork's title change has had its week): Fiverr G1 title to
+     "I will be your roblox scripter and code complete systems for your game", because G1 has few impressions and
+     its title does not hold the word buyers search for. On 2026-11-02 the edit page showed a bot check, so it was
+     not done; if the check is still there, the owner passes it once. Keep G2 as it is, to compare.
 3. **2026-11-16: the Freelancer Plus gate** (in `PLAN.md` > Capital): Upwork net so far against USD 20; below it,
    cancel the renewal before Nov 24. The Claude app's scheduled task `upwork-plus-gate` runs it at 09:00 that day
    (the app must be open; otherwise it runs at next launch). If it has not run, do it in any session on or after

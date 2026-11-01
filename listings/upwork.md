@@ -6,7 +6,8 @@ As entered 2026-10-26:
 
 - **Category**: Web, Mobile & Software Dev > Game Design & Development, Scripts & Utilities.
 - **Skills**: Roblox Studio, Lua, Blender, 3D Rigging, Low Poly, Game Development, 3D Model, Game Design, Scripting.
-- **Title**: Roblox Development & 3D Models Ready for Roblox.
+- **Title**: Roblox Scripter (Luau) | Blender Rigging & Low Poly Game Models (changed 2026-11-02; before: Roblox
+  Development & 3D Models Ready for Roblox).
 - **Hourly rate**: USD 30 (USD 27 after Upwork's fee). Proposals quote fixed prices anyway; the rate is for search.
 - **Employment**: Director, Long Thuy Pty Ltd, Geelong, since November 2012 (the company's ABN date; the owner
   corrects it if wrong).

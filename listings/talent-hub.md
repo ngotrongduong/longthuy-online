@@ -47,6 +47,7 @@ Gothic Horror RPG. Our quote, for when they reply: USD 2,500 in 3 milestones:
 with their licences (their term 4), and the village built from those or our low-poly models; custom gothic art is
 quoted apart. Passed over: map builders, game sales, R6 animators (Robux), "[HIRING] Professional Roblox Developers"
 (USD 1,000 for a whole game, no spec).
+2026-11-02: no reply on either job (both Open, notifications "all caught up"); no new application (newest commissions: map builders, games for sale, R6 animators, USD 1,000 whole game with no spec, USD 7,500 a character for marketplace-valid rigged characters, which needs a character portfolio we lack).
 
 Seen and passed over on 2026-10-27: Soviet elevator building (no budget, art-heavy), football system (wants prior
 football systems), full-time programmer at USD 1,500–2,000 a month (one person's full-time hours), and the posts

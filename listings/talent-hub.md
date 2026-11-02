@@ -48,6 +48,7 @@ with their licences (their term 4), and the village built from those or our low-
 quoted apart. Passed over: map builders, game sales, R6 animators (Robux), "[HIRING] Professional Roblox Developers"
 (USD 1,000 for a whole game, no spec).
 2026-11-02: no reply on either job (both Open, notifications "all caught up"); no new application (newest commissions: map builders, games for sale, R6 animators, USD 1,000 whole game with no spec, USD 7,500 a character for marketplace-valid rigged characters, which needs a character portfolio we lack).
+2026-11-03: no reply on either job (both Open, notifications "all caught up"); no new application (newest commissions: Nightfall map builder for Robux, railway map builder, Wonder Studios builder at USD 1,000 wanting a building portfolio we lack, games for sale, the same R6 animators and USD 1,000 whole game).
 
 Seen and passed over on 2026-10-27: Soviet elevator building (no budget, art-heavy), football system (wants prior
 football systems), full-time programmer at USD 1,500–2,000 a month (one person's full-time hours), and the posts

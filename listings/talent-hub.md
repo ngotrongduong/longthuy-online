@@ -50,6 +50,7 @@ quoted apart. Passed over: map builders, game sales, R6 animators (Robux), "[HIR
 2026-11-02: no reply on either job (both Open, notifications "all caught up"); no new application (newest commissions: map builders, games for sale, R6 animators, USD 1,000 whole game with no spec, USD 7,500 a character for marketplace-valid rigged characters, which needs a character portfolio we lack).
 2026-11-03: no reply on either job (both Open, notifications "all caught up"); no new application (newest commissions: Nightfall map builder for Robux, railway map builder, Wonder Studios builder at USD 1,000 wanting a building portfolio we lack, games for sale, the same R6 animators and USD 1,000 whole game).
 2026-11-04: no reply on either job (both Open, notifications "all caught up"); no new application (newest commissions: an investor post for a delivery game, games for sale, "buying games with 10+ CCU", the same Nightfall and railway map builders, Wonder Studios builder, R6 animators and USD 1,000 whole game).
+2026-11-05: no reply on either job (both Open, notifications "all caught up"); no new application (newest commissions: a game sale "FAKE A CHEST", investor posts for Crownlands and Roll and Deliver, two games for sale, the same Nightfall and railway map builders, Wonder Studios builder and USD 1,000 whole game).
 
 Seen and passed over on 2026-10-27: Soviet elevator building (no budget, art-heavy), football system (wants prior
 football systems), full-time programmer at USD 1,500–2,000 a month (one person's full-time hours), and the posts

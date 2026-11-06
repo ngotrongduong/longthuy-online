@@ -30,20 +30,15 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      2-step verification code from the owner's authenticator app (create.roblox.com/settings/eligibility/priced-assets
      in Chrome), then Stripe's form (bank, tax). Both are the owner's. Stripe review takes up to 7 days. Then Claude
      publishes the kit at USD 9.99 and logs it.
-     2026-10-27: the owner entered the code and filled Stripe's form. Not approved yet: an asset's Configure page
-     still shows "Distribute priced assets: Get approval to set prices / Register" under USD Pricing, and the Priced
-     assets page shows the empty form again (it gives no status). No Stripe or Roblox email so far. Check that
-     Configure page each day (without saving); when it offers a price, publish the kit.
-     Not approved yet (2026-10-28): still "Get approval to set prices / Register".
-     Not approved yet (2026-10-29): same.
-     Not approved yet (2026-10-30): same.
-     Not approved yet (2026-10-31): same.
-     Not approved yet (2026-11-01): same.
-     Not approved yet (2026-11-02): same.
-     Not approved yet (2026-11-03): same.
-     Not approved yet (2026-11-04): same.
-     Not approved yet (2026-11-05): same.
-     Not approved yet (2026-11-06): same.
+     2026-10-27: the owner entered the code and filled Stripe's form. From 10-28 to 11-06 the asset's Configure page
+     kept showing "Get approval to set prices / Register" and no Stripe or Roblox seller email came.
+     2026-11-06 diagnosis (Roblox's own API, fetched on create.roblox.com while signed in):
+     `marketplace-fiat-service/v1/seller/status` = SELLER_STATUS_RESTRICTED, setupCompleted false, country AU,
+     created 2026-10-27; publishing requirements: pricing "Invalid", sellerOnboarding allowed, ID "Verified".
+     So the Stripe onboarding was never finished; it is not a review in progress. Gmail has no Stripe seller mail.
+     Owner: open create.roblox.com/settings/eligibility/priced-assets again, Continue, 2-step code, then go
+     through every Stripe page until Stripe says the account is set up (bank and tax are his). Check the seller
+     status API daily: setupCompleted true means publish the kit.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

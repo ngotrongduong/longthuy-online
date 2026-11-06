@@ -53,6 +53,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      (create.roblox.com/store/asset/107252338850218), Distribute on Creator Store on, USD 9.99, the 3 thumbnails
      (in moderation), Roblox AI training off. Toolbox API: published, purchasable. The Package upload
      115048363596479 stays private and off sale (models cannot be archived). Next: watch sales and reviews weekly.
+     The daily task `upwork-daily-proposals` still has the old "check approval, then publish" step B.2; it no
+     longer applies (2026-11-07: skipped, the kit is live).
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

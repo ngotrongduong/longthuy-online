@@ -39,6 +39,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      Owner: open create.roblox.com/settings/eligibility/priced-assets again, Continue, 2-step code, then go
      through every Stripe page until Stripe says the account is set up (bank and tax are his). Check the seller
      status API daily: setupCompleted true means publish the kit.
+     Stripe's Verification summary (2026-11-06) lists 3 items still Incomplete, all the owner's: Business details
+     (upload a document that verifies the company's tax details, e.g. the ABN registration or ASIC certificate),
+     a bank account for payouts, and the W-8 tax form (W-8BEN-E for a company outside the US). Then "Agree and submit".
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

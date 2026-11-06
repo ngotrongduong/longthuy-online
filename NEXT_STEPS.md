@@ -42,6 +42,13 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      Stripe's Verification summary (2026-11-06) lists 3 items still Incomplete, all the owner's: Business details
      (upload a document that verifies the company's tax details, e.g. the ABN registration or ASIC certificate),
      a bank account for payouts, and the W-8 tax form (W-8BEN-E for a company outside the US). Then "Agree and submit".
+     2026-11-06: the owner finished it. Seller status SELLER_STATUS_COMPLETE, Priced assets page "Approved for
+     distribution". Kit uploaded through Creator Hub's user-auth Assets API as asset 115048363596479 with the 3
+     thumbnails (in moderation), but an .rbxm uploaded that way becomes subtype "Package", and the Configure page
+     says "User is not authorized to distribute packages". Studio's AssetService:CreateAssetAsync is "not available
+     yet", the legacy Upload.ashx is blocked by CORS, and Open Cloud upload from the Studio MCP needs the folder
+     approved in Assistant Settings > MCP Permissions. Next: Studio's right-click Save to Roblox (makes a plain
+     Model), then Distribute on Creator Store, USD 9.99, the thumbnails; then archive 115048363596479.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

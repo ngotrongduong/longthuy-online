@@ -73,6 +73,11 @@ looks without API access.
 The older `portfolio/roblox-demo-1..3.png` come from the demo video, with caption bars and the old
 sign. Do not use them for this listing.
 
+Live since 2026-11-06: asset 107252338850218, USD 9.99. The 50-character title limit made it
+"Tycoon Systems Kit: Droppers, Rebirth, Shop, Save"; the store description is a shorter version of the one
+above (the limit is 1000 characters). Do not upload .rbxm models through the Assets API: they become Packages,
+which cannot be sold yet. Use Studio's Save to Roblox.
+
 ## Publishing (Claude, once the Stripe seller account is approved)
 - Open `TycoonKitDev.rbxlx`, right-click `TycoonSystemsKit` > Save to Roblox > Model (as Mue_you). Put in
   the title, description and tags above, and set the price on the Creator Store page.

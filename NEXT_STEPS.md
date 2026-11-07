@@ -55,6 +55,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      115048363596479 stays private and off sale (models cannot be archived). Next: watch sales and reviews weekly.
      The daily task `upwork-daily-proposals` still has the old "check approval, then publish" step B.2; it no
      longer applies (2026-11-07: skipped, the kit is live).
+   - S3c, 2026-11-07: VFX packs from the owner's library (`products/vfx-packs/PLAN.md`). Licence check: all 47
+     auras wear other creators' free-pack pictures, so none can be sold until redrawn; 10 effects are all our art.
+     Next: build pack 1 "Hatch & Hit FX Kit" (USD 6.99), then redraw for pack 2 (pet mutation auras).
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

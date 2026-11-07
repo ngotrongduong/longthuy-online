@@ -4,6 +4,10 @@ Live since 2026-11-07: Model **117863653160979**, USD 6.99, Distribute on Creato
 3 thumbnails (in moderation). Store page: create.roblox.com/store/asset/117863653160979. VFX pack 1 of
 `products/vfx-packs/PLAN.md`.
 
+Check on the next round: about 10 minutes after the save, the Toolbox API (`toolbox-service/v1/items/details?assetIds=`)
+still said published true, purchasable false, visibilityStatus 3 (the two other kits: 1, purchasable), so Roblox was
+probably still reviewing it. If it stays so for a day, open the Configure page and look for a message.
+
 ## What it is
 
 - `FXKit`: the owner's VfxLib runtime (`C:\roblox-vfx-library\src\VfxLib`: init, Anchors, Budget, Builder, Lod,

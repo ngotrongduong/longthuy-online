@@ -58,7 +58,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    - S3c, 2026-11-07: VFX packs from the owner's library (`products/vfx-packs/PLAN.md`). Licence check: all 47
      auras wear other creators' free-pack pictures, so none can be sold until redrawn; 10 effects are all our art.
      Pack 1 "Hatch & Hit FX Kit (10 Effects, Mobile Ready)" LIVE 2026-11-07: Model 117863653160979, USD 6.99
-     (`products/vfx-kit/STORE.md`), tested in Studio (10 of 10 play, no warnings). Next: redraw for pack 2 (pet
+     (`products/vfx-kit/STORE.md`), tested in Studio (10 of 10 play, no warnings). On 11-07 the Toolbox API said
+     published but not yet purchasable (Roblox's review): check it on the next round. Next: redraw for pack 2 (pet
      mutation auras, about 15 pictures), one pack a week at most.
    - S3d, 2026-11-07: "Fantasy Creature Pets (64 Rigged, Animated)" LIVE on Creator Store, Model
      116354459698651, USD 14.99 (`products/creature-pets/STORE.md`): Egg Heist's 64 pets with the game's own

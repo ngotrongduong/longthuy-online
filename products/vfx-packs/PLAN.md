@@ -41,7 +41,7 @@ script and a README. Thumbnails from the library's showroom.
 
 | # | Pack | Effects | Price | Ready |
 |---|---|---|---|---|
-| 1 | **Hatch & Hit FX Kit** (pet and simulator games) | 3 egg hatch reveals (gold, prism, arcane secret), area upgrade, 4 stat buffs, 5 hits (shock, slash, holy, acid, plague claws) | USD 6.99 | art is ours: build now |
+| 1 | **Hatch & Hit FX Kit** (pet and simulator games) | 3 egg hatch reveals (gold, prism, arcane secret), area upgrade, 4 stat buffs, 5 hits (shock, slash, holy, acid, plague claws) | USD 6.99 | **LIVE 2026-11-07**, Model 117863653160979 (`products/vfx-kit/STORE.md`) |
 | 2 | **Pet Mutation Auras** | blazing flames, electric bolts, frozen snowfall, lunar halo, rainbow rings, shadow wisps | USD 4.99 | after redraw (~15 pictures) |
 | 3 | **Anime Power Auras** (Level 1, light on phones) | azure fury, crimson awakening, hyper surge, power drop, radiant surge, static charge, thunder omen, twin balance, prism pulse, dawn star, heartfire, azure wisp, dove wings, night wings | USD 7.99 | after redraw |
 | 4 | **Elemental Ground Auras** (Level 2, a floor circle each) | inferno sigil, frost vortex, crescent tide, tempest halo, sakura breeze, prism flame, glitch virus, binary breach, atomic pulse, crimson night, violet veil, clockwork hour | USD 9.99 | after redraw |

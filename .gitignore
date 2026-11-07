@@ -14,3 +14,7 @@ products/animal-pack/work/
 # Creature pets pack: the product and its scripts stay off the public repo
 products/creature-pets/dist/
 products/creature-pets/work/
+
+# VFX kits: the product and its scripts stay off the public repo
+products/vfx-kit/dist/
+products/vfx-kit/work/

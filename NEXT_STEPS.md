@@ -59,7 +59,13 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      auras wear other creators' free-pack pictures, so none can be sold until redrawn; 10 effects are all our art.
      Pack 1 "Hatch & Hit FX Kit (10 Effects, Mobile Ready)" LIVE 2026-11-07: Model 117863653160979, USD 6.99
      (`products/vfx-kit/STORE.md`), tested in Studio (10 of 10 play, no warnings). On 11-07 the Toolbox API said
-     published but not yet purchasable (Roblox's review): check it on the next round. Next: redraw for pack 2 (pet
+     published but not yet purchasable (Roblox's review): check it on the next round.
+     2026-11-08: REJECTED by moderation. The Configure page says "Not distributed on Creator Store. This asset
+     may be in violation of Roblox Community Standards", with an Appeal button; Toolbox API purchasable=false,
+     hasScripts=false, scriptCount 0 (the Pets kit and the Tycoon kit are purchasable=true). Nothing was saved
+     or appealed. Next, in a live session: open the asset in Studio (Toolbox > My Models), check which part was
+     taken out or moderated (scripts gone? a texture or flipbook image moderated?), fix it, re-upload as a new
+     version, then distribute again or appeal if nothing is wrong. Next: redraw for pack 2 (pet
      mutation auras, about 15 pictures), one pack a week at most.
    - S3d, 2026-11-07: "Fantasy Creature Pets (64 Rigged, Animated)" LIVE on Creator Store, Model
      116354459698651, USD 14.99 (`products/creature-pets/STORE.md`): Egg Heist's 64 pets with the game's own

@@ -58,6 +58,10 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    - S3c, 2026-11-07: VFX packs from the owner's library (`products/vfx-packs/PLAN.md`). Licence check: all 47
      auras wear other creators' free-pack pictures, so none can be sold until redrawn; 10 effects are all our art.
      Next: build pack 1 "Hatch & Hit FX Kit" (USD 6.99), then redraw for pack 2 (pet mutation auras).
+   - S3d, 2026-11-07: "Fantasy Creature Pets (64 Rigged, Animated)" LIVE on Creator Store, Model
+     116354459698651, USD 14.99 (`products/creature-pets/STORE.md`): Egg Heist's 64 pets with the game's own
+     procedural animator. Tested in Studio (64 of 64 animate). Next: watch sales weekly; a second pack of the 8
+     bosses and 6 mounts if this one sells.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

@@ -10,3 +10,7 @@ products/animal-pack/work/out/
 products/animal-pack/media/frames/
 products/animal-pack/**/__pycache__/
 products/animal-pack/work/
+
+# Creature pets pack: the product and its scripts stay off the public repo
+products/creature-pets/dist/
+products/creature-pets/work/

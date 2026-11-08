@@ -116,7 +116,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      browser once and pass the check; then any session changes the title and logs it in the 2026-11-09 KPI row.
      Keep G2 as it is, to compare.
    - Live session wanted: fixed-price Roblox fits cannot be sent unattended. On 2026-11-09: "Roblox Luau Developer
-     for Voxel Sandbox" (USD 500 fixed, see `listings/upwork-log.md`); send it if still open with no hire.
+     for Voxel Sandbox" (USD 500 fixed, see `listings/upwork-log.md`). Dropped on the 11-09 daily round: the
+     client now shows payment unverified.
 3. **2026-11-16: the Freelancer Plus gate** (in `PLAN.md` > Capital): Upwork net so far against USD 20; below it,
    cancel the renewal before Nov 24. The Claude app's scheduled task `upwork-plus-gate` runs it at 09:00 that day
    (the app must be open; otherwise it runs at next launch). If it has not run, do it in any session on or after

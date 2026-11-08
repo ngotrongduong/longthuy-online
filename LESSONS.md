@@ -3,6 +3,28 @@
 Each Monday: the numbers, profit against spending, what worked, what did not and why, the lessons, and what changes
 next week. Keep each week short. Lessons that still hold go in "Standing lessons" at the bottom.
 
+## Review of 2026-11-09 (week Nov 2 – Nov 8)
+
+- **Numbers**: Fiverr 21 impressions this week (G1 9, G2 12; 30-day totals 27 and 25), 0 clicks, 0 orders, no
+  Fiverr mail. Upwork: 4 proposals, 0 viewed, 0 interviews, 0 contracts, 0 profile views, USD 0 earned; 92 Connects
+  (2 clients cancelled their jobs and refunded 30, plus 12 earned by a task); 7 proposals still submitted. Creator
+  Store: Tycoon Kit (9.99) and Creature Pets (14.99) live and purchasable; the FX Kit was rejected by moderation.
+- **Profit against spending**: gross 0. November so far: -9.99 on the business's own spending (Plus), -309.99 with
+  the tools.
+- **What worked**: three products on the Creator Store in one week; the choosing rules kept Connects off weak jobs.
+- **What did not**: in two weeks not one of 10 proposals was opened and the profile had 0 views, so the Upwork title
+  change of Nov 2 moved nothing. Fiverr shows 0 clicks on 52 impressions. The Fiverr edit page put up the bot check
+  again, so the planned G1 title change is still not done. The strong Upwork fits keep being fixed-price, which the
+  unattended run cannot send (Nov 9: "Roblox Luau Developer for Voxel Sandbox", USD 500 fixed, 10–15 proposals).
+- **Why**: an Upwork proposal from a profile with no history and no boost sits under the boosted ones, and the client
+  never opens it; the wording of the profile cannot help while nobody reaches it. On Fiverr, ~3 impressions a day is
+  too little traffic to judge the gigs; the title must hold the search word ("roblox scripter").
+- **Lessons**: on Upwork the lever is position (early, few proposals, boosted), not the profile text. Unattended
+  runs only send hourly bids, and the paying Roblox jobs are mostly fixed-price: the fixed-price fits need a live
+  session.
+- **Next week**: the Fiverr G1 title once the owner has passed the bot check; the Plus gate on Nov 16 (Upwork net is
+  USD 0, so on present numbers the renewal is cancelled before Nov 24); fixed-price fits listed for a live session.
+
 ## Review of 2026-11-02 (first full week, Oct 26 – Nov 1)
 
 - **Numbers**: Fiverr G1 18 impressions, G2 13, 0 clicks, 0 orders; the only Fiverr messages were the 7 first-day
@@ -48,3 +70,5 @@ next week. Keep each week short. Lessons that still hold go in "Standing lessons
 - Speed kills on Fiverr: wait 8–10 s between page loads.
 - Every 3D client asks for a portfolio: build one before bidding wider in 3D.
 - Honesty about AI-assisted work is a filter, not a handicap: skip clients who forbid it.
+- Upwork with no history (2 weeks, 10 proposals, 0 opened): where the proposal sits counts, not the profile text.
+  Bid early on posts with few proposals; fixed-price fits go out only from a live session.

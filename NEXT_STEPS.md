@@ -88,6 +88,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      (`listings/talent-hub.md`: rules and log). Mue_you is signed in in the owner's Chrome (Claude in Chrome), not in
      the app's built-in browser. 2026-10-27: consent accepted, Creator Page public, first application sent.
      Replies arrive as Roblox notifications on create.roblox.com: check them in Chrome on each inbox round.
+     2026-11-11: Roblox says Talent Hub is sunset on 12/7 (listings active until 12/6) and new posts go to
+     DevForum's Collaboration category. Before 12/6: move the S5 round to DevForum hiring posts (the daily task's
+     step B.1 too), and ask the two open clients to continue in DevForum messages if they reply.
 1. **Better covers (optional; the ones in place are good enough to publish).**
    - Send the two prompts of `listings/fiverr.md` to ChatGPT in the browser, on its highest reasoning setting.
    - Keep whichever cover reads better at thumbnail size, and note it in the KPI row: a cover change is the week's

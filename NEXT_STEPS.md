@@ -71,6 +71,10 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      116354459698651, USD 14.99 (`products/creature-pets/STORE.md`): Egg Heist's 64 pets with the game's own
      procedural animator. Tested in Studio (64 of 64 animate). Next: watch sales weekly; a second pack of the 8
      bosses and 6 mounts if this one sells.
+   - S3e, 2026-11-10: Tripo's "Light Up Diwali" weekly challenge (`research/2026-11-10-tripo-diwali-challenge.md`):
+     3 ChatGPT reference pictures (lotus diya, baby elephant, star lantern), 3 models in Tripo (H3.1, 30 credits
+     each); all 3 ENTERED on 11-10. Deadline about 14:45 UTC on 11-11; then check the rank and the email. Prize: USD 2
+     Tripo Cash at least (7 days: spend it on a model for a pack), 1,000 credits for ranks 4-10.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

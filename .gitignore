@@ -18,3 +18,6 @@ products/creature-pets/work/
 # VFX kits: the product and its scripts stay off the public repo
 products/vfx-kit/dist/
 products/vfx-kit/work/
+
+# Tripo challenge entries: scratch pictures and helpers
+products/tripo-diwali/work/

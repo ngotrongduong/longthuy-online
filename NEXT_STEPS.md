@@ -86,6 +86,10 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      683). Left on Meshy's "Get Free Credits": G2 review 500 once (owner's G2 sign-in and his honest review), a social
      link on the Meshy profile 50 once (e.g. his GitHub URL; owner's yes first), Share on X 40/day (no X account),
      featured community posts 50 each (only models we will not sell), Contributor Program via Discord.
+     GitHub link added 11-15 (+50, Meshy 733). The owner's order (11-15): put every daily credit task into the
+     automatic daily work without being reminded. Done: scheduled task `free-credits-daily` (13:15 daily; Meshy Share
+     on X from the owner's X, Tripo weekly Feature My Model +40, credit emails); sources and log in
+     `research/free-credits-log.md`.
    - S3f, 2026-11-15: the owner asked to split the skills and the VFX library into small products and sell them on
      Roblox and other sites.
      - VFX: 44 pictures redrawn in code, 5 packs built and tested in Studio (104 stands, 0 warnings), listings and

@@ -201,7 +201,7 @@
       if (res === 'ok') ds.ok++; else ds.fail++;
       ds.last = `${c.th}/${c.sb}/${c.n} ${res}`; W('ll_dstat', ds);
       if (res === 'limit') { saveManifest(); W('ll_stop', true); break; }
-      if (pending.length >= 20) saveManifest();
+      if (pending.length >= 5) saveManifest();   // small batches: a frozen tab loses little
     }
     saveManifest();
   }

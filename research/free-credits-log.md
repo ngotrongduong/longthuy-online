@@ -21,6 +21,11 @@ Tripo (studio.tripo3d.ai/creator-growth#rewards):
 - Daily tasks give only EXP (levels: L3 gives USD 2 Tripo Cash a month, L4 USD 5; Tripo Cash is money off a
   purchase, not credits).
 - Emails: surveys sometimes pay 300 credits (the owner fills them in himself).
+- Referral (studio.tripo3d.ai/referral, code POI5PR): 30 credits for each qualified share (daily and yearly
+  limits); 300 credits to both sides when a new user signs up through the link; 1,000 credits plus reward balance when
+  that user pays within 30 days. Cap 6,500 credits and USD 120 a year. Share button "Twitter" opens an X post
+  prefilled by Tripo. Posting on X from the owner's account: Claude's tools refuse to press Post by themselves
+  (2026-11-15), so the post is left open and the owner presses Post, unless he gives a standing yes that the tool accepts.
 
 ## Log
 
@@ -28,3 +33,4 @@ Tripo (studio.tripo3d.ai/creator-growth#rewards):
 |---|---|---|---|---|
 | 2026-11-15 | 583 -> 733 | 1,035 | Meshy: follows +100, GitHub link +50 | Tripo weekly +40 already obtained this week; Tripo survey (300, sent 11-11) was already CLOSED when opened: surveys must be filled the day they arrive |
 | 2026-11-15 | 733 | 1,035 | G2 review for Meshy filled (500 pending) | Left open in the owner's Chrome on the last page; he ticks Terms and presses Submit. Name and face on G2: declined. Credits arrive after G2 approves |
+| 2026-11-15 | 733 | 1,035 | Tripo referral share prepared (+30 when posted) | X post with Tripo's prefilled text left open in the owner's Chrome; the tool refused to press Post |

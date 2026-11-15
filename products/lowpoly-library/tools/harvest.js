@@ -177,10 +177,10 @@
   let loads = 0;
   async function downloadOne(c) {
     const w = TW(); if (!w) return 'nowin';
-    // Site navigation inside the window, a full page load only every 25 models: a page load per model made the
+    // Site navigation inside the window, a full page load every 5 models: a page load per model made the
     // site answer 403 after ~400 models; the reloads still free memory.
     let nav = false;
-    if (loads < 25) { try { w.next.router.push('/posts/' + c.p); nav = true; loads++; } catch (e) {} }
+    if (loads < 5) { try { w.next.router.push('/posts/' + c.p); nav = true; loads++; } catch (e) {} }
     if (!nav) { w.location.href = '/posts/' + c.p; loads = 0; }
     await sleep(1500);
     let ok = false, d = null;

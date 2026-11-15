@@ -6,11 +6,17 @@ scripts (`work/`) are git-ignored: this public repo holds only the listing text 
 
 | pack | file | effects | price (USD) | Creator Store |
 |---|---|---|---|---|
-| Fantasy Wings FX Pack | `FantasyWingsFX.rbxm` | 32 wings (12 for players, 20 for pets) | 9.99 | not yet saved |
-| Magic Auras & Shields FX | `MagicAurasFX.rbxm` | 25 auras, domes and shields | 9.99 | not yet saved |
-| Combat Skills FX Pack | `CombatSkillsFX.rbxm` | 26 skills (charge, release, projectile, impact) | 12.99 | not yet saved |
-| Explosions & Status FX Pack | `ExplosionsStatusFX.rbxm` | 11 bursts, 3 status effects | 6.99 | not yet saved |
-| Weapon Auras & Trails FX | `WeaponAurasFX.rbxm` | 5 weapon auras, 2 trails | 4.99 | not yet saved |
+| Fantasy Wings FX Pack | `FantasyWingsFX.rbxm` | 32 wings (12 for players, 20 for pets) | 9.99 | Model 73482384781132 |
+| Magic Auras & Shields FX | `MagicAurasFX.rbxm` | 25 auras, domes and shields | 9.99 | Model 117643355725830 |
+| Combat Skills FX Pack | `CombatSkillsFX.rbxm` | 26 skills (charge, release, projectile, impact) | 12.99 | Model 128561266438892 |
+| Explosions & Status FX Pack | `ExplosionsStatusFX.rbxm` | 11 bursts, 3 status effects | 6.99 | Model 113896470246117 |
+| Weapon Auras & Trails FX | `WeaponAurasFX.rbxm` | 5 weapon auras, 2 trails | 4.99 | Model 106848503060543 |
+
+Saved to Roblox and configured on 2026-11-15: Distribute on Creator Store on, the price above, 3 thumbnails each,
+Roblox AI training off, the description below. Toolbox API right after: published, price right, 3 preview images,
+`purchasable: false` and `visibilityStatus: 3` (Roblox still reviewing them; pack 1 showed the same at first and
+became purchasable later). Store page: `create.roblox.com/store/asset/<id>`. If one is still not purchasable after
+a day, open its Configure page and look for a message.
 
 Why these prices: pack 1 (10 effects) sells at 6.99 and the creature pack at 14.99; most paid VFX packs on the
 Creator Store sit between 5 and 15 USD. The combat pack has the most work in it (each skill is a full sequence), the

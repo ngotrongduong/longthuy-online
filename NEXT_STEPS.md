@@ -78,10 +78,11 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    - S3f, 2026-11-15: the owner asked to split the skills and the VFX library into small products and sell them on
      Roblox and other sites.
      - VFX: 44 pictures redrawn in code, 5 packs built and tested in Studio (104 stands, 0 warnings), listings and
-       thumbnails ready (`products/vfx-packs/STORE.md`, `media/`). NOT YET ON SALE: Save to Roblox needs a right-click
-       in Studio (the API way is still closed) and the computer was busy with another Claude session. Next session:
-       open `products/vfx-packs/work/dist/PackTest.rbxl`, Save to Roblox each pack, Configure (price, 3 thumbnails,
-       AI training off), check purchasable, log the ids.
+       thumbnails ready (`products/vfx-packs/STORE.md`, `media/`). Saved to Roblox and configured the same day:
+       Wings 73482384781132 (9.99), Auras 117643355725830 (9.99), Combat 128561266438892 (12.99), Explosions
+       113896470246117 (6.99), Weapons 106848503060543 (4.99), 3 thumbnails each, AI training off. Still in Roblox's
+       review on 11-15 (`purchasable: false`). Next round: check the toolbox API says purchasable for all 5; if not,
+       read the message on the Configure page.
      - Agent skills: 4 zips (VFX Craft 14, Creature Rigging + Animation 6, Game Art Cutout 7, bundle 22 USD) and their
        listings (`products/agent-skills/STORE.md`).
      - Owner, once (account and payout only, about 10 minutes each): sign up on **Agensi** (agensi.io, Stripe

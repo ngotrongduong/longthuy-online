@@ -36,8 +36,8 @@ showcased looks is not. Before they are sold, each gets its own colours and shap
 
 44 pictures were drawn in code to replace other creators' ones (`work/redraw/`), so 114 effects can now be sold.
 They are grouped into 5 packs, built and tested in Studio: Fantasy Wings (32, USD 9.99), Magic Auras & Shields (25,
-9.99), Combat Skills (26, 12.99), Explosions & Status (14, 6.99), Weapon Auras & Trails (7, 4.99). Listings, test
-result and publish steps: `STORE.md`. Wave 2 (80 effects, about 40 more pictures) waits for the first sales.
+9.99), Combat Skills (26, 12.99), Explosions & Status (14, 6.99), Weapon Auras & Trails (7, 4.99). All 5 saved to
+Roblox and put on sale the same day (in review). Asset ids, listings, test result and publish steps: `STORE.md`. Wave 2 (80 effects, about 40 more pictures) waits for the first sales.
 
 ## The packs (first plan, 2026-11-07)
 

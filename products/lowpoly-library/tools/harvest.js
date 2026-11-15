@@ -224,6 +224,7 @@
       let res;
       try { res = await downloadOne(c); } catch (e) { res = 'err ' + e; }
       if (res === 'blocked') { ds.last = 'blocked by the site (403), waiting 15 min'; W('ll_dstat', ds); try { TW().close() } catch (e) {} await sleep(900000); continue; }
+      Object.assign(done, S('ll_done', {}));   // union with what is stored: a restart's older loop may have saved too
       done[c.r] = res; W('ll_done', done);
       if (res === 'ok') ds.ok++; else ds.fail++;
       fails = res === 'ok' ? 0 : fails + 1;

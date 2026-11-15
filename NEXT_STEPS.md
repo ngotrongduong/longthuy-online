@@ -88,6 +88,12 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      - Owner, once (account and payout only, about 10 minutes each): sign up on **Agensi** (agensi.io, Stripe
        payout), **SkillHQ** (skillhq.dev, PayPal), **itch.io** (PayPal or Stripe, tax form) and **BuiltByBit**
        (PayPal). Then Claude makes every page and uploads the files.
+   - S3g, 2026-11-15: the owner's order: download as many good free low-poly models from Meshy's community as
+     possible, named and sorted by theme (weapons, monsters, props first), to build big Roblox packs later. No time
+     or count limit; run until the owner says stop. How it works and the filters (CC0, textured, triangle limits):
+     `products/lowpoly-library/README.md`. Models land in `products/lowpoly-library/models/` (git-ignored) with
+     `catalog.csv`. Meshy allows one signed-in session: if the pane is signed out, the owner signs in again there,
+     then a session restarts the in-page script (one line, in the README) and `tools/sorter.py`.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

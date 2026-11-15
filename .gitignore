@@ -25,6 +25,10 @@ products/tripo-diwali/work/
 # VFX packs 2-6: the product, the redrawn pictures and the build scripts stay off the public repo
 products/vfx-packs/work/
 
+# Low-poly library: the downloaded models and the downloader state stay off the public repo
+products/lowpoly-library/models/
+products/lowpoly-library/_state/
+
 # Agent skills: the paid skill files and build scripts stay off the public repo
 products/agent-skills/dist/
 products/agent-skills/work/

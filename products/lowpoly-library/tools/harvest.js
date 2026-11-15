@@ -172,13 +172,18 @@
     const v = el && el.parentElement && el.parentElement.innerText.replace('Faces', '').replace(/[^0-9]/g, '');
     return v ? parseInt(v, 10) : -1;
   }
+  let loads = 0;
   async function downloadOne(c) {
     const w = TW(); if (!w) return 'nowin';
-    w.location.href = '/posts/' + c.p;
+    // Site navigation inside the window, a full page load only every 25 models: a page load per model made the
+    // site answer 403 after ~400 models; the reloads still free memory.
+    let nav = false;
+    if (loads < 25) { try { w.next.router.push('/posts/' + c.p); nav = true; loads++; } catch (e) {} }
+    if (!nav) { w.location.href = '/posts/' + c.p; loads = 0; }
     await sleep(1500);
     let ok = false, d = null;
     for (let i = 0; i < 80; i++) { await sleep(300); d = tdoc(); let path = ''; try { path = w.location.pathname } catch (e) {} if (d && path.includes(c.p) && facesIn(d) === c.t) { ok = true; break; } }
-    if (!ok) return 'faces ' + facesIn(tdoc());
+    if (!ok) { const d0 = tdoc(); return d0 && /403/.test(d0.title) ? 'blocked' : 'faces ' + facesIn(d0); }
     // Quad models: Meshy counts quads, the GLB has about twice as many triangles.
     const topoEl = [...d.querySelectorAll('div,span')].find(e => e.childElementCount === 0 && e.textContent.trim() === 'Topology');
     const tp = /quad/i.test((topoEl && topoEl.parentElement && topoEl.parentElement.innerText) || '') ? 'quad' : 'tri';
@@ -216,6 +221,7 @@
       if (rc && c.th !== 'Sets') { c.th = rc[0]; c.sb = rc[1]; }
       let res;
       try { res = await downloadOne(c); } catch (e) { res = 'err ' + e; }
+      if (res === 'blocked') { ds.last = 'blocked by the site (403), waiting 15 min'; W('ll_dstat', ds); try { TW().close() } catch (e) {} await sleep(900000); continue; }
       done[c.r] = res; W('ll_done', done);
       if (res === 'ok') ds.ok++; else ds.fail++;
       fails = res === 'ok' ? 0 : fails + 1;
@@ -223,6 +229,7 @@
       ds.last = `${c.th}/${c.sb}/${c.n} ${res}`; W('ll_dstat', ds);
       if (res === 'limit') { saveManifest(); W('ll_stop', true); break; }
       if (pending.length >= 5) saveManifest();   // small batches: a frozen tab loses little
+      await sleep(2000);   // a gentler pace for the site
     }
     saveManifest();
   }

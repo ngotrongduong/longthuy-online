@@ -172,6 +172,10 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    check on the G1 edit page). Then the G1 title change (item 2) and the week's numbers.
 5. **Creator Store, 11-16**: Tycoon Kit, Creature Pets and FX Kit purchasable (the FX Kit is back on sale, no
    appeal needed); the 5 VFX packs of 11-15 not yet public. Next round: check them again.
+   2026-11-16 daily round: all 5 VFX packs now show "Not distributed on Creator Store. This asset may be in
+   violation of Roblox Community Standards" (Appeal button), toolbox purchasable=false; nothing saved or appealed.
+   The FX Kit had the same message on 11-08 and came back by itself, so wait 2-3 days; if still rejected, a live
+   session opens one pack in Studio to find the moderated image or script, fixes it, or appeals.
 
 ## The owner, once
 

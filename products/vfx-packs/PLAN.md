@@ -32,7 +32,14 @@ Five showcase auras (`crystal_bloom`, `ember_sovereign`, `glacier_crown`, `solar
 the look of auras shown in TerKungTH's YouTube tutorial. The technique is fair to use; selling close copies of his
 showcased looks is not. Before they are sold, each gets its own colours and shapes, so it is not his aura.
 
-## The packs
+## 2026-11-15: the redraw is done, 5 packs built (replaces packs 2 to 8 below)
+
+44 pictures were drawn in code to replace other creators' ones (`work/redraw/`), so 114 effects can now be sold.
+They are grouped into 5 packs, built and tested in Studio: Fantasy Wings (32, USD 9.99), Magic Auras & Shields (25,
+9.99), Combat Skills (26, 12.99), Explosions & Status (14, 6.99), Weapon Auras & Trails (7, 4.99). Listings, test
+result and publish steps: `STORE.md`. Wave 2 (80 effects, about 40 more pictures) waits for the first sales.
+
+## The packs (first plan, 2026-11-07)
 
 Each pack is one Creator Store **Model** saved from Studio (never through the Assets API: an `.rbxm` upload becomes a
 Package, which cannot be sold). Inside: ready-to-use effects (attachments and emitters a buyer can drop on a

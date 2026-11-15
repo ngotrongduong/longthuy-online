@@ -75,6 +75,18 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      3 ChatGPT reference pictures (lotus diya, baby elephant, star lantern), 3 models in Tripo (H3.1, 30 credits
      each); all 3 ENTERED on 11-10. Deadline about 14:45 UTC on 11-11; then check the rank and the email. Prize: USD 2
      Tripo Cash at least (7 days: spend it on a model for a pack), 1,000 credits for ranks 4-10.
+   - S3f, 2026-11-15: the owner asked to split the skills and the VFX library into small products and sell them on
+     Roblox and other sites.
+     - VFX: 44 pictures redrawn in code, 5 packs built and tested in Studio (104 stands, 0 warnings), listings and
+       thumbnails ready (`products/vfx-packs/STORE.md`, `media/`). NOT YET ON SALE: Save to Roblox needs a right-click
+       in Studio (the API way is still closed) and the computer was busy with another Claude session. Next session:
+       open `products/vfx-packs/work/dist/PackTest.rbxl`, Save to Roblox each pack, Configure (price, 3 thumbnails,
+       AI training off), check purchasable, log the ids.
+     - Agent skills: 4 zips (VFX Craft 14, Creature Rigging + Animation 6, Game Art Cutout 7, bundle 22 USD) and their
+       listings (`products/agent-skills/STORE.md`).
+     - Owner, once (account and payout only, about 10 minutes each): sign up on **Agensi** (agensi.io, Stripe
+       payout), **SkillHQ** (skillhq.dev, PayPal), **itch.io** (PayPal or Stripe, tax form) and **BuiltByBit**
+       (PayPal). Then Claude makes every page and uploads the files.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

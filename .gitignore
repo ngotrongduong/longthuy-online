@@ -21,3 +21,10 @@ products/vfx-kit/work/
 
 # Tripo challenge entries: scratch pictures and helpers
 products/tripo-diwali/work/
+
+# VFX packs 2-6: the product, the redrawn pictures and the build scripts stay off the public repo
+products/vfx-packs/work/
+
+# Agent skills: the paid skill files and build scripts stay off the public repo
+products/agent-skills/dist/
+products/agent-skills/work/

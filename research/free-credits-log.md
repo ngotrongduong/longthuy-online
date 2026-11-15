@@ -26,4 +26,5 @@ Tripo (studio.tripo3d.ai/creator-growth#rewards):
 
 | Date | Meshy balance | Tripo balance | Claimed | Notes |
 |---|---|---|---|---|
-| 2026-11-15 | 583 -> 733 | 1,035 | Meshy: follows +100, GitHub link +50 | Tripo weekly +40 already obtained this week; Tripo survey (300) waits for the owner |
+| 2026-11-15 | 583 -> 733 | 1,035 | Meshy: follows +100, GitHub link +50 | Tripo weekly +40 already obtained this week; Tripo survey (300, sent 11-11) was already CLOSED when opened: surveys must be filled the day they arrive |
+| 2026-11-15 | 733 | 1,035 | G2 review for Meshy filled (500 pending) | Left open in the owner's Chrome on the last page; he ticks Terms and presses Submit. Name and face on G2: declined. Credits arrive after G2 approves |

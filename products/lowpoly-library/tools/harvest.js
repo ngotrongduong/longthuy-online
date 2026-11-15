@@ -54,8 +54,8 @@
   const CAT_FALLBACK = { WeaponsMilitary: ['Weapons', 'Other_Weapons'], Characters: ['Characters', 'Characters'],
     Animals: ['Animals', 'Animals'], FurnitureHome: ['Props', 'Furniture'], NaturePlants: ['Props', 'Nature'],
     Architecture: ['Props', 'Buildings_Structures'], FoodDrink: ['Props', 'Food'], FantasyMythology: ['Monsters', 'Other_Monsters'] };
-  const MAXTRIS = { Weapons: 10000, Props: 10000, Monsters: 20000, Characters: 20000, Animals: 20000, Vehicles: 20000 };
-  const PRIO = { Weapons: 0, Monsters: 1, Props: 2, Characters: 3, Animals: 4, Vehicles: 5 };
+  const MAXTRIS = { Sets: 80000, Weapons: 10000, Props: 10000, Monsters: 20000, Characters: 20000, Animals: 20000, Vehicles: 20000 };
+  const PRIO = { Sets: 2.5, Weapons: 0, Monsters: 1, Props: 2, Characters: 3, Animals: 4, Vehicles: 5 };
 
   function classify(text, cats) {
     for (const [th, sb, re] of RULES) if (re.test(text)) return [th, sb];
@@ -194,7 +194,7 @@
       if (!queue.length) { if (hs.finished) break; await sleep(10000); continue; }
       const c = queue[0];
       const rc = classify(c.n.replace(/_/g, ' ').toLowerCase(), []);   // older entries were sorted with tags first
-      if (rc) { c.th = rc[0]; c.sb = rc[1]; }
+      if (rc && c.th !== 'Sets') { c.th = rc[0]; c.sb = rc[1]; }
       let res;
       try { res = await downloadOne(c); } catch (e) { res = 'err ' + e; }
       done[c.r] = res; W('ll_done', done);
@@ -205,9 +205,52 @@
     }
     saveManifest();
   }
+  // Second pass: sets (several weapons, props or characters in one file), 20k-80k triangles in total, split later.
+  // Only posts whose title or prompt reads like a set are checked; only those ids are remembered (storage is small).
+  const SETRE = /\b(set|sets|pack|collection|kit|bundle|assortment|variety|arsenal|armory|armoury|inventory|lineup|pieces|items|assets|props|several|multiple|swords|weapons|guns|axes|potions|daggers|shields|helmets|monsters|creatures|characters|enemies|figures|crates|barrels|rocks|trees)\b/;
+  const QUERIES2 = [];
+  for (const sort of ['popularity', 'newest'])
+    for (const t of ['set', 'pack', 'collection', 'kit', 'bundle', 'assets', 'asset pack', 'weapon set', 'weapons pack', 'props pack'])
+      QUERIES2.push(`tags=${encodeURIComponent(t)}&sortBy=${sort}`);
+  QUERIES2.push(...QUERIES);
+  const seen2 = new Set(S('ll_seen2', []));
+  const hs2 = S('ll_hstat2', { qi: 0, page: 1, checked: 0, kept: 0, finished: false });
+  window.__llState.hs2 = hs2;
+  async function checkSet(p) {
+    const ci = p.coverItem; const ref = ci && ci.refId;
+    if (!ref || seen2.has(ref) || cands[ref] || p.isNsfw || ci.kind !== 'model') return;
+    const raw = [p.title, ci.objectPrompt].filter(Boolean).join(' ');
+    if (!SETRE.test(raw.toLowerCase())) return;
+    seen2.add(ref);
+    const j = await getJSON(`${API}/v2/tasks/${ref}`); const t = j && j.result;
+    hs2.checked++;
+    if (!t || t.status !== 'SUCCEEDED' || t.license !== 'cc0' || t.isNSFW) return;
+    const tris = t.triangleCount || t.faceCount || 0;
+    if (tris <= 20000 || tris > MAXTRIS.Sets) return;
+    if (!JSON.stringify(t.result || {}).includes('colorMapUrl')) return;
+    const text = (raw + ' ' + (p.tags || []).join(' ')).toLowerCase();
+    const cl = classify(raw.toLowerCase(), []) || classify(text, p.categories); if (!cl) return;
+    const th = ci.thumbnails || {};
+    cands[ref] = { r: ref, p: p.id, n: makeName(p.title || t.name || ci.objectPrompt, `Set_${ref.slice(-6)}`) + '_Set', th: 'Sets', sb: cl[0],
+      t: tris, lic: t.license, a: (p.author && p.author.nickname) || '', l: (p.stats && p.stats.likesCount) || 0,
+      d: (p.stats && p.stats.downloadsCount) || 0, img: th.thumbnailNoBgUrl || th.thumbnailUrl || '' };
+    hs2.kept++;
+  }
+  async function harvestSets() {
+    while (!hs2.finished && !S('ll_stop', false)) {
+      if (hs2.qi >= QUERIES2.length) { hs2.finished = true; break; }
+      const j = await getJSON(`${API}/community/posts?singleModel=true&pageSize=50&pageNum=${hs2.page}&${QUERIES2[hs2.qi]}`);
+      const list = (j && j.code === 'OK' && j.result) || [];
+      for (let i = 0; i < list.length; i += 6) await Promise.all(list.slice(i, i + 6).map(checkSet));
+      if (!list.length || !j.hasMore && list.length < 50 || hs2.page >= 60) { hs2.qi++; hs2.page = 1; } else hs2.page++;
+      W('ll_seen2', [...seen2]); W('ll_hstat2', hs2); W('ll_cands', cands);
+      await sleep(300);
+    }
+  }
   window.__llSaveManifest = saveManifest;
   W('ll_stop', false);
   harvest();
+  harvestSets();
   downloader();
   return 'started';
 })()

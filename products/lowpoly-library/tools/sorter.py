@@ -80,9 +80,17 @@ def main():
     bad = set(load_json(STATE / "bad.json", []))      # tmp names that are neither GLB nor manifest
     new_catalog = not CATALOG.exists()
     while True:
-        files = sorted((p for p in DOWNLOADS.iterdir()
-                        if p.suffix.lower() in (".tmp", ".glb", ".json") and p.name not in bad
-                        and p.stat().st_mtime >= START), key=lambda p: p.stat().st_mtime)
+        found = []
+        for p in DOWNLOADS.iterdir():
+            if p.suffix.lower() not in (".tmp", ".glb", ".json") or p.name in bad:
+                continue
+            try:
+                mtime = p.stat().st_mtime  # a browser temp file can vanish between listing and stat
+            except OSError:
+                continue
+            if mtime >= START:
+                found.append((mtime, p))
+        files = [p for _, p in sorted(found)]
         changed = False
         for p in files:
             try:
@@ -149,4 +157,9 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    while True:  # a file the browser moves or deletes mid-read must not stop the sorter
+        try:
+            main()
+        except OSError as ex:
+            print("retry after", ex, flush=True)
+            time.sleep(5)

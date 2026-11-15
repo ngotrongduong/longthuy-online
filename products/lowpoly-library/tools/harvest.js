@@ -224,7 +224,7 @@
       if (rc && c.th !== 'Sets') { c.th = rc[0]; c.sb = rc[1]; }
       let res;
       try { res = await downloadOne(c); } catch (e) { res = 'err ' + e; }
-      if (res === 'blocked') { ds.last = 'blocked by the site (403), waiting 15 min'; W('ll_dstat', ds); try { TW().close() } catch (e) {} await sleep(900000); continue; }
+      if (res === 'blocked') { ds.blocked = (ds.blocked || 0) + 1; ds.blocked_at = new Date().toTimeString().slice(0, 5); ds.last = 'blocked by the site (403), waiting 15 min'; W('ll_dstat', ds); try { TW().close() } catch (e) {} await sleep(900000); continue; }
       Object.assign(done, S('ll_done', {}));   // union with what is stored: a restart's older loop may have saved too
       done[c.r] = res; W('ll_done', done);
       if (res === 'ok') ds.ok++; else ds.fail++;

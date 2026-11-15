@@ -81,7 +81,7 @@ def main():
     new_catalog = not CATALOG.exists()
     while True:
         files = sorted((p for p in DOWNLOADS.iterdir()
-                        if p.suffix.lower() in (".tmp", ".glb") and p.name not in bad
+                        if p.suffix.lower() in (".tmp", ".glb", ".json") and p.name not in bad
                         and p.stat().st_mtime >= START), key=lambda p: p.stat().st_mtime)
         changed = False
         for p in files:
@@ -112,7 +112,9 @@ def main():
             mt = p.stat().st_mtime * 1000
             match = None
             for e in entries.values():
-                if e["r"] in placed or e.get("t") != tris:
+                t = e.get("t", 0)
+                fits = tris == t or (e.get("tp") == "quad" and t < tris <= 2 * t)  # quads become 2 triangles
+                if e["r"] in placed or not fits:
                     continue
                 if e.get("ts", 0) - 20000 <= mt and (match is None or e["ts"] > match["ts"]):
                     match = e

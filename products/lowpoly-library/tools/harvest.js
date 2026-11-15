@@ -119,7 +119,7 @@
     if (!JSON.stringify(t.result || {}).includes('colorMapUrl')) return;   // untextured
     const raw = [p.title, t.name, ci.objectPrompt].filter(Boolean).join(' ');
     const text = (raw + ' ' + (p.tags || []).join(' ')).toLowerCase();
-    const cl = classify(text, p.categories); if (!cl) return;
+    const cl = classify(raw.toLowerCase(), []) || classify(text, p.categories); if (!cl) return;  // tags are noisy: last
     if (tris > MAXTRIS[cl[0]]) return;
     const th = ci.thumbnails || {};
     cands[ref] = { r: ref, p: p.id, n: makeName(p.title || t.name || ci.objectPrompt, `${cl[1]}_${ref.slice(-6)}`), th: cl[0], sb: cl[1],
@@ -160,19 +160,28 @@
   async function downloadOne(c) {
     window.next.router.push('/posts/' + c.p);
     let ok = false;
-    for (let i = 0; i < 40; i++) { await sleep(500); if (location.pathname.includes(c.p) && facesShown() === c.t) { ok = true; break; } }
+    for (let i = 0; i < 60; i++) { await sleep(300); if (location.pathname.includes(c.p) && facesShown() === c.t) { ok = true; break; } }
     if (!ok) return 'faces ' + facesShown();
-    await sleep(600);
+    // Quad models: Meshy counts quads, the GLB has about twice as many triangles.
+    const topoEl = [...document.querySelectorAll('div,span')].find(e => e.childElementCount === 0 && e.textContent.trim() === 'Topology');
+    const tp = /quad/i.test((topoEl && topoEl.parentElement && topoEl.parentElement.innerText) || '') ? 'quad' : 'tri';
+    if (tp === 'quad' && c.t * 2 > MAXTRIS[c.th]) return 'quadbig';
     const b = document.querySelector('[data-testid=community-showcase-download-btn]'); if (!b) return 'nobtn';
     b.click();
     let d = null;
-    for (let i = 0; i < 10 && !d; i++) { await sleep(400); d = [...document.querySelectorAll('button')].find(x => (x.innerText || '').trim() === 'Download'); }
+    for (let i = 0; i < 15 && !d; i++) { await sleep(250); d = [...document.querySelectorAll('button')].find(x => (x.innerText || '').trim() === 'Download'); }
     if (!d) return 'nopop';
-    const fmt = [...document.querySelectorAll('button,span,div')].some(e => e.childElementCount === 0 && (e.textContent || '').trim() === 'glb');
-    if (!fmt) return 'notglb';
-    pending.push({ ...c, ts: Date.now() });
+    const cb = document.querySelector('[data-testid=download-format-btn]');
+    if (cb && cb.textContent.trim() !== 'glb') {
+      cb.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, pointerType: 'mouse', button: 0 })); cb.click(); await sleep(500);
+      const o = document.querySelector('[data-testid=download-format-option-glb]'); if (!o) return 'notglb';
+      o.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, pointerType: 'mouse' }));
+      o.dispatchEvent(new PointerEvent('pointerup', { bubbles: true, pointerType: 'mouse' })); o.click(); await sleep(400);
+    }
+    if (!cb || cb.textContent.trim() !== 'glb') return 'notglb';
+    pending.push({ ...c, tp, ts: Date.now() });
     d.click();
-    await sleep(4500);
+    await sleep(2500);
     const body = document.body.innerText;
     if (/upgrade to download|download limit|reached.*limit/i.test(body)) return 'limit';
     return 'ok';
@@ -184,6 +193,8 @@
       const queue = Object.values(cands).filter(c => !done[c.r]).sort((a, b) => (PRIO[a.th] - PRIO[b.th]) || (b.l - a.l));
       if (!queue.length) { if (hs.finished) break; await sleep(10000); continue; }
       const c = queue[0];
+      const rc = classify(c.n.replace(/_/g, ' ').toLowerCase(), []);   // older entries were sorted with tags first
+      if (rc) { c.th = rc[0]; c.sb = rc[1]; }
       let res;
       try { res = await downloadOne(c); } catch (e) { res = 'err ' + e; }
       done[c.r] = res; W('ll_done', done);

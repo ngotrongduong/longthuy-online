@@ -140,7 +140,7 @@
   }
 
   async function harvest() {
-    while (!hs.finished && !stopped()) {
+    while (!hs.finished && !stopped() && !S('ll_noharvest', false)) {   // ll_noharvest: the queue is long enough, leave the site's limits to the downloads
       if (hs.qi >= QUERIES.length) { hs.finished = true; break; }
       const q = QUERIES[hs.qi];
       const j = await getJSON(`${API}/community/posts?singleModel=true&pageSize=50&pageNum=${hs.page}&${q}`);
@@ -268,7 +268,7 @@
     hs2.kept++;
   }
   async function harvestSets() {
-    while (!hs2.finished && !stopped()) {
+    while (!hs2.finished && !stopped() && !S('ll_noharvest', false)) {
       if (hs2.qi >= QUERIES2.length) { hs2.finished = true; break; }
       const j = await getJSON(`${API}/community/posts?singleModel=true&pageSize=50&pageNum=${hs2.page}&${QUERIES2[hs2.qi]}`);
       const list = (j && j.code === 'OK' && j.result) || [];

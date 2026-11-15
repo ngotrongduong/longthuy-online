@@ -90,6 +90,9 @@ Research behind S3–S6, with sources: `research/2026-10-27-income-options.md`.
   - **Gate, 2026-11-16 (3 weeks):** keep it if Upwork has brought at least USD 20 net (paid, or funded in escrow
     on a signed contract). Otherwise Claude cancels the renewal before Nov 24, as the owner agreed on 2026-10-26,
     and the account drops to Basic; the Connects already bought stay usable for a year.
+  - **Outcome 2026-11-16: FAILED** (Upwork net USD 0: no contract, no payment, no escrow). Cancel decided. The
+    scheduled gate run at 09:00 could not click it: Upwork is signed out in both the app's built-in browser and
+    Chrome. Still to do before Nov 24: cancel the renewal (owner signs in, then any session cancels; or he cancels).
 
 ## Who does what
 

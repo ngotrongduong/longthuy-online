@@ -166,7 +166,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    of 11-16). Cancel the renewal before **Nov 24** (Upwork > Settings > Membership & Connects, downgrade to Basic
    at the end of the cycle; the Connects already held stay usable). Blocked: Upwork is signed out in the app's
    built-in browser. Owner: sign in to Upwork there (or cancel the renewal himself); then any session cancels it
-   and notes it in `PLAN.md` > Capital and the 2026-11-16 KPI row.
+   and notes it in `PLAN.md` > Capital and the 2026-11-16 KPI row. The scheduled gate run (11-16 09:00) found
+   Upwork signed out in Chrome too, so nothing was clicked; this item stays until the cancel is done.
 4. **Signed out on 11-16: Fiverr too.** Owner: sign in to Fiverr in the app's built-in browser (and pass the bot
    check on the G1 edit page). Then the G1 title change (item 2) and the week's numbers.
 5. **Creator Store, 11-16**: Tycoon Kit, Creature Pets and FX Kit purchasable (the FX Kit is back on sale, no

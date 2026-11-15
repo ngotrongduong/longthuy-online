@@ -73,8 +73,19 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      bosses and 6 mounts if this one sells.
    - S3e, 2026-11-10: Tripo's "Light Up Diwali" weekly challenge (`research/2026-11-10-tripo-diwali-challenge.md`):
      3 ChatGPT reference pictures (lotus diya, baby elephant, star lantern), 3 models in Tripo (H3.1, 30 credits
-     each); all 3 ENTERED on 11-10. Deadline about 14:45 UTC on 11-11; then check the rank and the email. Prize: USD 2
-     Tripo Cash at least (7 days: spend it on a model for a pack), 1,000 credits for ranks 4-10.
+     each); all 3 ENTERED on 11-10. RESULT (email 11-13): outside the top 10, so only USD 2 Tripo Cash. Tripo Cash is
+     NOT credits: it is money off a plan or credit pack at checkout, valid 7 days (until about 11-20), so it is worth
+     something only if the owner buys anyway. Lesson: without an audience to like the entries, a weekly challenge costs
+     ~90 credits and returns nothing usable; enter one only with a ready model that costs no new credits.
+   - S3e2, 2026-11-15: free-credit ways found (owner asked). Tripo: a survey email (11-11) gives 300 credits for
+     the account email (owner fills it; Claude does not enter his data in a form reached from an email link). Meshy:
+     support refunded 30 credits on 11-09 for the flat-slab task; "Get Free Credits" on the Subscriptions page
+     (Discord connect 100 once, 50 per featured model, share actions); Contributor Program through Discord (1,000
+     credits or a Pro month on acceptance). Both Discord routes need the owner's Discord account.
+     Done 11-15 (Meshy, Chrome): Discord was already connected (100/100); followed 5 creators = +100 (balance 583 ->
+     683). Left on Meshy's "Get Free Credits": G2 review 500 once (owner's G2 sign-in and his honest review), a social
+     link on the Meshy profile 50 once (e.g. his GitHub URL; owner's yes first), Share on X 40/day (no X account),
+     featured community posts 50 each (only models we will not sell), Contributor Program via Discord.
    - S3f, 2026-11-15: the owner asked to split the skills and the VFX library into small products and sell them on
      Roblox and other sites.
      - VFX: 44 pictures redrawn in code, 5 packs built and tested in Studio (104 stands, 0 warnings), listings and

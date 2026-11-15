@@ -121,7 +121,8 @@ def main():
             match = None
             for e in entries.values():
                 t = e.get("t", 0)
-                fits = tris == t or (e.get("tp") == "quad" and t < tris <= 2 * t)  # quads become 2 triangles
+                # quads become 2 triangles; for some quad models t already counts triangles
+                fits = tris == t or (e.get("tp") == "quad" and 0.8 * t <= tris <= 2 * t)
                 if e["r"] in placed or not fits:
                     continue
                 if e.get("ts", 0) - 20000 <= mt and (match is None or e["ts"] > match["ts"]):

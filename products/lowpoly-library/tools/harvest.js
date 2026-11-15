@@ -172,6 +172,8 @@
     const v = el && el.parentElement && el.parentElement.innerText.replace('Faces', '').replace(/[^0-9]/g, '');
     return v ? parseInt(v, 10) : -1;
   }
+  // The page shows faces; for some quad models the API counted triangles (about twice as many).
+  const fm = (f, t) => f === t || Math.abs(2 * f - t) <= t * 0.2;
   let loads = 0;
   async function downloadOne(c) {
     const w = TW(); if (!w) return 'nowin';
@@ -182,12 +184,12 @@
     if (!nav) { w.location.href = '/posts/' + c.p; loads = 0; }
     await sleep(1500);
     let ok = false, d = null;
-    for (let i = 0; i < 80; i++) { await sleep(300); d = tdoc(); let path = ''; try { path = w.location.pathname } catch (e) {} if (d && path.includes(c.p) && facesIn(d) === c.t) { ok = true; break; } }
+    for (let i = 0; i < 80; i++) { await sleep(300); d = tdoc(); let path = ''; try { path = w.location.pathname } catch (e) {} if (d && path.includes(c.p) && fm(facesIn(d), c.t)) { ok = true; break; } }
     if (!ok) { const d0 = tdoc(); return d0 && /403/.test(d0.title) ? 'blocked' : 'faces ' + facesIn(d0); }
     // Quad models: Meshy counts quads, the GLB has about twice as many triangles.
     const topoEl = [...d.querySelectorAll('div,span')].find(e => e.childElementCount === 0 && e.textContent.trim() === 'Topology');
     const tp = /quad/i.test((topoEl && topoEl.parentElement && topoEl.parentElement.innerText) || '') ? 'quad' : 'tri';
-    if (tp === 'quad' && c.t * 2 > MAXTRIS[c.th]) return 'quadbig';
+    if (tp === 'quad' && facesIn(d) * 2 > MAXTRIS[c.th]) return 'quadbig';
     const bt = d.querySelector('[data-testid=community-showcase-download-btn]'); if (!bt) return 'nobtn';
     bt.click();
     let dl = null;

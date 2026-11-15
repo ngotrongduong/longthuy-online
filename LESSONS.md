@@ -3,6 +3,25 @@
 Each Monday: the numbers, profit against spending, what worked, what did not and why, the lessons, and what changes
 next week. Keep each week short. Lessons that still hold go in "Standing lessons" at the bottom.
 
+## Review of 2026-11-16 (week Nov 9 – Nov 15)
+
+- **Numbers**: Fiverr and Upwork were both signed out in the app's built-in browser, so dashboards were not read.
+  Gmail: no Fiverr order or message, no Upwork client message, no offer. Upwork: 0 proposals all week (no strong
+  hourly fit), 7 old ones still submitted, 92 Connects at last count (11-13). Creator Store: Tycoon Kit, Creature
+  Pets and now the FX Kit (rejected on 11-08) all show purchasable; the 5 VFX packs of 11-15 are not public yet
+  (still in review). No sales mail.
+- **Profit against spending**: gross 0. November so far: -9.99 on own spending, -309.99 with the tools.
+- **What worked**: products keep piling up without spending money (3 on sale, 5 in review); the FX Kit came back
+  on sale without an appeal.
+- **What did not**: 3 weeks, 10 proposals, 0 opened on Upwork; 0 proposals this week because every strong fit was
+  fixed-price. The Fiverr G1 title change waited all week on the bot check, and now both sites are signed out.
+- **Why**: unattended runs cannot send fixed-price bids or pass sign-ins and bot checks; the services side needs the
+  owner's identity steps more than our work, and it has not paid.
+- **Lessons**: Upwork Plus did not earn its cost: cancel the renewal (gate failed, USD 0 net). The products side
+  needs no sign-ins once a pack is live, so it is where the unattended time should go; services stay on at no cost.
+- **Next week**: cancel Plus once Upwork is signed in again; Fiverr G1 title once Fiverr is signed in; check the 5 VFX
+  packs go on sale; keep Upwork bidding only on the Connects already held.
+
 ## Review of 2026-11-09 (week Nov 2 – Nov 8)
 
 - **Numbers**: Fiverr 21 impressions this week (G1 9, G2 12; 30-day totals 27 and 25), 0 clicks, 0 orders, no
@@ -72,3 +91,5 @@ next week. Keep each week short. Lessons that still hold go in "Standing lessons
 - Honesty about AI-assisted work is a filter, not a handicap: skip clients who forbid it.
 - Upwork with no history (2 weeks, 10 proposals, 0 opened): where the proposal sits counts, not the profile text.
   Bid early on posts with few proposals; fixed-price fits go out only from a live session.
+- Paid plans must earn back their cost by their gate date, or they go (Upwork Plus: 3 weeks, USD 0, cancelled).
+- Sign-ins expire in the built-in browser: each weekly round can lose its numbers. Products earn without them.

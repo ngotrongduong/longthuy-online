@@ -162,10 +162,15 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    - 2026-11-14: Upwork is signed out in the app's built-in browser (Proposals, Messages and Connects go to the
      login page). Owner: sign in to Upwork there again; until then the daily round can only search jobs, and the
      11-16 Plus gate cannot read the numbers.
-3. **2026-11-16: the Freelancer Plus gate** (in `PLAN.md` > Capital): Upwork net so far against USD 20; below it,
-   cancel the renewal before Nov 24. The Claude app's scheduled task `upwork-plus-gate` runs it at 09:00 that day
-   (the app must be open; otherwise it runs at next launch). If it has not run, do it in any session on or after
-   that date.
+3. **2026-11-16: the Freelancer Plus gate: FAILED** (Upwork net USD 0, needed 20; decided in the weekly round
+   of 11-16). Cancel the renewal before **Nov 24** (Upwork > Settings > Membership & Connects, downgrade to Basic
+   at the end of the cycle; the Connects already held stay usable). Blocked: Upwork is signed out in the app's
+   built-in browser. Owner: sign in to Upwork there (or cancel the renewal himself); then any session cancels it
+   and notes it in `PLAN.md` > Capital and the 2026-11-16 KPI row.
+4. **Signed out on 11-16: Fiverr too.** Owner: sign in to Fiverr in the app's built-in browser (and pass the bot
+   check on the G1 edit page). Then the G1 title change (item 2) and the week's numbers.
+5. **Creator Store, 11-16**: Tycoon Kit, Creature Pets and FX Kit purchasable (the FX Kit is back on sale, no
+   appeal needed); the 5 VFX packs of 11-15 not yet public. Next round: check them again.
 
 ## The owner, once
 

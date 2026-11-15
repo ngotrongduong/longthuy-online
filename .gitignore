@@ -28,6 +28,7 @@ products/vfx-packs/work/
 # Low-poly library: the downloaded models and the downloader state stay off the public repo
 products/lowpoly-library/models/
 products/lowpoly-library/_state/
+__pycache__/
 
 # Agent skills: the paid skill files and build scripts stay off the public repo
 products/agent-skills/dist/

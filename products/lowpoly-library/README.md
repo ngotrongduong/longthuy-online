@@ -30,12 +30,16 @@ Food, Tools_Items, SciFi_Tech); Characters; Animals; Vehicles.
 
 ## How it runs
 
-1. `tools/harvest.js` runs inside www.meshy.ai in Claude's browser pane (signed in as the owner). It walks the
-   public community list by tag and category, keeps the models above, then opens each one through the site's own
-   router and clicks its Download button (glb). Every 20 clicks it saves a small manifest file.
-   The code is stored in the page's localStorage (`ll_code`); after a page reload restart it with
-   `window.__ll=0; new Function('return '+localStorage.getItem('ll_code'))()`. Stop it with
-   `localStorage.setItem('ll_stop','true')`.
+1. `tools/harvest.js` runs inside a www.meshy.ai tab in the owner's Edge (signed in as the owner, automatic
+   downloads allowed for the site). It walks the public community list by tag and category, keeps the models
+   above, then loads each one in a separate download window and clicks its Download button (glb). The window does
+   a full page load per model, so memory is freed; the old way (one tab, site router) froze every 15-30 minutes.
+   Every 5 clicks the main tab saves a small manifest file.
+   Pop-ups are allowed for www.meshy.ai in Edge, so the script opens the download window itself, and replaces it
+   after 3 failures in a row. The code is stored in the page's localStorage (`ll_code`); the big lists live in
+   the page's IndexedDB. To (re)start, run
+   `window.__ll=0; new Function('return '+localStorage.getItem('ll_code'))()` (a newer start makes the older
+   loops quit). Stop it with `localStorage.setItem('ll_stop','true')`.
 2. `tools/sorter.py` (`python -I tools/sorter.py`, runs forever) watches `~/Downloads`: the pane saves each file as
    `<guid>.tmp`. A GLB is matched to its manifest entry by its triangle count, moved and renamed into its folder,
    its preview picture fetched, and a catalog row written.

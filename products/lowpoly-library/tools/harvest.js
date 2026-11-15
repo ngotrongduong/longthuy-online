@@ -1,14 +1,25 @@
-// Runs inside www.meshy.ai (Claude's browser pane, signed in). Paste once per full page load.
+// Runs inside a www.meshy.ai tab (signed in). Paste once per full page load; see README for the download window.
 // 1) Harvest: walks the public community list by tag and category, reads each model's task (triangles, licence,
 //    texture) and keeps CC0, textured, Roblox-sized models, named and sorted into a theme folder.
-// 2) Download: opens each kept model through the site's own router (no page reload) and clicks its
-//    Download button (format glb). Every 20 clicks it saves a manifest that tools/sorter.py reads.
-// State lives in localStorage: ll_seen, ll_cands, ll_done, ll_hstat, ll_dstat, ll_stop.
-(() => {
+// 2) Download: loads each kept model in the download window and clicks its Download button (format glb).
+//    Every 5 clicks it saves a manifest that tools/sorter.py reads.
+// State: ll_seen, ll_cands, ll_seen2 in IndexedDB 'll' (store 'kv'); ll_done, ll_hstat, ll_hstat2, ll_dstat,
+// ll_stop in localStorage.
+(async () => {
   if (window.__ll) return 'already running';
   window.__ll = 1;
-  const S = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d } catch (e) { return d } };
-  const W = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)) } catch (e) { console.warn('ll save', k, e) } };
+  // The big lists live in IndexedDB: localStorage holds only 5 MB.
+  const IDB = await new Promise((res, rej) => { const q = indexedDB.open('ll', 1); q.onupgradeneeded = () => q.result.createObjectStore('kv'); q.onsuccess = () => res(q.result); q.onerror = () => rej(q.error); });
+  const BIG = ['ll_seen', 'll_cands', 'll_seen2'];
+  const IC = {};
+  for (const k of BIG) IC[k] = await new Promise(r => { const g = IDB.transaction('kv').objectStore('kv').get(k); g.onsuccess = () => r(g.result); g.onerror = () => r(undefined); });
+  const S = (k, d) => { if (IC[k] !== undefined) return IC[k]; try { return JSON.parse(localStorage.getItem(k)) ?? d } catch (e) { return d } };
+  const W = (k, v) => {
+    try { if (BIG.includes(k)) IDB.transaction('kv', 'readwrite').objectStore('kv').put(v, k); else localStorage.setItem(k, JSON.stringify(v)); }
+    catch (e) { console.warn('ll save', k, e) }
+  };
+  const GEN = window.__llGen = (window.__llGen || 0) + 1;   // a newer start makes the loops of this one quit
+  const stopped = () => S('ll_stop', false) || window.__llGen !== GEN;
   const sleep = ms => new Promise(r => setTimeout(r, ms));
   const API = '/meshyd-api/web/public';
 
@@ -91,7 +102,7 @@
     for (const c of CATS) QUERIES.push(`categories=${c}&sortBy=${sort}`);
   }
 
-  const seen = new Set(S('ll_seen', []));
+  const seen = (() => { const s = new Set(S('ll_seen', []).map(k => k.slice(-12))); return { has: k => s.has(k.slice(-12)), add: k => s.add(k.slice(-12)), [Symbol.iterator]: () => s[Symbol.iterator]() }; })();  // last 12 chars only: storage is small
   const cands = S('ll_cands', {});
   const done = S('ll_done', {});
   const hs = S('ll_hstat', { qi: 0, page: 1, checked: 0, kept: 0, finished: false });
@@ -129,7 +140,7 @@
   }
 
   async function harvest() {
-    while (!hs.finished && !S('ll_stop', false)) {
+    while (!hs.finished && !stopped()) {
       if (hs.qi >= QUERIES.length) { hs.finished = true; break; }
       const q = QUERIES[hs.qi];
       const j = await getJSON(`${API}/community/posts?singleModel=true&pageSize=50&pageNum=${hs.page}&${q}`);
@@ -144,11 +155,6 @@
     saveH();
   }
 
-  function facesShown() {
-    const el = [...document.querySelectorAll('div,span')].find(e => e.childElementCount === 0 && e.textContent.trim() === 'Faces');
-    const v = el && el.parentElement && el.parentElement.innerText.replace('Faces', '').replace(/[^0-9]/g, '');
-    return v ? parseInt(v, 10) : -1;
-  }
   let pending = [];
   function saveManifest() {
     if (!pending.length) return;
@@ -157,39 +163,52 @@
     document.body.appendChild(a); a.click(); a.remove();
     pending = [];
   }
+  // The download window: opened by a real click (see README), it does a full page load per model, which frees
+  // the memory hundreds of 3D views pile up; this tab only drives it, so it no longer freezes.
+  const TW = () => (window.__TW && !window.__TW.closed) ? window.__TW : null;
+  const tdoc = () => { try { return TW().document } catch (e) { return null } };
+  function facesIn(d) {
+    const el = d && [...d.querySelectorAll('div,span')].find(e => e.childElementCount === 0 && e.textContent.trim() === 'Faces');
+    const v = el && el.parentElement && el.parentElement.innerText.replace('Faces', '').replace(/[^0-9]/g, '');
+    return v ? parseInt(v, 10) : -1;
+  }
   async function downloadOne(c) {
-    window.next.router.push('/posts/' + c.p);
-    let ok = false;
-    for (let i = 0; i < 60; i++) { await sleep(300); if (location.pathname.includes(c.p) && facesShown() === c.t) { ok = true; break; } }
-    if (!ok) return 'faces ' + facesShown();
+    const w = TW(); if (!w) return 'nowin';
+    w.location.href = '/posts/' + c.p;
+    await sleep(1500);
+    let ok = false, d = null;
+    for (let i = 0; i < 80; i++) { await sleep(300); d = tdoc(); let path = ''; try { path = w.location.pathname } catch (e) {} if (d && path.includes(c.p) && facesIn(d) === c.t) { ok = true; break; } }
+    if (!ok) return 'faces ' + facesIn(tdoc());
     // Quad models: Meshy counts quads, the GLB has about twice as many triangles.
-    const topoEl = [...document.querySelectorAll('div,span')].find(e => e.childElementCount === 0 && e.textContent.trim() === 'Topology');
+    const topoEl = [...d.querySelectorAll('div,span')].find(e => e.childElementCount === 0 && e.textContent.trim() === 'Topology');
     const tp = /quad/i.test((topoEl && topoEl.parentElement && topoEl.parentElement.innerText) || '') ? 'quad' : 'tri';
     if (tp === 'quad' && c.t * 2 > MAXTRIS[c.th]) return 'quadbig';
-    const b = document.querySelector('[data-testid=community-showcase-download-btn]'); if (!b) return 'nobtn';
-    b.click();
-    let d = null;
-    for (let i = 0; i < 15 && !d; i++) { await sleep(250); d = [...document.querySelectorAll('button')].find(x => (x.innerText || '').trim() === 'Download'); }
-    if (!d) return 'nopop';
-    const cb = document.querySelector('[data-testid=download-format-btn]');
+    const bt = d.querySelector('[data-testid=community-showcase-download-btn]'); if (!bt) return 'nobtn';
+    bt.click();
+    let dl = null;
+    for (let i = 0; i < 15 && !dl; i++) { await sleep(250); dl = [...d.querySelectorAll('button')].find(x => (x.innerText || '').trim() === 'Download'); }
+    if (!dl) return 'nopop';
+    const cb = d.querySelector('[data-testid=download-format-btn]');
     if (cb && cb.textContent.trim() !== 'glb') {
-      cb.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, pointerType: 'mouse', button: 0 })); cb.click(); await sleep(500);
-      const o = document.querySelector('[data-testid=download-format-option-glb]'); if (!o) return 'notglb';
-      o.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, pointerType: 'mouse' }));
-      o.dispatchEvent(new PointerEvent('pointerup', { bubbles: true, pointerType: 'mouse' })); o.click(); await sleep(400);
+      cb.dispatchEvent(new w.PointerEvent('pointerdown', { bubbles: true, pointerType: 'mouse', button: 0 })); cb.click(); await sleep(500);
+      const o = d.querySelector('[data-testid=download-format-option-glb]'); if (!o) return 'notglb';
+      o.dispatchEvent(new w.PointerEvent('pointerdown', { bubbles: true, pointerType: 'mouse' }));
+      o.dispatchEvent(new w.PointerEvent('pointerup', { bubbles: true, pointerType: 'mouse' })); o.click(); await sleep(400);
     }
     if (!cb || cb.textContent.trim() !== 'glb') return 'notglb';
     pending.push({ ...c, tp, ts: Date.now() });
-    d.click();
+    dl.click();
     await sleep(2500);
-    const body = document.body.innerText;
-    if (/upgrade to download|download limit|reached.*limit/i.test(body)) return 'limit';
+    if (/upgrade to download|download limit|reached.*limit/i.test(d.body.innerText)) return 'limit';
     return 'ok';
   }
   const signedIn = () => ![...document.querySelectorAll('a,button')].some(e => /^(Log In|Sign Up Free)$/.test((e.innerText || '').trim()));
   async function downloader() {
-    while (!S('ll_stop', false)) {
+    let fails = 0;
+    while (!stopped()) {
       if (!signedIn()) { ds.last = 'waiting for sign-in'; W('ll_dstat', ds); await sleep(15000); continue; }
+      if (!TW()) { window.__TW = window.open('/posts/01a1dc54-72bc-7763-89b8-08e26ad2cc6b', 'lldl', 'width=1200,height=900'); await sleep(5000); }   // pop-ups are allowed for the site
+      if (!TW()) { ds.last = 'waiting for download window'; W('ll_dstat', ds); await sleep(5000); continue; }
       const queue = Object.values(cands).filter(c => !done[c.r]).sort((a, b) => (PRIO[a.th] - PRIO[b.th]) || (b.l - a.l));
       if (!queue.length) { if (hs.finished) break; await sleep(10000); continue; }
       const c = queue[0];
@@ -199,6 +218,8 @@
       try { res = await downloadOne(c); } catch (e) { res = 'err ' + e; }
       done[c.r] = res; W('ll_done', done);
       if (res === 'ok') ds.ok++; else ds.fail++;
+      fails = res === 'ok' ? 0 : fails + 1;
+      if (fails >= 3) { try { TW().close() } catch (e) {} fails = 0; }   // a stuck window is replaced on the next turn
       ds.last = `${c.th}/${c.sb}/${c.n} ${res}`; W('ll_dstat', ds);
       if (res === 'limit') { saveManifest(); W('ll_stop', true); break; }
       if (pending.length >= 5) saveManifest();   // small batches: a frozen tab loses little
@@ -237,7 +258,7 @@
     hs2.kept++;
   }
   async function harvestSets() {
-    while (!hs2.finished && !S('ll_stop', false)) {
+    while (!hs2.finished && !stopped()) {
       if (hs2.qi >= QUERIES2.length) { hs2.finished = true; break; }
       const j = await getJSON(`${API}/community/posts?singleModel=true&pageSize=50&pageNum=${hs2.page}&${QUERIES2[hs2.qi]}`);
       const list = (j && j.code === 'OK' && j.result) || [];

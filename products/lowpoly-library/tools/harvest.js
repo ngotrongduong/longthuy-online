@@ -174,7 +174,7 @@
   }
   // The page shows faces; for some quad models the API counted triangles (1 to 2 per face).
   const fm = (f, t) => f === t || (f > 0 && f < t && t <= 2.2 * f);
-  let loads = 0;
+  let loads = 0, lastTitle = '';   // the title changes only when the new model's data is in
   async function downloadOne(c) {
     const w = TW(); if (!w) return 'nowin';
     // Site navigation inside the window, a full page load every 5 models: a page load per model made the
@@ -184,7 +184,8 @@
     if (!nav) { w.location.href = '/posts/' + c.p; loads = 0; }
     await sleep(1500);
     let ok = false, d = null;
-    for (let i = 0; i < 80; i++) { await sleep(300); d = tdoc(); let path = ''; try { path = w.location.pathname } catch (e) {} if (d && path.includes(c.p) && fm(facesIn(d), c.t)) { await sleep(1200); d = tdoc(); if (d && fm(facesIn(d), c.t)) { ok = true; break; } } }   // read twice: the last model's count can linger
+    for (let i = 0; i < 80; i++) { await sleep(300); d = tdoc(); let path = ''; try { path = w.location.pathname } catch (e) {} if (d && path.includes(c.p) && d.title !== lastTitle && fm(facesIn(d), c.t)) { await sleep(1200); d = tdoc(); if (d && fm(facesIn(d), c.t)) { ok = true; break; } } }   // read twice: the last model's count can linger
+    if (ok) lastTitle = d.title;
     if (!ok) { const d0 = tdoc(); return d0 && /403/.test(d0.title) ? 'blocked' : 'faces ' + facesIn(d0); }
     // Quad models: Meshy counts quads, the GLB has about twice as many triangles.
     const topoEl = [...d.querySelectorAll('div,span')].find(e => e.childElementCount === 0 && e.textContent.trim() === 'Topology');

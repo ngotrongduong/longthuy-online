@@ -20,7 +20,11 @@
   };
   const GEN = window.__llGen = (window.__llGen || 0) + 1;   // a newer start makes the loops of this one quit
   const stopped = () => S('ll_stop', false) || window.__llGen !== GEN;
-  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  // Timers run in a worker: when nobody uses the browser, Edge slows a page's own timers to about one a minute.
+  const TK = new Worker(URL.createObjectURL(new Blob(['onmessage=e=>setTimeout(()=>postMessage(e.data[0]),e.data[1])'], { type: 'text/javascript' })));
+  const TW8 = {}; let tkn = 0;
+  TK.onmessage = e => { const f = TW8[e.data]; delete TW8[e.data]; if (f) f(); };
+  const sleep = ms => new Promise(r => { const id = ++tkn; TW8[id] = r; TK.postMessage([id, ms]); });
   const API = '/meshyd-api/web/public';
 
   const RULES = [

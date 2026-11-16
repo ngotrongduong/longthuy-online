@@ -90,6 +90,8 @@ def main():
         for p in DOWNLOADS.iterdir():
             if p.suffix.lower() not in (".tmp", ".glb", ".json") or p.name in bad:
                 continue
+            if p.suffix.lower() == ".glb" and not p.name.startswith("Meshy_AI_"):
+                continue  # the owner's own downloads stay where they are
             try:
                 mtime = p.stat().st_mtime  # a browser temp file can vanish between listing and stat
             except OSError:

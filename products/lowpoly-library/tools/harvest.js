@@ -213,6 +213,8 @@
     pending.push({ ...c, tp, ts: Date.now() });
     dl.click();
     await sleep(2500);
+    // Meshy answers too many downloads with this message and no file
+    if (/Failed to download the model/i.test(d.body.innerText)) { pending.pop(); return 'dlfail'; }
     if (/upgrade to download|download limit|reached.*limit/i.test(d.body.innerText)) return 'limit';
     return 'ok';
   }
@@ -234,7 +236,7 @@
       if (okKeys.has(key)) { done[c.r] = 'dupe'; W('ll_done', done); continue; }
       let res;
       try { res = await downloadOne(c); } catch (e) { res = 'err ' + e; }
-      if (res === 'blocked') { ds.blocked = (ds.blocked || 0) + 1; ds.blocked_at = new Date().toTimeString().slice(0, 5); ds.last = 'blocked by the site (403), waiting 15 min'; W('ll_dstat', ds); try { TW().close() } catch (e) {} await sleep(900000); continue; }
+      if (res === 'blocked' || res === 'dlfail') { ds[res] = (ds[res] || 0) + 1; ds.blocked_at = new Date().toTimeString().slice(0, 5); ds.last = res + ' (too many downloads), waiting 15 min'; W('ll_dstat', ds); try { TW().close() } catch (e) {} await sleep(900000); continue; }
       Object.assign(done, S('ll_done', {}));   // union with what is stored: a restart's older loop may have saved too
       done[c.r] = res; W('ll_done', done);
       if (res === 'ok') { ds.ok++; okKeys.add(key); } else ds.fail++;

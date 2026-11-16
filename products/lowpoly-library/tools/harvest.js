@@ -219,6 +219,8 @@
   const signedIn = () => ![...document.querySelectorAll('a,button')].some(e => /^(Log In|Sign Up Free)$/.test((e.innerText || '').trim()));
   async function downloader() {
     let fails = 0;
+    // reposts of one model keep its name and triangle count: download one of them only
+    const okKeys = new Set(Object.values(cands).filter(c => done[c.r] === 'ok').map(c => c.n + '|' + c.t));
     while (!stopped()) {
       if (!signedIn()) { ds.last = 'waiting for sign-in'; W('ll_dstat', ds); await sleep(15000); continue; }
       if (!TW()) { window.__TW = window.open('/posts/01a1dc54-72bc-7763-89b8-08e26ad2cc6b', 'lldl', 'width=1200,height=900'); await sleep(5000); }   // pop-ups are allowed for the site
@@ -228,12 +230,14 @@
       const c = queue[0];
       const rc = classify(c.n.replace(/_/g, ' ').toLowerCase(), []);   // older entries were sorted with tags first
       if (rc && c.th !== 'Sets') { c.th = rc[0]; c.sb = rc[1]; }
+      const key = c.n + '|' + c.t;
+      if (okKeys.has(key)) { done[c.r] = 'dupe'; W('ll_done', done); continue; }
       let res;
       try { res = await downloadOne(c); } catch (e) { res = 'err ' + e; }
       if (res === 'blocked') { ds.blocked = (ds.blocked || 0) + 1; ds.blocked_at = new Date().toTimeString().slice(0, 5); ds.last = 'blocked by the site (403), waiting 15 min'; W('ll_dstat', ds); try { TW().close() } catch (e) {} await sleep(900000); continue; }
       Object.assign(done, S('ll_done', {}));   // union with what is stored: a restart's older loop may have saved too
       done[c.r] = res; W('ll_done', done);
-      if (res === 'ok') ds.ok++; else ds.fail++;
+      if (res === 'ok') { ds.ok++; okKeys.add(key); } else ds.fail++;
       fails = res === 'ok' ? 0 : fails + 1;
       if (fails >= 3) { try { TW().close() } catch (e) {} fails = 0; }   // a stuck window is replaced on the next turn
       ds.last = `${c.th}/${c.sb}/${c.n} ${res}`; W('ll_dstat', ds);

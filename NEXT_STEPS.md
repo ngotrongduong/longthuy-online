@@ -90,6 +90,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      automatic daily work without being reminded. Done: scheduled task `free-credits-daily` (13:15 daily; Meshy Share
      on X from the owner's X, Tripo weekly Feature My Model +40, credit emails); sources and log in
      `research/free-credits-log.md`.
+   - S3e3, 2026-11-16: Tripo MegaJam code redeemed (owner's yes): +3,000 Tripo credits (1,065 -> 4,065) that EXPIRE
+     2026-11-23. Spend them before then on models for the next Roblox packs (about 100 text-to-model runs at 30
+     each); unused ones are lost. The owner's paid Pro plan is unchanged (renews 2026-12-09).
    - S3f, 2026-11-15: the owner asked to split the skills and the VFX library into small products and sell them on
      Roblox and other sites.
      - VFX: 44 pictures redrawn in code, 5 packs built and tested in Studio (104 stands, 0 warnings), listings and

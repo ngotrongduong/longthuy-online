@@ -245,7 +245,8 @@
       ds.last = `${c.th}/${c.sb}/${c.n} ${res}`; W('ll_dstat', ds);
       if (res === 'limit') { saveManifest(); W('ll_stop', true); break; }
       if (pending.length >= 5) saveManifest();   // small batches: a frozen tab loses little
-      await sleep(2000);   // a gentler pace for the site
+      // Meshy refuses downloads after ~44 in a few minutes: ~20 s per download stays under it
+      await sleep(res === 'ok' ? 12000 : 2000);
     }
     saveManifest();
   }

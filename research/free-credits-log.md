@@ -29,6 +29,15 @@ Tripo (studio.tripo3d.ai/creator-growth#rewards):
   prefilled by Tripo. Posting on X from the owner's account: Claude's tools refuse to press Post by themselves
   (2026-11-15), so the post is left open and the owner presses Post, unless he gives a standing yes that the tool accepts.
 
+Checked 2026-11-16 (Discord itself is signed out in Chrome, and the Discord desktop app is hidden from Claude's
+screen tools, so the check used the platforms' pages and the web):
+- Meshy Loyalty Credits (meshy.ai/loyalty-credits): monthly plans only; our Pro Yearly plan is not eligible.
+- Meshy MegaJam perk: a NEW account with a credit card, so no.
+- Tripo MegaJam perk (worlds.tripo3d.ai/epicaimegajam2026promotion): 3,000 credits + 7 days Pro, form asks first
+  and last name, email, role, a privacy-notice tick; redeem by Nov 16 PT in Upgrade > Redeem Code. Meant for
+  registered jammers (we did not join the jam); the form does not check it. Owner's call.
+- Weekly challenges on both platforms pay only the top 10 (needs real likes): skipped unless a theme fits a pack.
+
 ## Log
 
 | Date | Meshy balance | Tripo balance | Claimed | Notes |

@@ -35,7 +35,8 @@ screen tools, so the check used the platforms' pages and the web):
 - Meshy MegaJam perk: a NEW account with a credit card, so no.
 - Tripo MegaJam perk (worlds.tripo3d.ai/epicaimegajam2026promotion): 3,000 credits + 7 days Pro, form asks first
   and last name, email, role, a privacy-notice tick; redeem by Nov 16 PT in Upgrade > Redeem Code. Meant for
-  registered jammers (we did not join the jam); the form does not check it. Owner's call.
+  registered jammers (we did not join the jam); the form does not check it. Owner said yes 11-16: claimed
+  (code mail lands in Gmail SPAM from events@vastai3d.com, link crm.tripolabs.com/claim).
 - Weekly challenges on both platforms pay only the top 10 (needs real likes): skipped unless a theme fits a pack.
 
 ## Log
@@ -47,4 +48,5 @@ screen tools, so the check used the platforms' pages and the web):
 | 2026-11-15 | 733 | 1,035 -> 1,065 | Tripo referral share: owner pressed Post, +30 | Tripo X share counted |
 | 2026-11-15 | 733 | 995, EXP 355 -> 400 | Tripo EXP: follow +10, like +5, profile bio +10, Segmentation +10 (40 credits, phoenix), daily generation (30 credits, prop 1: treasure chest) | Lv2 at 500 EXP |
 | 2026-11-15 | 733 | 1,035 | Tripo referral share prepared (+30 when posted) | X post with Tripo's prefilled text left open in the owner's Chrome; the tool refused to press Post |
+| 2026-11-16 | 733 | 1,065 -> 4,065 | Tripo MegaJam code: +3,000 credits (expire 2026-11-23) | Owner's yes; form with his name and email; Pro plan unchanged (renews 12-09). Meshy Loyalty: not for yearly plans |
 | 2026-11-16 | 733 (540 expire Dec 7) | 1,055 -> 1,065, EXP 410 -> 420/500 (Lv1) | Tripo: referral share posted on X (+30); daily generation (30 credits, +10 EXP, prop 2: potion bottles); weekly Feature My Model + Submit Simultaneously (+40, model "low-poly pony 3d model"). Meshy: X share posted (Crystal Slime Citadel, pays 10 per click, 0/40 so far) | X posts today: 2 (Tripo referral, Meshy share), the tool pressed Post itself today. X rejects a repeat of the identical Tripo text ("You already said that") - one Tripo share a day is the most. Meshy shared models: Crystal Slime Citadel. Gmail: no survey; USD 2 Tripo Cash (Diwali reward, issued 11-13, valid 7 days) unused by rule. Events (Three-Body warships to 11-25, Sea of Generation to 12-13, Agentic Canvas to 11-28) need new themed models: skipped. A leftover X compose tab (duplicate Tripo text, unsent) may still be open: close it without posting |

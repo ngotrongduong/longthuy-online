@@ -60,6 +60,12 @@ def load_json(p, default):
 def save_json(p, v):
     tmp = p.with_suffix(".part")
     tmp.write_text(json.dumps(v), encoding="utf-8")
+    for i in range(20):  # the watchdog or a virus scan can hold the file open for a moment
+        try:
+            tmp.replace(p)
+            return
+        except PermissionError:
+            time.sleep(0.5)
     tmp.replace(p)
 
 

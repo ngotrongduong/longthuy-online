@@ -179,6 +179,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    violation of Roblox Community Standards" (Appeal button), toolbox purchasable=false; nothing saved or appealed.
    The FX Kit had the same message on 11-08 and came back by itself, so wait 2-3 days; if still rejected, a live
    session opens one pack in Studio to find the moderated image or script, fixes it, or appeals.
+   2026-11-17 daily round: toolbox API unchanged: Tycoon Kit, Creature Pets and FX Kit purchasable; the 5 VFX
+   packs still purchasable=false (day 2 of the wait). Upwork still signed out in the app's built-in browser.
 
 ## The owner, once
 

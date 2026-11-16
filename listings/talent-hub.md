@@ -61,6 +61,7 @@ quoted apart. Passed over: map builders, game sales, R6 animators (Robux), "[HIR
 2026-11-13: no reply on either job (both Open, notifications "all caught up"); no new application (newest USD commissions: Ashen Frontier character/equipment artist at 1,000 for an open-ended list, a 3D environment artist at 3,000 for six realistic PvP monuments wanting a building portfolio we lack, and the same game sales, investor posts and map builders).
 2026-11-14: no reply on either job (both Open, notifications "all caught up"); no new application (newest USD commissions: "Selling Chop A Tree" game sale, and the same Ashen Frontier artist post, six-monument environment artist, game sales, investor posts and map builders).
 2026-11-16: no reply on either job (both Open, notifications "all caught up"); no new application.
+2026-11-17: no reply on either job (both Open, notifications "all caught up"); no new application (newest USD commissions: DT Studios "game scouts" on commission, game sales "fish for lucky eggs" and Chop A Tree, and the same Ashen Frontier artist post, six-monument environment artist, game sales and investor posts).
 
 Seen and passed over on 2026-10-27: Soviet elevator building (no budget, art-heavy), football system (wants prior
 football systems), full-time programmer at USD 1,500–2,000 a month (one person's full-time hours), and the posts

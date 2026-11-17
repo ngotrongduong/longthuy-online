@@ -15,6 +15,7 @@ import struct
 import sys
 import time
 import urllib.request
+import zipfile
 from pathlib import Path
 
 DOWNLOADS = Path.home() / "Downloads"
@@ -72,6 +73,25 @@ def save_json(p, v):
         print("save failed", p.name, ex, flush=True)
 
 
+def unzip_glb(z):
+    """Some Meshy models download as a .zip: put its GLB beside it (same save time) and keep the zip in _zips/."""
+    try:
+        with zipfile.ZipFile(z) as zf:
+            glbs = [i for i in zf.infolist() if i.filename.lower().endswith(".glb")]
+            if glbs:
+                big = max(glbs, key=lambda i: i.file_size)
+                out = DOWNLOADS / f"{z.stem}.glb"   # our own name, never the member's path
+                out.write_bytes(zf.read(big))
+                os.utime(out, (z.stat().st_mtime, z.stat().st_mtime))
+    except (zipfile.BadZipFile, OSError):
+        return  # still downloading
+    (ROOT / "_zips").mkdir(exist_ok=True)
+    dest, i = ROOT / "_zips" / z.name, 2
+    while dest.exists():
+        dest, i = ROOT / "_zips" / f"{z.stem}_{i}.zip", i + 1
+    z.replace(dest)
+
+
 def unique_path(folder, stem):
     p = folder / f"{stem}.glb"
     i = 2
@@ -90,6 +110,12 @@ def main():
     new_catalog = not CATALOG.exists()
     while True:
         found = []
+        for z in DOWNLOADS.glob("Meshy_AI_*.zip"):
+            try:
+                if z.stat().st_mtime >= START and time.time() - z.stat().st_mtime > 10:
+                    unzip_glb(z)
+            except OSError:
+                pass
         for p in DOWNLOADS.iterdir():
             if p.suffix.lower() not in (".tmp", ".glb", ".json") or p.name in bad:
                 continue

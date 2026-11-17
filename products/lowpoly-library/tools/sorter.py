@@ -66,7 +66,10 @@ def save_json(p, v):
             return
         except PermissionError:
             time.sleep(0.5)
-    tmp.replace(p)
+    try:  # a held file can often still be written in place
+        p.write_text(json.dumps(v), encoding="utf-8")
+    except OSError as ex:  # the state stays in memory; the next save writes it
+        print("save failed", p.name, ex, flush=True)
 
 
 def unique_path(folder, stem):

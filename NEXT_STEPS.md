@@ -181,6 +181,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    session opens one pack in Studio to find the moderated image or script, fixes it, or appeals.
    2026-11-17 daily round: toolbox API unchanged: Tycoon Kit, Creature Pets and FX Kit purchasable; the 5 VFX
    packs still purchasable=false (day 2 of the wait). Upwork still signed out in the app's built-in browser.
+   2026-11-18 daily round: toolbox API unchanged (the 3 kits purchasable; the 5 VFX packs purchasable=false,
+   hasScripts=false, day 3). The wait is over: a live session opens one pack in Studio, finds what moderation
+   took out, fixes it or appeals. Upwork still signed out in the app's built-in browser.
 
 ## The owner, once
 

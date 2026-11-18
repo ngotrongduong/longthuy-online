@@ -9,6 +9,7 @@ Each model is written to <out dir>/<Theme>/<Sub>/<file>.glb with:
   maps Roblox builds a SurfaceAppearance that shows some models grey from most angles.
 build_pack.py uses prepare() to put many models in one file.
 """
+import math
 import sys
 from pathlib import Path
 
@@ -78,6 +79,31 @@ def prepare(path):
             img.scale(max(1, w * TEX // max(w, h)), max(1, h * TEX // max(w, h)))
             img.pack()
     return o, dims, k
+
+
+def stand(o, lie_flat=False):
+    """Turns a model so a pack of them looks tidy: a long thin one (blade, staff) stands up along its length, or with
+    lie_flat (guns, bombs, cannons) lies along X; then its thinnest side faces -Y (a shield shows its face, a tank its
+    side), by the smaller of the two turns so a model that faced front still does. Bottom centre stays at its origin."""
+    def coords():
+        co = np.empty(len(o.data.vertices) * 3)
+        o.data.vertices.foreach_get("co", co)
+        return co.reshape(-1, 3)
+    co = coords()
+    val, vec = np.linalg.eigh(np.cov((co - co.mean(0)).T))
+    axis = Vector(vec[:, 2])
+    if val[2] > 6 * val[1]:
+        up = Vector((1 if axis.x >= 0 else -1, 0, 0)) if lie_flat else Vector((0, 0, 1 if axis.z >= 0 else -1))
+        o.data.transform(axis.rotation_difference(up).to_matrix().to_4x4())
+    xy = coords()[:, :2]
+    val2, vec2 = np.linalg.eigh(np.cov((xy - xy.mean(0)).T))
+    thin = vec2[:, 0]
+    turn = (math.pi / 2 - math.atan2(thin[1], thin[0]) + math.pi / 2) % math.pi - math.pi / 2
+    o.data.transform(Matrix.Rotation(turn, 4, "Z"))
+    co = coords()
+    lo, hi = co.min(0), co.max(0)
+    o.data.transform(Matrix.Translation(-Vector(((lo[0] + hi[0]) / 2, (lo[1] + hi[1]) / 2, lo[2]))))
+    o.data.update()
 
 
 def export(objs, dest):

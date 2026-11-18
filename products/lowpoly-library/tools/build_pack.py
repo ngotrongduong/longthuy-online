@@ -14,7 +14,7 @@ from pathlib import Path
 import bpy
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from roblox_ready import export, prepare
+from roblox_ready import export, prepare, stand
 
 ROOT = Path(__file__).resolve().parent.parent
 PACK = sys.argv[sys.argv.index("--") + 1]
@@ -30,6 +30,7 @@ x = y = row_depth = 0.0
 for n, rel in enumerate(files):
     r = row_of[rel.replace("\\", "/")]
     o, dims, k = prepare(ROOT / "models" / rel)
+    stand(o, lie_flat=PACK.split("_")[0] in ("guns", "explosives", "artillery"))
     name = given.get(rel) or re.sub(r"\s+", " ", r["name"].replace("_", " ")).strip().title()
     seen[name] = seen.get(name, 0) + 1
     if seen[name] > 1:

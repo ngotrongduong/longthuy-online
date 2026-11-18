@@ -39,6 +39,20 @@ screen tools, so the check used the platforms' pages and the web):
   (code mail lands in Gmail SPAM from events@vastai3d.com, link crm.tripolabs.com/claim).
 - Weekly challenges on both platforms pay only the top 10 (needs real likes): skipped unless a theme fits a pack.
 
+Found 2026-11-18 (owner's list), checked where Claude could:
+- Tripo API (developers.tripo3d.ai, the old platform.tripo3d.ai): already signed in with the owner's account. API
+  credits are billed apart from Studio (the FAQ says a Studio plan does not cover the API); balance 0.00, no key yet.
+  The 2024 "2,000 free credits for a first API key" is not shown anywhere on the Billing or API Keys pages, so it may
+  be gone; creating the first key is the only test. Creating a key needs the owner's yes; the key is stored on this
+  PC only (outside the repo), never in git. Pricing 1 credit = USD 0.01; text to 3D 10-20 credits.
+- Meshy Contributor Program (Discord): 1,000 credits or a Pro month for an accepted project. Needs the owner's Discord.
+- Tripo Creator Program: post a work in #creator-showcase on Tripo's Discord, cash per accepted work (rate not
+  public) plus USD 5 per referral, paid monthly from USD 50. Needs the owner's Discord.
+- Meshy Earn: cash per view of videos on the owner's TikTok/YouTube/X, paid by PayPal. Only if he will post videos.
+- Affiliates (Tripo 30%, Meshy 20% of referred subscriptions for 12 months): not now, we have no audience.
+- Tripo Game Hub (5,000 + 10,000 credits): only for games made on Tripo Game Hub; using them for Roblox packs breaks
+  its terms, so no.
+
 ## Contests entered
 
 Owner's order 2026-11-17: check Gmail, the Meshy and Tripo sites (and their Discord) for contests and enter them.

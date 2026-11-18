@@ -25,7 +25,7 @@ IP = re.compile(r"\b(pokemon|pok[eé]mon|pikachu|charizard|eevee|vulpix|bulbasau
                 r"undertale|hollow knight|terraria|witcher|skyrim|elden ring|megaman|mega man|street fighter|"
                 r"mortal kombat|overwatch|valorant|ghostface|pennywise|chucky|xenomorph|terminator|robocop|"
                 r"ghostbusters|scooby|garfield|snoopy|smurf|peppa|bluey|paw patrol|labubu|skibidi|toji|gojo|"
-                r"jujutsu|tanjiro|nezuko|demon slayer|sydney opera|animal crossing|lilo)\b")
+                r"jujutsu|tanjiro|nezuko|demon slayer|sydney opera|animal crossing|lilo|subway surfers)\b")
 LIMIT = 20000                                    # Roblox's limit for one mesh
 MAX = {"Weapons": 10000, "Props": 10000}         # the library keeps small things lighter; others LIMIT
 

@@ -112,6 +112,14 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      `products/lowpoly-library/README.md`. Models land in `products/lowpoly-library/models/` (git-ignored) with
      `catalog.csv`. Meshy allows one signed-in session: if the pane is signed out, the owner signs in again there,
      then a session restarts the in-page script (one line, in the README) and `tools/sorter.py`.
+     2026-11-18: the owner paused downloading (Meshy's daily cap; 617 queued models left) and asked for the tidy-up.
+     Done: whole library re-sorted (`tools/resort.py`), Sets split or reduced in Blender (`tools/split_sets.py`),
+     split parts named by eye. Library: 10,745 GLBs, each at most 20k triangles, catalog complete; held back in
+     `models/_Review/` (IP_Risk 131, Over_20k 9, Unclassified 67).
+     Next: the Studio import test. Blocked on the owner: Studio > Assistant settings > MCP Permissions, approve
+     the upload directory `C:\Ai kiem tien\products\lowpoly-library\models` (Open Cloud upload refused it). Then
+     upload a sample per theme as private Models, insert into StudioTest.rbxl, check size, facing, pivot and look;
+     then build the first packs.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

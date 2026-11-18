@@ -7,9 +7,9 @@ i=0
 while true; do
   age=$(( $(date +%s) - $(stat -c %Y "$PLACED") ))
   n=$(grep -o '": "' "$PLACED" 2>/dev/null | wc -l)
-  if [ "$age" -gt 1200 ]; then
+  if [ "$age" -gt 1200 ] && [ $((i % 15)) -eq 0 ]; then   # every 30 minutes while stalled
     echo "STALL: no download for $((age / 60)) min, library at $n models"
-  elif [ $((i % 15)) -eq 0 ]; then
+  elif [ "$age" -le 1200 ] && [ $((i % 15)) -eq 0 ]; then
     echo "progress: $n models in library"
   fi
   i=$((i + 1))

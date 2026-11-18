@@ -32,6 +32,7 @@ products/lowpoly-library/_dupes/
 products/lowpoly-library/_unsorted/
 products/lowpoly-library/_zips/
 products/lowpoly-library/_originals/
+products/lowpoly-library/_ready/
 __pycache__/
 
 # Agent skills: the paid skill files and build scripts stay off the public repo

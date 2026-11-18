@@ -3,7 +3,8 @@
 The browser pane saves every download into ~/Downloads as <guid>.tmp. Two kinds arrive:
 - a manifest (JSON starting with {"llManifest") that the in-page downloader saves now and then: the list of
   models it clicked Download on, with name, theme, folder and triangle count;
-- a GLB model. Its triangle count, read from the file, picks its manifest entry (same count, clicked just before).
+- a GLB model. A named Meshy_AI_*.glb is matched by the Meshy id in Edge's download record of that file; a
+  <guid>.tmp has no record and is matched by triangle count to an entry clicked in the 10 minutes before it.
 
 A matched GLB goes to models/<Theme>/<Sub>/<Name>_<tris>t.glb with its preview picture (.png) beside it and one
 row in models/catalog.csv. Runs forever; run with: python -I sorter.py
@@ -11,6 +12,9 @@ row in models/catalog.csv. Runs forever; run with: python -I sorter.py
 import csv
 import json
 import os
+import re
+import shutil
+import sqlite3
 import struct
 import sys
 import time
@@ -101,6 +105,33 @@ def unique_path(folder, stem):
     return p
 
 
+UUID = re.compile(r"/converted/([0-9a-f-]{36})/")
+
+
+def edge_tasks():
+    """Saved file path -> Meshy id in its download link (uploads/converted/<id>/...), from Edge's download records
+    only (not the browsing history). Edge keeps History open, so a copy is read and deleted."""
+    out = {}
+    for hist in (Path(os.environ["LOCALAPPDATA"]) / "Microsoft" / "Edge" / "User Data").glob("*/History"):
+        tmp = STATE / "edge_history_copy"
+        try:
+            shutil.copyfile(hist, tmp)
+            con = sqlite3.connect(tmp)
+            rows = con.execute(
+                "SELECT d.target_path, (SELECT url FROM downloads_url_chains c WHERE c.id = d.id "
+                "ORDER BY chain_index DESC LIMIT 1) FROM downloads d WHERE d.target_path LIKE '%Meshy_AI_%'").fetchall()
+            con.close()
+        except (OSError, sqlite3.Error):
+            continue
+        finally:
+            tmp.unlink(missing_ok=True)
+        for path, url in rows:
+            m = UUID.search(url or "")
+            if m:
+                out[os.path.normcase(path)] = m.group(1)
+    return out
+
+
 def main():
     STATE.mkdir(parents=True, exist_ok=True)
     MODELS.mkdir(parents=True, exist_ok=True)
@@ -128,7 +159,7 @@ def main():
             if mtime >= START:
                 found.append((mtime, p))
         files = [p for _, p in sorted(found)]
-        changed = False
+        changed, edge = False, None
         for p in files:
             try:
                 with open(p, "rb") as f:
@@ -156,16 +187,29 @@ def main():
                 continue
             mt = p.stat().st_mtime * 1000
             match = None
-            for e in entries.values():
-                t = e.get("t", 0)
-                # quads become 2 triangles; for some quad models t already counts triangles
-                fits = tris == t or (e.get("tp") == "quad" and 0.8 * t <= tris <= 2.2 * t)
-                if e["r"] in placed or not fits:
-                    continue
-                if e.get("ts", 0) - 20000 <= mt and (match is None or e["ts"] > match["ts"]):
-                    match = e
+            if p.suffix.lower() == ".glb":
+                # a named download: Edge's record says which model it is; guessing by triangle count put
+                # thousands of files under another model's name (2026-11-18)
+                if edge is None:
+                    edge = edge_tasks()
+                # a GLB taken out of a zip: the record is the zip's
+                u = edge.get(os.path.normcase(str(p))) or edge.get(os.path.normcase(str(p.with_suffix(".zip"))))
+                match = entries.get(u) or next((e for e in entries.values() if e["p"] == u), None)
+                if match and match["r"] in placed:
+                    match = None
+            else:
+                # a <guid>.tmp from the browser pane has no record: same triangle count, clicked in the last
+                # 10 minutes (an older click is a failed download, not this file)
+                for e in entries.values():
+                    t = e.get("t", 0)
+                    # quads become 2 triangles; for some quad models t already counts triangles
+                    fits = tris == t or (e.get("tp") == "quad" and 0.8 * t <= tris <= 2.2 * t)
+                    if e["r"] in placed or not fits:
+                        continue
+                    if mt - 600000 <= e.get("ts", 0) <= mt + 20000 and (match is None or e["ts"] > match["ts"]):
+                        match = e
             if match is None:
-                continue  # its manifest has not arrived yet
+                continue  # its manifest or its download record has not arrived yet
             folder = MODELS / match["th"] / match["sb"]
             folder.mkdir(parents=True, exist_ok=True)
             dest = unique_path(folder, f'{match["n"]}_{tris}t')

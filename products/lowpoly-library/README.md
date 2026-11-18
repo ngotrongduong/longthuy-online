@@ -48,6 +48,18 @@ unpacked).
   pivot at its bottom centre. The originals stay in `_originals/sets/`.
 - All of them: dry run first, `--apply` to do it, with the sorter stopped. `tools/rules.py` holds the naming and
   theme rules they share.
+- Labels repaired 2026-11-18: the old sorter matched files by triangle count alone and gave about 3,500 files
+  another model's name, folder, cover and credits (a "dragon" was a mug). Each file's true model was found from
+  Edge's download records (same byte size and save time; the link holds the Meshy id) and its row, name, folder
+  and cover were fixed; the moves are in `_state/relabel_log.csv`. About 40 split parts and 65 files without a
+  record keep their old credits.
+
+## Making a pack for Roblox
+
+`tools/roblox_ready.py` (in Blender: `blender -b --factory-startup -P tools/roblox_ready.py -- <out dir> <glb...>`)
+writes copies ready for Roblox: textures cut to 1024 px (Meshy ships 4K, up to 80 MB a file; Roblox's upload limit
+is 20 MB), a real size in studs per folder (characters 5.5 tall, swords 4.5 long, trees and nature 6, buildings 30,
+...; Meshy makes everything about 2 units and Roblox reads 1 unit as 1 stud), pivot at the bottom centre.
 
 ## How it runs
 
@@ -62,11 +74,14 @@ unpacked).
    `window.__ll=0; new Function('return '+localStorage.getItem('ll_code'))()` (a newer start makes the older
    loops quit). Stop it with `localStorage.setItem('ll_stop','true')`.
 2. `tools/sorter.py` (`python -I tools/sorter.py`, runs forever) watches `~/Downloads`: the pane saves each file as
-   `<guid>.tmp`. A GLB is matched to its manifest entry by its triangle count, moved and renamed into its folder,
-   its preview picture fetched, and a catalog row written.
+   `<guid>.tmp`. A named `Meshy_AI_*.glb` is matched by the Meshy id in Edge's download record of that file; a
+   `<guid>.tmp` (no record) by triangle count to an entry clicked in the 10 minutes before. Then it is moved and
+   renamed into its folder, its preview picture fetched, and a catalog row written.
 
 Notes:
 - Meshy allows one signed-in session. Signing in elsewhere signs the pane out; the downloader then waits.
 - Names come from the Meshy title or prompt (first words, filler removed); some are Spanish or odd and get fixed
   when a pack is curated.
-- Nothing here is tested in Roblox Studio yet. Before a pack is sold: import, check scale, facing, pivot and look.
+- Studio test 2026-11-18 (test place only): a GLB uploads as a Model and imports as one textured MeshPart with its
+  pivot at the bottom. Raw library files are about 2 studs and too heavy; `roblox_ready.py` fixes both. Uploads work
+  through the Studio instance where the owner allowed the folder (Assistant Settings -> MCP Permissions).

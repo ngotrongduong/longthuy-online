@@ -116,10 +116,16 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      Done: whole library re-sorted (`tools/resort.py`), Sets split or reduced in Blender (`tools/split_sets.py`),
      split parts named by eye. Library: 10,745 GLBs, each at most 20k triangles, catalog complete; held back in
      `models/_Review/` (IP_Risk 131, Over_20k 9, Unclassified 67).
-     Next: the Studio import test. Blocked on the owner: Studio > Assistant settings > MCP Permissions, approve
-     the upload directory `C:\Ai kiem tien\products\lowpoly-library\models` (Open Cloud upload refused it). Then
-     upload a sample per theme as private Models, insert into StudioTest.rbxl, check size, facing, pivot and look;
-     then build the first packs.
+     Studio test done the same day (owner allowed `C:\Ai kiem tien` for uploads in the Slime Studio instance; only
+     uploads go through it, the Slime place is never touched; inserts in StudioTest.rbxl, folder `LPReady`). It
+     showed ~3,500 files carried another model's name (the old sorter guessed by triangle count): all relabelled
+     from Edge's download records, `sorter.py` now matches by the Meshy id in the download link. Library after:
+     10,739 GLBs, catalog consistent, `_Review` IP_Risk 112, Over_20k 2, Unclassified 4, Sets 12. Raw files are
+     ~2 studs and up to 80 MB: `tools/roblox_ready.py` makes pack copies (studs per folder, 1024 colour map only,
+     pivot at the bottom); 8 samples (sword, robot, dragon, tree, cottage, airship, fairy cat, rifle) import right.
+     Still to fix: 72 weapons/props over 10k triangles after the relabel (under 20k, Roblox-fine); ~40 split parts
+     and 65 files keep old credits. Next: pick the first pack (best-liked models of one theme), run
+     roblox_ready.py on it, check it in StudioTest, write the listing.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

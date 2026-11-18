@@ -41,7 +41,13 @@ unpacked).
 - `tools/resort.py` re-sorts the whole library from the names with harvest.js's RULES (the last word wins, describing
   words such as stone or gold lose, a folder that still fits the name stays), fills the catalog, and writes its moves
   to `_state/resort_moves.csv`. It can be run again any time; a second run moves nothing.
-- All three: dry run first, `--apply` to do it, with the sorter stopped.
+- `tools/split_sets.py` (inside Blender 5.2: `blender -b --factory-startup -P tools/split_sets.py -- [--apply]`)
+  empties `models/Sets/`. Most "sets" were one big model (247 of 278): those are reduced to the library's limit
+  (10k triangles for weapons and props, 20k for the rest; the look stays the same). Real sets (several items
+  apart from each other) give one file per item, `<Name>_Part<N>`, with a rendered preview. Every result has its
+  pivot at its bottom centre. The originals stay in `_originals/sets/`.
+- All of them: dry run first, `--apply` to do it, with the sorter stopped. `tools/rules.py` holds the naming and
+  theme rules they share.
 
 ## How it runs
 

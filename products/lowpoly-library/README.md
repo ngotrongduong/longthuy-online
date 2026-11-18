@@ -26,7 +26,22 @@ Sub-folders: Weapons (Swords, Daggers_Knives, Axes, Hammers_Maces, Spears_Polear
 Explosives, Heavy_Artillery, Staffs_Wands, Shields, Armor_Helmets, Other_Weapons); Monsters (Dragons, Undead, Demons,
 Slimes_Blobs, Golems_Elementals, Spiders_Insects, Orcs_Goblins_Trolls, Beasts_Mythic, Aliens_Mutants,
 Other_Monsters); Props (Eggs, Containers, Treasure_Loot, Furniture, Lights_Fire, Nature, Buildings_Structures, Decor,
-Food, Tools_Items, SciFi_Tech); Characters; Animals; Vehicles.
+Food, Tools_Items, SciFi_Tech); Characters; Animals; Vehicles; Sets/<Theme> (several items in one file, 20k-80k
+triangles, to split before selling). `models/_Review/` holds what must not go into a pack as it is: `IP_Risk` (names
+of other people's characters or brands: Pokémon, Minecraft, Marvel...), `Over_20k` (over Roblox's limit for one mesh)
+and `Unclassified` (no theme found in the name).
+
+Kept outside the library, never deleted: `_dupes/` (byte-identical copies and reposts), `_zips/` (zips already
+unpacked).
+
+## Tidying
+
+- `tools/tidy_downloads.py` places the Meshy files left in Downloads.
+- `tools/dedupe_library.py` moves byte-identical copies out of the library.
+- `tools/resort.py` re-sorts the whole library from the names with harvest.js's RULES (the last word wins, describing
+  words such as stone or gold lose, a folder that still fits the name stays), fills the catalog, and writes its moves
+  to `_state/resort_moves.csv`. It can be run again any time; a second run moves nothing.
+- All three: dry run first, `--apply` to do it, with the sorter stopped.
 
 ## How it runs
 

@@ -1,0 +1,30 @@
+Weapons\Heavy_Artillery\Historic_Cannon_8466t.glb	Historic Cannon
+Weapons\Heavy_Artillery\Six_Barrel_Rocket_Turret_9999t_2.glb	Sci-Fi Heavy Cannon
+Weapons\Heavy_Artillery\Turret_Will_Shoot_Railgun_Bullets_9998t_2.glb	Railgun Turret
+Weapons\Heavy_Artillery\Ancient_Artillery_3000t.glb	Small Field Cannon
+Weapons\Heavy_Artillery\Fortress_Cannon_Cart_9993t.glb	Fortress Cannon Cart
+Weapons\Heavy_Artillery\Futuristic_Cannon_Monument_9760t.glb	Stone Cannon
+Weapons\Heavy_Artillery\Ornate_Artillery_10000t.glb	Ornate Artillery
+Weapons\Heavy_Artillery\Steampunk_Cannon_5850t.glb	Steampunk Cannon
+Weapons\Heavy_Artillery\Field_Artillery_Cannon_Wheeled_Carriage_9733t.glb	Field Artillery Cannon Wheeled Carriage
+Weapons\Heavy_Artillery\Rts_Unit_Concept_Art_5305t.glb	Mech Turret
+Weapons\Heavy_Artillery\Aegis_Siege_Turret_9061t.glb	Aegis Siege Turret
+Weapons\Heavy_Artillery\Artilharia_Fast_Moving_S_68_9263t.glb	Green Tank
+Weapons\Heavy_Artillery\Artilharia_Gnono_9371t.glb	Light Tank
+Weapons\Heavy_Artillery\Artilharia_Lonna_9447t.glb	Battle Tank
+Weapons\Heavy_Artillery\Artilharia_Movemos_9841t.glb	Camo Tank
+Weapons\Heavy_Artillery\Artilharia_Protetode_9648t.glb	Assault Tank
+Weapons\Heavy_Artillery\Artilharia_Sentinela_9798t.glb	Jungle Tank
+Weapons\Heavy_Artillery\Big_9886t.glb	Bronze Cannon
+Weapons\Heavy_Artillery\Crimson_Laser_Turret_9717t.glb	Crimson Laser Turret
+Weapons\Heavy_Artillery\Defense_Ship_Cannon_Main_2995t.glb	Hover Cannon
+Weapons\Heavy_Artillery\Emerald_Cannon_Tank_3629t.glb	Emerald Cannon Tank
+Weapons\Heavy_Artillery\Heavy_Artillery_d24f56_7181t.glb	Laser Turret
+Weapons\Heavy_Artillery\Medieval_Wooden_Cannon_Carriage_9981t.glb	Medieval Wooden Cannon Carriage
+Weapons\Heavy_Artillery\Medieval_Wooden_Cannon_Carriage_9998t.glb	Medieval Wooden Cannon Carriage 2
+Weapons\Heavy_Artillery\Old_Corroded_Bronz_Naval_Cannon_10000t.glb	Old Corroded Bronz Naval Cannon
+Weapons\Heavy_Artillery\Pixel_Cannon_3626t.glb	Pixel Cannon
+Weapons\Heavy_Artillery\Aurora_Flux_Cannon_8862t.glb	Aurora Flux Cannon
+Weapons\Heavy_Artillery\Ballista_Turret_1175t.glb	Ballista Turret
+Weapons\Heavy_Artillery\Big_Flak_Canon_2176t.glb	Big Flak Canon
+Weapons\Heavy_Artillery\Cannon_2346t.glb	Cannon

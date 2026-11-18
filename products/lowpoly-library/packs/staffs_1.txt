@@ -1,0 +1,27 @@
+Weapons\Staffs_Wands\Wizard_Staff_9782t.glb	Wizard Staff
+Weapons\Staffs_Wands\Medieval_Magical_Wand_8936t.glb	Medieval Magical Wand
+Weapons\Staffs_Wands\Optimized_Magic_Staff_Textures_9019t.glb	Magic Staff
+Weapons\Staffs_Wands\Celestial_Arcane_Staff_10000t.glb	Celestial Arcane Staff
+Weapons\Staffs_Wands\Mystic_Enchanter_S_Staff_10000t.glb	Mystic Enchanter S Staff
+Weapons\Staffs_Wands\Voidcrystal_Scepter_3680t.glb	Voidcrystal Scepter
+Weapons\Staffs_Wands\Celestial_Scepter_9999t.glb	Celestial Scepter
+Weapons\Staffs_Wands\Crystalline_Scepter_10000t.glb	Crystalline Scepter
+Weapons\Staffs_Wands\Basic_Wooden_Mage_Staff_3000t.glb	Basic Wooden Mage Staff
+Weapons\Staffs_Wands\Fascinating_10000t.glb	Ornate Scepter
+Weapons\Staffs_Wands\Magical_Healing_Staff_Glowing_Crystals_10000t_2.glb	Healing Crystal Staff
+Weapons\Staffs_Wands\Staff_Crafted_Aged_3474t.glb	Old Staff
+Weapons\Staffs_Wands\Bloodmoon_Staff_8012t.glb	Bloodmoon Staff
+Weapons\Staffs_Wands\Celestial_Compass_Staff_9993t.glb	Celestial Compass Staff
+Weapons\Staffs_Wands\Dragon_S_Ice_Staff_10000t.glb	Dragon S Ice Staff
+Weapons\Staffs_Wands\Enchanted_Crystal_Staff_10000t_2.glb	Enchanted Crystal Staff
+Weapons\Staffs_Wands\Medieval_Fantasy_Wizard_Staff_5577t.glb	Medieval Fantasy Wizard Staff
+Weapons\Staffs_Wands\Wandering_Staff_10000t_2.glb	Wandering Staff
+Weapons\Staffs_Wands\We_Re_Retconning_Wand_9799t_3.glb	Golden Wand
+Weapons\Staffs_Wands\Asclepio_5332t.glb	Serpent Staff
+Weapons\Staffs_Wands\Celestial_Bone_Staff_10000t.glb	Celestial Bone Staff
+Weapons\Staffs_Wands\Drachen_Zweihandstab_Ein_Drachen_Sich_9988t.glb	Dragon Staff
+Weapons\Staffs_Wands\Enchanted_Staff_Light_10000t_2.glb	Enchanted Staff Light
+Weapons\Staffs_Wands\Mystic_Crystal_Staff_10000t_2.glb	Mystic Crystal Staff
+Weapons\Staffs_Wands\Mystic_Staff_Elements_10000t.glb	Elemental Staff
+Weapons\Staffs_Wands\Necromancer_S_Staff_10000t_2.glb	Necromancer S Staff
+Weapons\Staffs_Wands\Spring_Enchantment_Staff_10000t_2.glb	Spring Enchantment Staff

@@ -52,7 +52,7 @@ start in the low middle (45 / 120 / 280) to win the first reviews; prices go up 
 |---|---|---|---|---|
 | S1 | Fiverr gigs G1 (Roblox systems) and G2 (3D model → Roblox) | the owner, with the company's details | 20 % | week 1 |
 | S2 | Upwork Agency "Long Thuy" | the company | 0–15 % a contract, about 10 % typical | week 1 |
-| S3 | Digital products on the Roblox Creator Store (models USD 2.99–49.99, plugins 4.99–249.99): first the Tycoon Systems Kit (built for the portfolio), then a rigged, animated low-poly animal pack | the owner's Roblox account (Mue_you), Stripe seller | tax and card fees only, 30-day escrow, paid monthly | **brought forward to week 1** (2026-10-27): the kit already exists |
+| S3 | Digital products on the Roblox Creator Store (models USD 2.99–49.99, plugins 4.99–249.99): first the Tycoon Systems Kit (built for the portfolio), then a rigged, animated low-poly animal pack; from 2026-11-18 many cheap packs (USD 2.99) of free CC0 Meshy models, weapons first (`products/lowpoly-library/STORE.md`) | the owner's Roblox account (Mue_you), Stripe seller | tax and card fees only, 30-day escrow, paid monthly | **brought forward to week 1** (2026-10-27): the kit already exists |
 | S3b | The animal pack also on Fab (88 %), itch.io, Unity Asset Store | the owner | 12 % / ~10 % / 30 % | after the Creator Store version |
 | S4 | Optional: websites with a monthly care plan for small businesses near Geelong, AUD 49–99 a month each | the company | none | when the owner wants to sell locally |
 | S5 | Roblox Talent Hub, DevForum hiring posts and hiring Discords: commissions and part-time scripter roles | the owner's Roblox account | none (payment off-platform: milestones up front) | week 2 |

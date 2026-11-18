@@ -7,6 +7,7 @@ Each model is written to <out dir>/<Theme>/<Sub>/<file>.glb with:
 - its pivot at the bottom centre,
 - its colour map only (Roblox then uses it as the MeshPart's texture). With Meshy's normal and metal-roughness
   maps Roblox builds a SurfaceAppearance that shows some models grey from most angles.
+build_pack.py uses prepare() to put many models in one file.
 """
 import sys
 from pathlib import Path
@@ -15,8 +16,6 @@ import bpy
 import numpy as np
 from mathutils import Matrix, Vector
 
-ARGS = sys.argv[sys.argv.index("--") + 1:]
-OUT, FILES = Path(ARGS[0]), [Path(a) for a in ARGS[1:]]
 TEX = 1024
 # studs: ("h", n) = height, ("l", n) = longest side; by Sub folder, else by Theme
 SIZE = {"Characters": ("h", 5.5), "Monsters": ("h", 7), "Animals": ("l", 4), "Vehicles": ("l", 14),
@@ -36,10 +35,13 @@ def size_of(path):
     return SIZE.get(sub) or SIZE.get(theme) or ("l", 3)
 
 
-for path in FILES:
-    bpy.ops.wm.read_factory_settings(use_empty=True)
+def prepare(path):
+    """Imports one model into the open scene and returns it as one object, sized, grounded, colour map only."""
+    before = set(bpy.data.objects)
+    old_mats, old_imgs = set(bpy.data.materials), set(bpy.data.images)
     bpy.ops.import_scene.gltf(filepath=str(path))
-    meshes = [o for o in bpy.context.scene.objects if o.type == "MESH"]
+    new = [o for o in bpy.data.objects if o not in before]
+    meshes = [o for o in new if o.type == "MESH"]
     bpy.ops.object.select_all(action="DESELECT")
     for o in meshes:
         o.select_set(True)
@@ -49,6 +51,9 @@ for path in FILES:
     if len(meshes) > 1:
         bpy.ops.object.join()
     o = bpy.context.view_layer.objects.active
+    for e in new:
+        if e.name in bpy.data.objects and e != o and e.type != "MESH":
+            bpy.data.objects.remove(e)
     co = np.empty(len(o.data.vertices) * 3)
     o.data.vertices.foreach_get("co", co)
     co = co.reshape(-1, 3)
@@ -57,10 +62,8 @@ for path in FILES:
     how, studs = size_of(path)
     k = studs / (dims[2] if how == "h" else dims.max())
     o.data.transform(Matrix.Scale(k, 4) @ Matrix.Translation(-Vector(((lo[0] + hi[0]) / 2, (lo[1] + hi[1]) / 2, lo[2]))))
-    # colour map only: with Meshy's normal / metal-roughness maps Roblox makes a SurfaceAppearance that shows some
-    # models grey from most angles (seen 2026-11-18); one texture is also lighter on phones, and Meshy's colour map
-    # already has its shading painted in
-    for mat in bpy.data.materials:
+    o.location = (0, 0, 0)
+    for mat in set(bpy.data.materials) - old_mats:
         for node in (mat.node_tree.nodes if mat.node_tree else []):
             if node.type == "BSDF_PRINCIPLED":
                 for name in ("Emission Color", "Normal", "Metallic", "Roughness"):
@@ -69,14 +72,30 @@ for path in FILES:
                 node.inputs["Emission Strength"].default_value = 0
                 node.inputs["Metallic"].default_value = 0
                 node.inputs["Roughness"].default_value = 0.8
-    for img in bpy.data.images:
+    for img in set(bpy.data.images) - old_imgs:
         w, h = img.size
         if max(w, h) > TEX:
             img.scale(max(1, w * TEX // max(w, h)), max(1, h * TEX // max(w, h)))
             img.pack()
-    dest = OUT / path.parent.parent.name / path.parent.name / path.name
+    return o, dims, k
+
+
+def export(objs, dest):
+    bpy.ops.object.select_all(action="DESELECT")
+    for o in objs:
+        o.select_set(True)
     dest.parent.mkdir(parents=True, exist_ok=True)
     bpy.ops.export_scene.gltf(filepath=str(dest), export_format="GLB", use_selection=True,
                               export_image_format="JPEG", export_jpeg_quality=90)
-    print("READY", path.name, "was", [round(float(d), 2) for d in dims], "x", round(float(k), 2),
-          f"{dest.stat().st_size / 1e6:.1f} MB", flush=True)
+
+
+if __name__ == "__main__":
+    ARGS = sys.argv[sys.argv.index("--") + 1:]
+    OUT = Path(ARGS[0])
+    for path in map(Path, ARGS[1:]):
+        bpy.ops.wm.read_factory_settings(use_empty=True)
+        o, dims, k = prepare(path)
+        dest = OUT / path.parent.parent.name / path.parent.name / path.name
+        export([o], dest)
+        print("READY", path.name, "was", [round(float(d), 2) for d in dims], "x", round(float(k), 2),
+              f"{dest.stat().st_size / 1e6:.1f} MB", flush=True)

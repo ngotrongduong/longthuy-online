@@ -1,0 +1,30 @@
+Weapons\Bows_Crossbows\Ropebound_Crossbow_1498t.glb
+Weapons\Bows_Crossbows\Golden_Arcane_Bow_9955t.glb
+Weapons\Bows_Crossbows\Medieval_Magical_Crossbow_5637t.glb	Magic Crossbow
+Weapons\Bows_Crossbows\Arrow_3000t.glb
+Weapons\Bows_Crossbows\Fammi_L_Immagine_Di_Rastrelliera_9900t.glb	Bow Rack
+Weapons\Bows_Crossbows\Ranger_S_Bow_550t.glb
+Weapons\Bows_Crossbows\Spiked_Archer_S_Bow_10000t.glb
+Weapons\Bows_Crossbows\Ballesta_Medieval_2998t.glb	Medieval Crossbow
+Weapons\Bows_Crossbows\Crossbow_Mechanism_5051t.glb
+Weapons\Bows_Crossbows\Blood_Bow_2136t.glb
+Weapons\Bows_Crossbows\Curved_Longbow_10000t.glb
+Weapons\Bows_Crossbows\Ember_Bow_Epic_2108t.glb
+Weapons\Bows_Crossbows\Inferno_Bow_7355t.glb
+Weapons\Bows_Crossbows\Medieval_Long_Bow_8985t.glb
+Weapons\Bows_Crossbows\Obsidian_Arrowhead_10000t.glb
+Weapons\Bows_Crossbows\Quiver_Arrows_9913t.glb
+Weapons\Bows_Crossbows\Arcane_Bow_1874t.glb
+Weapons\Bows_Crossbows\Azurebound_Bow_4191t.glb
+Weapons\Bows_Crossbows\Blood_Bow_Epic_2112t.glb
+Weapons\Bows_Crossbows\Bows_Crossbows_64bbaa_4244t.glb	Wooden Bow
+Weapons\Bows_Crossbows\Bows_Crossbows_c1b019_1475t.glb	Fire Bow
+Weapons\Bows_Crossbows\Crossbow_Display_10000t.glb	Crossbow on Stand
+Weapons\Bows_Crossbows\Crossbow_Fortress_10000t_2.glb	Ballista Turret
+Weapons\Bows_Crossbows\Ember_Bow_Myth_2128t.glb
+Weapons\Bows_Crossbows\Ethereal_Bow_10000t.glb
+Weapons\Bows_Crossbows\Frost_Bow_Mythic_1822t.glb
+Weapons\Bows_Crossbows\Gold_Bow_Mythic_1761t.glb
+Weapons\Bows_Crossbows\Huge_Wooden_Crossbow_Big_Wooden_6522t.glb	Heavy Wooden Crossbow
+Weapons\Bows_Crossbows\M_Crossbow_2928t.glb	Light Crossbow
+Weapons\Bows_Crossbows\Shardbound_Arcane_Epic_Bow_1749t.glb	Shard Bow

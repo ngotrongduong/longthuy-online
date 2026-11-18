@@ -1,0 +1,29 @@
+Weapons\Explosives\Grenade_Display_9998t.glb
+Weapons\Explosives\Long_Barrel_Rocket_Launcher_8204t.glb	Rocket Launcher
+Weapons\Explosives\Mk2_Fragmentation_Grenade_Military_1068t.glb
+Weapons\Explosives\Rocket_Launcher_3672t.glb	Heavy Rocket Launcher
+Weapons\Explosives\Bomb_4732t.glb	Black Bomb
+Weapons\Explosives\Explosive_Charge_9998t.glb	Dynamite
+Weapons\Explosives\Explosives_f17d56_9999t.glb	Army Grenade
+Weapons\Explosives\Fuse_Fury_3483t.glb
+Weapons\Explosives\Futurist_Bomb_3000t.glb
+Weapons\Explosives\M36_Cluster_Bomb_10000t.glb	Aerial Bomb
+Weapons\Explosives\Rocket_Missile_2178t.glb
+Weapons\Explosives\Rocket_Missile_2209t.glb
+Weapons\Explosives\Rocket_Missile_2226t.glb
+Weapons\Explosives\Spiky_Balloon_Bomb_9372t.glb	Barrel Balloon Bomb
+Weapons\Explosives\Stacked_Weathered_Crates_Bomb_Shells_7340t.glb	Ammo Crates
+Weapons\Explosives\Sunburst_Grenade_5387t.glb
+Weapons\Explosives\Torpedo_3879t.glb
+Weapons\Explosives\Atomicbomb_3978t.glb	Atomic Bomb
+Weapons\Explosives\Cru_15_Bomb_10000t.glb	Toy Rocket Bomb
+Weapons\Explosives\Display_Nuclear_Bomb_Reward_9955t.glb	Nuclear Bomb
+Weapons\Explosives\Explosives_f85d32_10000t.glb	Stick Grenade
+Weapons\Explosives\Fragmentation_Grenade_9996t.glb
+Weapons\Explosives\M18violetsmokegrenade_Realistic_Militaryprop_600poly_Gameready_654t.glb	Smoke Grenade
+Weapons\Explosives\Mk_82_Mlb_10000t_2.glb	Small Aerial Bomb
+Weapons\Explosives\Polygonal_Molotov_10000t.glb	Molotov
+Weapons\Explosives\Purple_Bomb_7084t.glb
+Weapons\Explosives\Skull_Bomb_10000t_2.glb
+Weapons\Explosives\Tactical_Fragmentation_Device_9996t.glb	Military Grenade
+Weapons\Explosives\Teampunk_Styled_Like_Sphere_Bomb_4349t.glb	Steampunk Bomb

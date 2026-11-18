@@ -1,0 +1,30 @@
+Weapons\Spears_Polearms\Azurevein_Scythe_3133t.glb	Azurevein Scythe
+Weapons\Spears_Polearms\Azure_Spear_10000t_2.glb	Azure Spear
+Weapons\Spears_Polearms\Spears_Polearms_1192dd_1249t.glb	Rusty Scythe
+Weapons\Spears_Polearms\Tridente_Colo_Plateado_Azulado_6574t.glb	Silver Trident
+Weapons\Spears_Polearms\Ultra_Realistic_Angelic_Spear_9799t.glb	Angelic Spear
+Weapons\Spears_Polearms\Void_Scythe_10000t_2.glb	Void Scythe
+Weapons\Spears_Polearms\Spears_Polearms_bc698f_1250t.glb	Spirit Scythe
+Weapons\Spears_Polearms\Bone_Scythe_5509t.glb	Bone Scythe
+Weapons\Spears_Polearms\Dark_Spearhead_Formation_6136t.glb	Dark Spear
+Weapons\Spears_Polearms\Dawnbreaker_Scythe_2989t.glb	Dawnbreaker Scythe
+Weapons\Spears_Polearms\Eclipse_Spear_10000t.glb	Eclipse Spear
+Weapons\Spears_Polearms\Futuristic_Dual_Bladed_Scythe_Sleek_9998t.glb	Sci-Fi Dual Scythe
+Weapons\Spears_Polearms\Glacial_Starreaper_2744t.glb	Glacial Starreaper
+Weapons\Spears_Polearms\Halberd_10000t_2.glb	Halberd
+Weapons\Spears_Polearms\Ice_Lance_7522t.glb	Ice Lance
+Weapons\Spears_Polearms\Melee_10000t_2.glb	Bone Reaper
+Weapons\Spears_Polearms\Melee_9997t.glb	Shadow Scythe
+Weapons\Spears_Polearms\Purple_Storm_Scythe_3851t.glb	Purple Storm Scythe
+Weapons\Spears_Polearms\Sketched_Scythe_10000t.glb	Sketched Scythe
+Weapons\Spears_Polearms\Astral_Flame_Scythe_2268t.glb	Astral Flame Scythe
+Weapons\Spears_Polearms\Crimson_Arcane_Scythe_3998t.glb	Crimson Arcane Scythe
+Weapons\Spears_Polearms\Emberbound_Spear_6936t.glb	Wooden Spear
+Weapons\Spears_Polearms\God_Spear_3861t.glb	Divine Spear
+Weapons\Spears_Polearms\Lava_Scythe_10000t.glb	Lava Scythe
+Weapons\Spears_Polearms\Primitive_Spear_Stone_Sharp_Fibers_10000t_2.glb	Primitive Spear
+Weapons\Spears_Polearms\Skullbound_Scythe_10000t_2.glb	Skullbound Scythe
+Weapons\Spears_Polearms\Spear_Valor_10000t_2.glb	Spear Valor
+Weapons\Spears_Polearms\Stone_Tipped_Spear_10000t_2.glb	Stone Tipped Spear
+Weapons\Spears_Polearms\Abyssal_Harvester_5851t.glb	Abyssal Harvester
+Weapons\Spears_Polearms\Astral_Eclipse_Scythe_2384t.glb	Astral Eclipse Scythe

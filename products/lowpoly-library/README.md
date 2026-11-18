@@ -61,6 +61,14 @@ writes copies ready for Roblox: textures cut to 1024 px (Meshy ships 4K, up to 8
 is 20 MB), a real size in studs per folder (characters 5.5 tall, swords 4.5 long, trees and nature 6, buildings 30,
 ...; Meshy makes everything about 2 units and Roblox reads 1 unit as 1 stud), pivot at the bottom centre.
 
+Sellable packs (steps, prices, listing text: `STORE.md`), all in Blender `-b --factory-startup -P <tool> -- ...`
+except `pick_pack.py` (plain `python -I`):
+- `tools/pack_sheet.py -- <Theme/Sub> <count> [<skip>]`: contact sheet of a folder's best-liked Meshy covers.
+- `tools/pick_pack.py <sheet txt> <pack id> <cells>`: writes `packs/<pack id>.txt`; add `<TAB>name` by eye.
+- `tools/build_pack.py -- <pack id>`: one GLB of the pack, Roblox-ready, plus its credits list.
+- `tools/render_pack.py -- <pack id>`: the 1:1 cover from the real files; it prints which model sits in which cell.
+  Look at it: a few files hold another model than their Meshy cover (8 of 340 picked weapons on 2026-11-18).
+
 ## How it runs
 
 1. `tools/harvest.js` runs inside a www.meshy.ai tab in the owner's Edge (signed in as the owner, automatic
@@ -84,4 +92,5 @@ Notes:
   when a pack is curated.
 - Studio test 2026-11-18 (test place only): a GLB uploads as a Model and imports as one textured MeshPart with its
   pivot at the bottom. Raw library files are about 2 studs and too heavy; `roblox_ready.py` fixes both. Uploads work
-  through the Studio instance where the owner allowed the folder (Assistant Settings -> MCP Permissions).
+  through the Studio instance where the owner allowed the folder (Assistant Settings -> MCP Permissions). Such an
+  upload is a Package and cannot be sold; a pack for sale goes through Studio's Save to Roblox (`STORE.md`).

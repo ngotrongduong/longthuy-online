@@ -1,0 +1,29 @@
+Weapons\Daggers_Knives\Emerald_Blade_10000t.glb	Emerald Blade
+Weapons\Daggers_Knives\Throwing_Knife_Sharp_Thin_10000t.glb	Throwing Knife
+Weapons\Daggers_Knives\Spiral_Dagger_10000t.glb	Spiral Dagger
+Weapons\Daggers_Knives\Golden_Knight_S_Dagger_10000t.glb	Golden Knight S Dagger
+Weapons\Daggers_Knives\Daggers_Knives_d3f190_3676t.glb	Bronze Dagger
+Weapons\Daggers_Knives\Elven_Dagger_8364t.glb	Elven Dagger
+Weapons\Daggers_Knives\Sakura_Dagger_9980t.glb	Sakura Dagger
+Weapons\Daggers_Knives\Ancient_Falcon_Dagger_5276t.glb	Ancient Falcon Dagger
+Weapons\Daggers_Knives\Arcane_Dagger_Dark_10000t.glb	Arcane Dagger Dark
+Weapons\Daggers_Knives\Curved_Elegance_Knife_9943t_2.glb	Curved Elegance Knife
+Weapons\Daggers_Knives\Daggers_Knives_cf3a16_3182t.glb	Bone Dagger
+Weapons\Daggers_Knives\Karambit_Vortex_3800t.glb	Karambit Vortex
+Weapons\Daggers_Knives\Tutulma_Dagger_8768t.glb	Ritual Dagger
+Weapons\Daggers_Knives\Compact_Survival_Knife_5534t.glb	Compact Survival Knife
+Weapons\Daggers_Knives\Crescent_Moon_Dagger_214t.glb	Crescent Moon Dagger
+Weapons\Daggers_Knives\Crimson_Dagger_1078t.glb	Crimson Dagger
+Weapons\Daggers_Knives\Cs2_Knife_4129t.glb	Gradient Combat Knife
+Weapons\Daggers_Knives\Enchanted_Dagger_Ancients_10000t.glb	Enchanted Dagger Ancients
+Weapons\Daggers_Knives\Fantasy_Dagger_Glowing_Blue_Runes_9966t.glb	Fantasy Dagger Glowing Blue Runes
+Weapons\Daggers_Knives\Frostblade_Dagger_10000t.glb	Frostblade Dagger
+Weapons\Daggers_Knives\Medieval_Dagger_200t.glb	Medieval Dagger
+Weapons\Daggers_Knives\Se_Toho_1853t.glb	Kitchen Knife
+Weapons\Daggers_Knives\Shadow_Fang_Dagger_3000t.glb	Shadow Fang Dagger
+Weapons\Daggers_Knives\Sharp_Dagger_10000t.glb	Sharp Dagger
+Weapons\Daggers_Knives\Silver_Crescent_Dagger_10000t.glb	Silver Crescent Dagger
+Weapons\Daggers_Knives\Slender_Elven_Dagger_10000t_2.glb	Slender Elven Dagger
+Weapons\Daggers_Knives\Stealth_Sci_Fi_Dagger_Semi_4992t.glb	Sci-Fi Dagger
+Weapons\Daggers_Knives\Vintage_Chef_S_Knife_7798t.glb	Chef Knife
+Weapons\Daggers_Knives\Whisperfang_Legendary_Throwing_Knife_Crafted_10000t.glb	Whisperfang Throwing Knife

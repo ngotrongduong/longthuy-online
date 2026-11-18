@@ -1,0 +1,30 @@
+Weapons\Swords\Sword_3000t.glb	Golden Royal Sword
+Weapons\Swords\Steampunk_Two_Handed_Sword_9858t.glb	Steampunk Two Handed Sword
+Weapons\Swords\Sword_3000t_2.glb	Amethyst Crystal Sword
+Weapons\Swords\Eternal_Frostblade_9992t.glb	Eternal Frostblade
+Weapons\Swords\Swords_493f1a_3676t.glb	Crimson Blade
+Weapons\Swords\Ancient_Ore_Sword_4356t.glb	Ancient Ore Sword
+Weapons\Swords\Blazing_Inferno_Sword_9998t_2.glb	Blazing Inferno Sword
+Weapons\Swords\Futuristic_Energy_Katana_10000t_2.glb	Energy Katana
+Weapons\Swords\Medieval_Sword_9987t.glb	Medieval Sword
+Weapons\Swords\Spanish_Rapier_9992t.glb	Spanish Rapier
+Weapons\Swords\Spiralwood_Sword_3889t.glb	Spiralwood Sword
+Weapons\Swords\Sword_Handed_Weapon_10000t.glb	Jeweled Knight Sword
+Weapons\Swords\Duskblade_Katana_9939t.glb	Duskblade Saber
+Weapons\Swords\Einfaches_Eisenschwert_Mit_Holzgriff_3000t.glb	Iron Sword
+Weapons\Swords\Medieval_Sword_10000t_2.glb	Medieval Longsword
+Weapons\Swords\Realistic_Cyberpunk_Katana_10000t_2.glb	Cyberpunk Cleaver
+Weapons\Swords\Scimitar_Sword_9881t.glb	Arming Sword
+Weapons\Swords\Single_9998t_2.glb	Curved Saber
+Weapons\Swords\Survivalofthefittest_3301t.glb	Elven Blade
+Weapons\Swords\Swords_8db311_3140t.glb	Shadow Sword
+Weapons\Swords\Swords_caa999_723t.glb	Katana
+Weapons\Swords\Ultra_Massive_9998t.glb	Azure Greatsword
+Weapons\Swords\Wooden_Sword_4192t.glb	Wooden Sword
+Weapons\Swords\Bone_Cleaver_Sword_2998t.glb	Bone Cleaver Sword
+Weapons\Swords\Crescent_Moon_Scimitar_214t_2.glb	Crescent Moon Scimitar
+Weapons\Swords\Dragon_Katana_9998t_2.glb	Dragon Flame Sword
+Weapons\Swords\Dragonscale_Darkblade_9984t.glb	Dragonscale Darkblade
+Weapons\Swords\Fire_Sword_2112t.glb	Lava Sword
+Weapons\Swords\Futuristic_Cyber_Katana_Black_Handle_9650t.glb	Ice Energy Sword
+Weapons\Swords\Futuristic_Japanese_Katana_Sword_Made_10000t.glb	Futuristic Katana

@@ -1,0 +1,27 @@
+Weapons\Guns\Dieselpunk_Drum_Fed_Autoloading_Rifle_4199t.glb	Dieselpunk Rifle
+Weapons\Guns\Glock17_8549t.glb	Compact Pistol
+Weapons\Guns\Steampunk_Spider_Gun_9573t.glb	Steampunk Spider Gun
+Weapons\Guns\Flintlock_4977t.glb	Flintlock
+Weapons\Guns\Steampunk_Minigun_Replica_6637t.glb	Steampunk Minigun
+Weapons\Guns\Rustic_Handgun_4318t.glb	Rustic Handgun
+Weapons\Guns\Neon_Arsenal_10000t.glb	Neon Arsenal
+Weapons\Guns\Bb_Gun_9812t.glb	Air Pistol
+Weapons\Guns\Lever_Action_Rifle_5930t.glb	Lever Action Rifle
+Weapons\Guns\Steampunk_Spider_Gun_8174t.glb	Steampunk Spider Gun 2
+Weapons\Guns\Railgun_Q4_9992t.glb	Railgun
+Weapons\Guns\Midnight_Modular_Pistol_4700t.glb	Midnight Modular Pistol
+Weapons\Guns\Pixel_Pistol_9912t.glb	Pixel Pistol
+Weapons\Guns\Starbound_Azure_Pistol_9774t.glb	Starbound Azure Pistol
+Weapons\Guns\Coilgun_Assault_Rifle_4124t.glb	Coilgun Assault Rifle
+Weapons\Guns\Neon_Pulse_Rifle_9998t.glb	Neon Pulse Rifle
+Weapons\Guns\Cyber_Pulse_Pistol_10000t.glb	Cyber Pulse Pistol
+Weapons\Guns\Imagine_Old_Rusty_Gun_10000t.glb	Old Rusty Pistol
+Weapons\Guns\Mystic_Revolver_10000t_2.glb	Mystic Revolver
+Weapons\Guns\Nightfall_Tactical_Pistol_4031t.glb	Nightfall Tactical Pistol
+Weapons\Guns\Rifle_2991t.glb	Hunting Rifle
+Weapons\Guns\Science_Fiction_Ray_Gun_9999t.glb	Ray Gun
+Weapons\Guns\Ak47_5100t.glb	Assault Rifle
+Weapons\Guns\Bladed_Boomstick_4431t.glb	Bladed Boomstick
+Weapons\Guns\Glock_19_Gen_5_Pistol_4826t.glb	Modern Pistol
+Weapons\Guns\Railblade_Pistol_4677t.glb	Railblade Pistol
+Weapons\Guns\Emerald_Core_Steampunk_Revolver_9998t.glb	Emerald Core Steampunk Revolver

@@ -124,8 +124,16 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      ~2 studs and up to 80 MB: `tools/roblox_ready.py` makes pack copies (studs per folder, 1024 colour map only,
      pivot at the bottom); 8 samples (sword, robot, dragon, tree, cottage, airship, fairy cat, rifle) import right.
      Still to fix: 72 weapons/props over 10k triangles after the relabel (under 20k, Roblox-fine); ~40 split parts
-     and 65 files keep old credits. Next: pick the first pack (best-liked models of one theme), run
-     roblox_ready.py on it, check it in StudioTest, write the listing.
+     and 65 files keep old credits.
+     2026-11-18, the owner: "bán được nhóm nào thì cứ đăng bán hết đi, bán rẻ hơn so với thị trường một chút" (sell
+     every group that can sell, a bit under the market, cheap and many). Done: 11 weapon packs built and their covers
+     checked by eye (swords, axes, hammers, spears, bows, daggers, staffs, guns, shields, bombs, cannons; 22-30 models,
+     8-14 MB each), price USD 2.99 (the Creator Store floor), listing text, tools: `products/lowpoly-library/STORE.md`.
+     A GLB sent through the Assets API becomes a Package and cannot be sold (swords asset 85476012659902, private):
+     each pack must be imported in a Studio test place and saved with Save to Roblox. Blocked here: StudioTest and
+     Slime closed during the work and the owner declined Studio control when asked. Next: with the owner's OK for
+     Studio, per pack: Import 3D the GLB in a test place, Credits StringValue, Save to Roblox, Configure (cover,
+     2.99, Distribute, AI training off), check purchasable. Then the same for props, monsters, characters, animals.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

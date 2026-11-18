@@ -1,0 +1,30 @@
+Weapons\Hammers_Maces\Sci_Fi_Hammer_9998t.glb	Sci Fi Hammer
+Weapons\Hammers_Maces\Marteau_Forgeron_En_Cuir_7274t.glb	Leather Forge Hammer
+Weapons\Hammers_Maces\Hammers_Maces_958590_5762t.glb	Spiked Iron Maul
+Weapons\Hammers_Maces\Common_Mace_Wooden_Shank_Iron_4612t.glb	Claw Hammer
+Weapons\Hammers_Maces\Frostbound_Maul_10000t_2.glb	Frostbound Maul
+Weapons\Hammers_Maces\Hammers_Maces_730a1e_3000t.glb	Sledgehammer
+Weapons\Hammers_Maces\Dragoncrest_Warhammer_4691t.glb	Void Crescent Hammer
+Weapons\Hammers_Maces\Fantasy_Hammer_Made_Bismuth_9997t.glb	Jeweled Hammer
+Weapons\Hammers_Maces\Hammers_Maces_613893_3864t.glb	Red Spiked Mace
+Weapons\Hammers_Maces\Stone_Hammer_10000t_5.glb	Stone Pick
+Weapons\Hammers_Maces\Grenade_Hammer_6176t.glb	Grenade Hammer
+Weapons\Hammers_Maces\Hammer_Valor_9566t.glb	Hammer Valor
+Weapons\Hammers_Maces\Hammers_Maces_25a8bb_6352t.glb	Emerald Core Hammer
+Weapons\Hammers_Maces\Hammers_Maces_cea7d9_4994t.glb	Arcane Cube Hammer
+Weapons\Hammers_Maces\Eagle_S_Honor_Hammer_4056t.glb	Eagle Honor Hammer
+Weapons\Hammers_Maces\Frosthammer_700t.glb	Frosthammer
+Weapons\Hammers_Maces\Hammers_Maces_332c42_4808t.glb	Dark Spiked Hammer
+Weapons\Hammers_Maces\Molten_Hammer_4500t.glb	Molten Hammer
+Weapons\Hammers_Maces\Polygonal_Hammer_254t.glb	Polygonal Hammer
+Weapons\Hammers_Maces\Spiked_Battlehammer_7586t.glb	Spiked Battlehammer
+Weapons\Hammers_Maces\Spiked_Club_10000t_2.glb	Spiked Club
+Weapons\Hammers_Maces\Steampunk_Hammer_3000t.glb	Steampunk Hammer
+Weapons\Hammers_Maces\Stone_Hammer_10000t_4.glb	Bone Hammer
+Weapons\Hammers_Maces\Sturdy_Mace_4414t.glb	Sturdy Mace
+Weapons\Hammers_Maces\Zweihandhammer_2000t.glb	Long Warhammer
+Weapons\Hammers_Maces\Zweihandhammer_2000t_2.glb	Silver Scepter Mace
+Weapons\Hammers_Maces\Ajd3jaj_3267t.glb	Steel Hammer
+Weapons\Hammers_Maces\Ancient_Rune_Hammer_10000t.glb	Ancient Rune Hammer
+Weapons\Hammers_Maces\Hammers_Maces_49331d_4994t.glb	Crystal Cube Hammer
+Weapons\Hammers_Maces\Hammers_Maces_754856_4995t.glb	Lava Warhammer

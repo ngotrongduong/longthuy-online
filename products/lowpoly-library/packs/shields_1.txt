@@ -1,0 +1,22 @@
+Weapons\Shields\Shields_ed333f_10000t_2.glb	Broken Plank Shield
+Weapons\Shields\Star_Shield_9998t.glb
+Weapons\Shields\89ajd76_2892t.glb	Watermelon Shield
+Weapons\Shields\Azure_Crystal_Shield_524t.glb
+Weapons\Shields\Massive_Shield_Containing_Captured_Singularity_9800t.glb	Black Round Shield
+Weapons\Shields\Roman_Scutum_Shield_10000t.glb	Wooden Tower Shield
+Weapons\Shields\Roman_Scutum_Shield_10000t_6.glb	Dark Tower Shield
+Weapons\Shields\Shield_10000t_2.glb	Wooden Kite Shield
+Weapons\Shields\Spoked_Shield_6903t.glb
+Weapons\Shields\Extreme_Shield_3114t.glb
+Weapons\Shields\Iridescent_Shield_9880t.glb
+Weapons\Shields\Massive_Shield_Containing_Captured_Singularity_19600t.glb	Dark Round Shield
+Weapons\Shields\Ornate_Fantasy_Shield_4173t.glb
+Weapons\Shields\Roman_Scutum_Shield_10000t_2.glb	Iron Tower Shield
+Weapons\Shields\Roman_Scutum_Shield_10000t_3.glb	Gold Tower Shield
+Weapons\Shields\Roman_Scutum_Shield_10000t_7.glb	Wooden Round Shield
+Weapons\Shields\Shields_06b9e9_9584t.glb	Star Shield White
+Weapons\Shields\Aegis_Sapphire_Star_3889t.glb
+Weapons\Shields\Byzantium_Shield_2789t.glb
+Weapons\Shields\Guardian_Shield_3506t.glb
+Weapons\Shields\Ironclad_Guardian_Shield_375t.glb
+Weapons\Shields\Kite_Shield_4064t.glb

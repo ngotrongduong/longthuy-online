@@ -1,0 +1,26 @@
+Weapons\Axes\Axes_3cf3a7_5054t.glb	Rune Axe
+Weapons\Axes\Zweihandaxt_1500t.glb	Two Handed Axe
+Weapons\Axes\Leviathan_Axe_10000t.glb	Amethyst Axe
+Weapons\Axes\Axes_1ae340_2560t.glb	Double Battle Axe
+Weapons\Axes\Inferno_Battleaxe_10000t.glb	Inferno Battleaxe
+Weapons\Axes\Axe_3000t.glb	Golden Sky Axe
+Weapons\Axes\Frostbite_Battleaxe_700t.glb	Frostbite Battleaxe
+Weapons\Axes\Woodcutting_Axe_1625t.glb	Woodcutting Axe
+Weapons\Axes\Battle_Axe_10000t_3.glb	Battle Axe
+Weapons\Axes\Common_Battle_Axe_Wooden_Shank_4220t.glb	Wooden Battle Axe
+Weapons\Axes\Wood_Axe_4348t.glb	Wood Axe
+Weapons\Axes\Axes_4e0df7_10000t.glb	Horned Axe
+Weapons\Axes\Axes_ab811f_994t.glb	Jade Battle Axe
+Weapons\Axes\Stone_Axe_2095t.glb	Stone Axe
+Weapons\Axes\Battle_Axe_5802t.glb	Battle Axe 2
+Weapons\Axes\Cybernetic_Axe_9996t.glb	Cybernetic Axe
+Weapons\Axes\Dark_War_Axe_10000t.glb	Dark War Axe
+Weapons\Axes\Ethereal_Battleaxe_10000t.glb	Ethereal Battleaxe
+Weapons\Axes\Ethereal_Bladeaxe_7504t.glb	Ethereal Bladeaxe
+Weapons\Axes\Old_Axe_10000t_2.glb	Old Axe
+Weapons\Axes\Axes_aa13aa_4930t.glb	Crimson Axe
+Weapons\Axes\Battle_Axe_Made_Black_Glass_5774t.glb	Venom Axe
+Weapons\Axes\Futuristic_Two_Handed_Sci_Fi_3970t.glb	Sci-Fi Two Handed Axe
+Weapons\Axes\Inferno_Battleaxe_10000t_5.glb	Inferno Battleaxe 2
+Weapons\Axes\Woodsman_Axe_9998t_2.glb	Woodsman Axe
+Weapons\Axes\Zweihandaxt_6384t.glb	Great Axe

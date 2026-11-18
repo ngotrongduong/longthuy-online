@@ -41,5 +41,5 @@ Textures: none is missing, none is a pack key.
 
 ## Description on the store (889 of 1000 characters)
 
-10 polished effects for pet, simulator and RPG games, drawn on art made for them and kept light for phones. [...]
-Not included: sounds, camera shake, server code. Made with an AI assistant's help, tested in Roblox Studio.
+10 polished effects for pet, simulator and RPG games, kept light for phones. [...]
+Not included: sounds, camera shake, server code.

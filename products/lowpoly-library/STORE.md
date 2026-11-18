@@ -19,7 +19,7 @@ USD 2.99 a pack, the lowest price the Creator Store takes for a Model. Paid weap
    `_ready/packs/<id>_studio.luau`; run it in Studio (it loads the uploaded GLB, makes one Model of anchored
    MeshParts named after the pack with the Credits StringValue, sits it on the ground). Then Explorer > right-click
    the Model > Save / Export > Save to Roblox, title and description, Submit. Only a Model saved this way can be
-   sold: a GLB sent through the Assets API becomes a Package, and the Configure page answers "User is not authorized
+   sold: a GLB or an rbxm sent through the Assets API becomes a Package (rbxm seen 2026-11-19 on 7 packs), and the Configure page answers "User is not authorized
    to distribute packages" (seen 2026-11-18 on asset 85476012659902).
    Studio pitfalls: hover before each Explorer click; if Explorer stops answering clicks, File > Exit > Don't Save
    and start Studio again. Never start Studio from the launcher while it is open: the launcher closes the open places.
@@ -45,22 +45,59 @@ USD 2.99 a pack, the lowest price the Creator Store takes for a Model. Paid weap
 | shields_1 | Low Poly Shields Pack (22) | 22 | 8.5 MB | 131582416760062 | 2026-11-18 |
 | explosives_1 | Low Poly Bombs & Grenades Pack (29) | 29 | 10.2 MB | 112319583066666 | 2026-11-18 |
 | artillery_1 | Low Poly Cannons & Tanks Pack (30) | 30 | 14.1 MB | 122521676678778 | 2026-11-18 |
+| treasure_1 | Low Poly Crystals & Treasure Pack (30) | 30 | | 107421638970566 | 2026-11-19 |
+| furniture_1 | Low Poly Furniture Pack (30) | 30 | | 101252418437593 | 2026-11-19 |
+| nature_1 | Low Poly Nature Pack (30) | 30 | | 106798225417842 | 2026-11-19 |
+| containers_1 | Low Poly Chests, Barrels & Crates Pack (30) | 30 | | 106682062072435 | 2026-11-19 |
+| food_1 | Low Poly Food Pack (30) | 30 | | 116810615721355 | 2026-11-19 |
+| lights_1 | Low Poly Lamps, Lanterns & Torches Pack (30) | 30 | | 73589797096276 | 2026-11-19 |
+| buildings_1 | Low Poly Buildings Pack (30) | 30 | | 86548793461578 | 2026-11-19 |
+| decor_1 | Low Poly Decor & Signs Pack (29) | 29 | | 134837643119232 | 2026-11-19 |
+| tools_1 | Low Poly Tools & Items Pack (30) | 30 | | 123424450278281 | 2026-11-19 |
+| undead_1 | Low Poly Skeletons & Undead Pack (30) | 30 | | 105517597310018 | 2026-11-19 |
+| orcs_1 | Low Poly Orcs, Goblins & Trolls Pack (30) | 30 | | 114488186401227 | 2026-11-19 |
+| aliens_1 | Low Poly Aliens & Mutants Pack (30) | 30 | | 86271682084824 | 2026-11-19 |
+| demons_1 | Low Poly Demons Pack (26) | 26 | | 106170603931497 | 2026-11-19 |
+| golems_1 | Low Poly Golems & Elementals Pack (30) | 30 | | 137937751018112 | 2026-11-19 |
+| bugs_1 | Low Poly Spiders & Insects Pack (30) | 30 | | 120188657793667 | 2026-11-19 |
+| beasts_1 | Low Poly Mythic Beasts Pack (30) | 30 | | 101781927262444 | 2026-11-19 |
+| monsters_1 | Low Poly Monsters Pack (30) | 30 | | 100550471847203 | 2026-11-19 |
+| eggs_1 | Low Poly Eggs Pack (19) | 19 | | 107992324543389 | 2026-11-19 |
+| tech_1 | Low Poly Tech & Machines Pack (29) | 29 | | 107125335729888 | 2026-11-19 |
+| dragons_1 | Low Poly Dragons Pack (28) | 28 | | 108505712138986 | 2026-11-19 |
+| animals_1 | Low Poly Animals Pack (29) | 29 | | 110737594910346 | 2026-11-19 |
+| vehicles_1 | Low Poly Vehicles Pack (15) | 15 | | 95376449656677 | 2026-11-19 |
+| slimes_1 | Low Poly Slimes Pack (29) | 29 | | 123532267912299 | 2026-11-19 |
+| characters_1 | Low Poly Characters Pack (26) | 26 | | 100023624535168 | 2026-11-19 |
 
-## Description (same for each pack; fill in <N> and <kind>)
+All 35 checked purchasable at USD 2.99 with the toolbox API on 2026-11-19. Eggs, tech, dragons, animals, vehicles,
+slimes and characters were first sent as rbxm through the Assets API (they became Packages: 113921748476880,
+124284053225444, 86596441013999, 107521231391593, 79050150385129, 90589093269124, 83338660814648, private, not
+for sale); the ids above are the Studio re-saves.
 
-<N> stylized <kind> for your Roblox game, ready to drop in. Each one is a single textured MeshPart, already sized
-for Roblox, with its pivot at the bottom and a light texture (1024 px or less) that looks the same from every angle.
-The pack arrives laid out on a display grid; take the ones you need.
+## Description (same for each pack; the owner's order 2026-11-19)
 
-- <N> different models, under 20,000 triangles each (most under 10,000)
-- No scripts, nothing hidden, no free models inside
-- Good for simulators, RPGs, shops, loot drops, display racks and obby rewards
+The owner's order: a listing says only what is in the pack. Never write that it was made with AI, collected, or
+where it came from (no "AI", "Meshy", "CC0", "picked", "shared by"). The scratchpad script that wrote them all
+took the names from `_ready/packs/<id>_credits.txt` (tidied: "Ranger S Bow" -> "Ranger's Bow", brand-like names
+changed: Iron Golem -> Iron Guardian, Hobbit Hole -> Grass Hill House).
 
-These models are AI-generated (Meshy) and were shared by their makers as CC0. We picked them by hand, sized them
-and prepared them for Roblox. The credits list (model, maker, source) is in the pack's Credits value.
+    <N> low poly <kind> for your Roblox game. Each one is a single textured MeshPart, sized for Roblox; the pack
+    comes laid out on a display grid.
 
-Not included: tools or scripts to equip or swing them, animations, sounds, effects.
+    In the pack: <name>, <name>, ...
+
+    Not included: <one of the lines below>
+
+- Weapons: tools or scripts to equip or swing them, animations, sounds, effects.
+- Props: scripts, sounds, effects.
+- Creatures and characters: rigs, animations, scripts, sounds, effects (they are static models).
+- Vehicles: seats, moving wheels, driving scripts, sounds, effects.
+
+The Credits StringValue inside each Model still names the makers and the source (kept for the licence record; a
+buyer sees it only after inserting the pack).
 
 ## Tags
 
-low poly, <kind>, weapon, stylized, rpg, fantasy, simulator, pack
+low poly, <kind>, weapon, stylized, rpg, fantasy, simulator, pack (props: low poly, <kind>, props, stylized,
+simulator, map, pack; creatures: low poly, <kind>, creature, monster, stylized, rpg, simulator, pack)

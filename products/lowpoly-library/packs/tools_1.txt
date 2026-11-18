@@ -1,0 +1,30 @@
+Props\Tools_Items\Stone_Cart_9901t.glb	Wheelbarrow of Rocks
+Props\Tools_Items\Alchemical_Manuscript_3000t_2.glb	Old Map
+Props\Tools_Items\Sentient_Traveler_S_Backpack_Legs_9800t.glb	Backpack Buddy
+Props\Tools_Items\Frostbite_Pickaxe_700t.glb	Crystal Pickaxe
+Props\Tools_Items\Old_Metal_Lever_10000t_2.glb	Lever
+Props\Tools_Items\Verdant_Rift_Pickaxe_308t.glb	Toxic Pickaxe
+Props\Tools_Items\Frostbound_Pickaxe_319t.glb	Steel Pickaxe
+Props\Tools_Items\Mining_Tools_9997t_2.glb	Mining Tools Pile
+Props\Tools_Items\Pickaxe_3000t_2.glb	Iron Pickaxe
+Props\Tools_Items\Pickaxe_Rugged_Medieval_Tool_Solid_10000t_2.glb	Axe Pick
+Props\Tools_Items\Ancient_Secrets_Scroll_9488t.glb	Scroll
+Props\Tools_Items\Anvil_440t.glb	Anvil
+Props\Tools_Items\Cosmic_Lava_Pickaxe_294t.glb	Void Pickaxe
+Props\Tools_Items\Winged_Crescent_Pickaxe_304t.glb	Winged Pickaxe
+Props\Tools_Items\Wooden_Frame_Step_Ladder_2207t.glb	Step Ladder
+Props\Tools_Items\Abyssal_Pickaxe_300t.glb	Ornate Pickaxe
+Props\Tools_Items\Ethereal_Pickaxe_300t_2.glb	Gold Pickaxe
+Props\Tools_Items\Hand_Cart_5983t.glb	Wooden Cart
+Props\Tools_Items\Jewel_Encrusted_Tome_5242t.glb	Jeweled Spellbook
+Props\Tools_Items\Metal_Lever_6578t.glb	Sledgehammer
+Props\Tools_Items\Tool_Workbench_9998t_2.glb	Workbench
+Props\Tools_Items\Wooden_Ladder_10000t_2.glb	Wooden Ladder
+Props\Tools_Items\Ancient_Medieval_Book_7363t.glb	Big Old Book
+Props\Tools_Items\Battle_Worn_Flashlight_4113t.glb	Flashlight
+Props\Tools_Items\Extintor_5932t.glb	Fire Extinguisher
+Props\Tools_Items\Fishing_Rod_Rack_2131t.glb	Fishing Rods
+Props\Tools_Items\Mining_Backpack_5971t.glb	Travel Backpack
+Props\Tools_Items\Molten_Ember_Pickaxe_312t.glb	Lava Pickaxe
+Props\Tools_Items\Open_Magic_Book_Which_Butterflies_9997t_2.glb	Butterfly Book
+Props\Tools_Items\Pile_Books_9992t_2.glb	Book Pile

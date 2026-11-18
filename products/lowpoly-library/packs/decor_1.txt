@@ -1,0 +1,29 @@
+Props\Decor\Majestic_Ancient_Spellbook_Sturdy_9800t.glb	Old Book
+Props\Decor\Wooden_Sign_10000t.glb	Wooden Signpost
+Props\Decor\Ancient_9800t.glb	Lantern
+Props\Decor\Sign_Text_Open_9800t.glb	Open Sign
+Props\Decor\Hanging_Green_Exit_Sign_1552t.glb	Exit Sign
+Props\Decor\Garden_Gnome_Sitting_Reading_Book_9799t.glb	Garden Gnome
+Props\Decor\Botanical_Stone_Fairy_Core_Statue_10000t.glb	Fairy Statue
+Props\Decor\Double_Sided_Sandwich_Board_Sign_19600t.glb	Chalkboard Sign
+Props\Decor\Luck_Neon_Sign_1451t.glb	Luck Neon Sign
+Props\Decor\Cartel_Madera_Vacio_Tipo_6747t.glb	Hanging Wood Sign
+Props\Decor\Hotel_Sign_9990t.glb	Inn Shield Sign
+Props\Decor\Sign_Text_Pub_9800t_3.glb	Pub Sign
+Props\Decor\Cheval_Mirror_Wooden_Stand_5897t.glb	Standing Mirror
+Props\Decor\Crystal_Gemstone_Signpost_10000t.glb	Crystal Signpost
+Props\Decor\Fantastical_Sculpture_Heeled_Shoe_Transformed_9998t_2.glb	Glass Slipper Castle
+Props\Decor\Fantasy_Mailbox_2992t.glb	Lion Shrine Door
+Props\Decor\Majestic_Sovereign_9953t.glb	Queen Portrait
+Props\Decor\Orcish_Banner_5000t.glb	Orc Banner
+Props\Decor\Ornate_Brass_Clock_8991t.glb	Gold Clock
+Props\Decor\Whimsical_Wooden_Mailbox_Curved_Roof_9999t.glb	Birdhouse
+Props\Decor\Altar_Purple_Magic_Signs_Open_5734t.glb	Purple Portal
+Props\Decor\Architectural_Miniature_Cracow_Szopka_Christmas_9800t.glb	Cathedral Model
+Props\Decor\Blank_Wooden_Sign_2878t.glb	Wooden Sign Board
+Props\Decor\Cementery_Pillar_Variant_6_6139t.glb	Ruined Pillar
+Props\Decor\Crystal_Statue_5934t.glb	Crystal Shrine
+Props\Decor\Decorative_Ornate_Drow_Carpet_9996t.glb	Magic Rug
+Props\Decor\Dungeeon_5077t.glb	Summoning Circle
+Props\Decor\Elegant_Rook_Chess_Piece_Looks_10000t.glb	Chess Rook
+Props\Decor\Elements_Emblem_6299t.glb	Elements Emblem

@@ -1,0 +1,30 @@
+Props\Nature\Purple_Prism_Tree_6059t.glb	Purple Tree
+Props\Nature\Rock_Pile_5220t.glb	Rock Pile
+Props\Nature\Mushroom_Magic_3000t.glb	Red Mushroom
+Props\Nature\Rusty_Rock_Pile_618t.glb	Brown Rock
+Props\Nature\Kaya3_5054t.glb	Tall Rock
+Props\Nature\Red_Rock_Spires_8186t.glb	Rock Ridge
+Props\Nature\Twin_Trunk_Gnarled_Tree_2873t.glb	Dead Black Tree
+Props\Nature\Cracked_Gray_Rock_Stack_8532t.glb	Jagged Rock
+Props\Nature\Tree_Stump_9769t.glb	Tree Stump
+Props\Nature\Leaning_Palm_Tree_8008t.glb	Palm Tree
+Props\Nature\Tree_6307t.glb	Green Tree
+Props\Nature\Mossy_Monolith_8784t.glb	Floating Rock
+Props\Nature\Rugged_Layered_Rock_9646t.glb	White Rock
+Props\Nature\Large_Rock_8992t.glb	Mossy Boulder
+Props\Nature\Porcini_Mushroom_2998t.glb	Brown Mushroom
+Props\Nature\Magischer_Neon_Fantasy_Pilz_9999t.glb	Glowing Mushroom
+Props\Nature\Luminescent_Blossom_9932t.glb	Pink Lotus
+Props\Nature\Chanterelle_Mushroom_3000t.glb	Orange Mushroom
+Props\Nature\Stone_Relief_Botanical_Mushroom_Shaped_9799t_2.glb	Pink Mushroom House
+Props\Nature\Stone_Relief_Botanical_Mushroom_Shaped_9799t_5.glb	Mushroom Cottage
+Props\Nature\Molten_Core_Monolith_300t.glb	Lava Rock
+Props\Nature\Nature_b008e4_9980t.glb	Red Cap Mushroom
+Props\Nature\Nature_d5aa87_6997t.glb	Bare Tree
+Props\Nature\Rock_Pile_2046t.glb	Snowy Rocks
+Props\Nature\Tall_Mushroom_Fairy_House_Glowing_9999t_2.glb	Mushroom Tower
+Props\Nature\Azure_Pine_4627t.glb	Blue Pine
+Props\Nature\Cryo_Spore_10000t.glb	Alien Flower
+Props\Nature\Monumental_Standing_Stone_Bright_Glowing_3000t_2.glb	Rune Stone
+Props\Nature\Realistic_King_Bolete_Mushroom_10000t.glb	Fly Agaric Mushrooms
+Props\Nature\Tree_Log_Sitting_9987t.glb	Log

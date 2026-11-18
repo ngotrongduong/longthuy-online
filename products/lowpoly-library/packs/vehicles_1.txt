@@ -1,0 +1,15 @@
+Vehicles\Vehicles\Ship_2642t.glb	Steampunk Airship
+Vehicles\Vehicles\Tank_3845t.glb	Battle Tank
+Vehicles\Vehicles\Giant_Spaceship_9969t.glb	Space Fighter
+Vehicles\Vehicles\Post_Apocalyptic_Vehicle_Armored_Plates_9990t.glb	Off-Road Jeep
+Vehicles\Vehicles\European_Fire_Truck_19600t.glb	Fire Truck
+Vehicles\Vehicles\Futuristic_Sci_Fi_Flying_Tank_10000t_2.glb	Dark Starship
+Vehicles\Vehicles\Halloween_Kart_Chassis_10213t.glb	Halloween Racer
+Vehicles\Vehicles\Rocket_Launch_Pad_3903t.glb	Rocket on Pad
+Vehicles\Vehicles\Sunfire_Muscle_Car_5696t.glb	Yellow Muscle Car
+Vehicles\Vehicles\Assets_19599t.glb	Green Tank
+Vehicles\Vehicles\Camper_Van_Top_Down_Route_10093t.glb	Camper Van
+Vehicles\Vehicles\Carrier_Ship_8240t.glb	Long Starship
+Vehicles\Vehicles\Early_2000_S_Turkish_Taxi_5043t.glb	Taxi
+Vehicles\Vehicles\Rocket_Toy_11128t.glb	Fox Rocket
+Vehicles\Vehicles\Toy_Rocket_9949t.glb	Toy Rocket

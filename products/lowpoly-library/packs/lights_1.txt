@@ -1,0 +1,30 @@
+Props\Lights_Fire\Garden_Stone_Lantern_2942t.glb	Stone Lantern
+Props\Lights_Fire\Enchanted_Lantern_Post_3000t.glb	Hanging Lantern Post
+Props\Lights_Fire\Rustic_Iron_Lantern_10000t_2.glb	Cage Lantern
+Props\Lights_Fire\Voidlight_Lantern_9123t.glb	Purple Crystal Lantern
+Props\Lights_Fire\Fantasy_Lantern_Curved_Wooden_Post_10000t.glb	Vine Lamp
+Props\Lights_Fire\Rustic_Lantern_10000t.glb	Oil Lantern
+Props\Lights_Fire\Crimson_Ember_Lantern_6552t.glb	Glowing Cylinder Lamp
+Props\Lights_Fire\Ethereal_Lantern_1000t.glb	Stone Lantern Box
+Props\Lights_Fire\Lights_Fire_615ee2_5288t.glb	Table Lamp
+Props\Lights_Fire\City_Street_Lamp_9998t.glb	Street Lamp
+Props\Lights_Fire\Industrial_Lamp_Hanging_1_Meter_10000t.glb	Pendant Lamp
+Props\Lights_Fire\Jack_O_Lantern_Candy_Bowl_9612t.glb	Pumpkin Cauldron
+Props\Lights_Fire\Lights_Fire_590c67_4720t.glb	Torch
+Props\Lights_Fire\Amber_Lantern_4098t.glb	Camping Lantern
+Props\Lights_Fire\Fantasy_Candle_10000t.glb	Melting Candle
+Props\Lights_Fire\Gothic_Cursed_Lantern_Called_Widow_12638t.glb	Gothic Lantern
+Props\Lights_Fire\Hyper_Realistic_Lantern_Hanging_Chain_9997t.glb	Ship Lantern
+Props\Lights_Fire\Lantern_Hanging_Small_Sconce_Beam_2980t.glb	Wall Lantern
+Props\Lights_Fire\Ornate_Moroccan_Lantern_Gold_Trim_8616t.glb	Mosaic Lantern
+Props\Lights_Fire\Snowy_Lantern_Tower_9996t.glb	Snowy Lighthouse
+Props\Lights_Fire\Stone_Fireplace_10000t_2.glb	Fireplace
+Props\Lights_Fire\Stone_Torch_Stand_9464t_2.glb	Fire Pillar
+Props\Lights_Fire\Bedside_Lamp_Crooked_Or_Stained_7958t.glb	Tiffany Lamp
+Props\Lights_Fire\Campfire_2082t.glb	Campfire
+Props\Lights_Fire\Chibi_Dungeon_Lamp_Base_9800t.glb	Cube Lamp
+Props\Lights_Fire\Enchanted_Lantern_House_9488t.glb	Lantern Shrine
+Props\Lights_Fire\Fantasy_Lantern_Curved_Wooden_Post_9997t.glb	Autumn Lantern
+Props\Lights_Fire\Ghostly_Lantern_Signpost_9991t_2.glb	Ghost Sign Lamp
+Props\Lights_Fire\Golden_Double_Lantern_Street_Lamp_4352t.glb	Double Street Lamp
+Props\Lights_Fire\Lamppost_Glow_9998t.glb	Garden Lamp

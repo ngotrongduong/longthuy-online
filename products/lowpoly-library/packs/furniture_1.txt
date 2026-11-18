@@ -1,0 +1,30 @@
+Props\Furniture\Rustic_Table_9998t.glb	Picnic Table
+Props\Furniture\Lectern_4998t_2.glb	Lectern
+Props\Furniture\Carved_Wooden_Chair_9109t.glb	Carved Wooden Chair
+Props\Furniture\Majestic_Throne_10000t_2.glb	Golden Throne
+Props\Furniture\Wooden_Park_Bench_2560t.glb	Wooden Bench
+Props\Furniture\Timber_Perch_3000t_2.glb	Wooden Stool
+Props\Furniture\Ethereal_Seat_9999t.glb	Organic Chair
+Props\Furniture\Carved_8663t.glb	Tree Stump Throne
+Props\Furniture\Kitchen_Elegance_9951t.glb	Kitchen Cabinets
+Props\Furniture\Stone_Throne_9987t.glb	Stone Throne
+Props\Furniture\Wooden_Throne_10000t_2.glb	Red Throne
+Props\Furniture\Rustic_Wooden_Chair_Appears_Severely_4536t.glb	Rustic Chair
+Props\Furniture\Elegant_Vintage_Chair_7233t.glb	Vintage Armchair
+Props\Furniture\Rustic_Bench_7761t.glb	Ornate Bench
+Props\Furniture\Antique_Carved_Wood_Counter_6024t.glb	Carved Cabinet
+Props\Furniture\Wood_Chair_10000t_2.glb	Wooden Chair
+Props\Furniture\French_Provincial_Coffee_Table_Pale_9800t_2.glb	Antique Coffee Table
+Props\Furniture\Rustic_Log_Bench_8775t.glb	Log Table
+Props\Furniture\Fiendish_Throne_10000t_2.glb	Monster Throne
+Props\Furniture\Furniture_5876ec_9924t.glb	Round Table
+Props\Furniture\Furniture_f91659_2500t.glb	Medieval Bed
+Props\Furniture\Old_10000t.glb	Park Bench
+Props\Furniture\Rustic_Wooden_Desk_3766t.glb	Wooden Desk
+Props\Furniture\Tree_Table_9998t.glb	Tree Table
+Props\Furniture\Antique_Metal_Bed_4898t.glb	Metal Bed
+Props\Furniture\Antique_Wooden_Nightstand_9958t.glb	Nightstand
+Props\Furniture\Artistic_10000t.glb	Rainbow Chair
+Props\Furniture\Brick_Oven_9998t.glb	Brick Oven
+Props\Furniture\Chair_6632t.glb	White Chair
+Props\Furniture\Elegant_Carved_Table_8253t.glb	Carved Table

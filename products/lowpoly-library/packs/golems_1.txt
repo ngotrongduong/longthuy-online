@@ -1,0 +1,30 @@
+Monsters\Golems_Elementals\Scary_Treant_10000t_2.glb	Evil Tree
+Monsters\Golems_Elementals\Glowing_Golem_9997t_2.glb	Rune Stone Bot
+Monsters\Golems_Elementals\Crab_Golem_794t.glb	Shell Crab
+Monsters\Golems_Elementals\Dark_Maystical_Stone_Golem_5554t.glb	Crystal Robot
+Monsters\Golems_Elementals\Massive_Quadrupedal_Magma_Golem_Bulky_10000t.glb	Lava Golem
+Monsters\Golems_Elementals\Ultra_Realistic_9995t.glb	Stone Golem Figure
+Monsters\Golems_Elementals\Definitely_Not_Blitzcrank_10000t.glb	Bronze Robot
+Monsters\Golems_Elementals\Frost_Golem_10000t_2.glb	Ice Golem
+Monsters\Golems_Elementals\Luminous_Herb_Golem_10000t.glb	Slime Rock Golem
+Monsters\Golems_Elementals\Stone_Guardian_Golem_9846t.glb	Rock Golem
+Monsters\Golems_Elementals\Iron_Golem_9940t.glb	Iron Golem
+Monsters\Golems_Elementals\Aztec_Mayan_Golem_Sentinel_10000t.glb	Carved Stone Golem
+Monsters\Golems_Elementals\Crystal_Golem_9994t.glb	Crystal Beast
+Monsters\Golems_Elementals\Quartz_Golem_Awakening_8078t.glb	Rainbow Spirit
+Monsters\Golems_Elementals\Treant_Guardian_9993t.glb	Treant
+Monsters\Golems_Elementals\Forest_Golem_10000t.glb	Purple Ogre
+Monsters\Golems_Elementals\Gaia_10419t.glb	Seed Sprite
+Monsters\Golems_Elementals\Lava_Golem_Sentinel_12645t.glb	Magma Golem
+Monsters\Golems_Elementals\Plant_Infested_Rock_Elemental_Wolf_10000t.glb	Moss Wolf
+Monsters\Golems_Elementals\Rock_Lava_Golem_10000t.glb	Rock Egg Golem
+Monsters\Golems_Elementals\Brioche_Delight_Golem_17680t.glb	Yellow Blob
+Monsters\Golems_Elementals\Crystal_Golem_10428t.glb	Crystal Stone Giant
+Monsters\Golems_Elementals\Crystalline_Guardian_10074t.glb	Crystal Skull Spirit
+Monsters\Golems_Elementals\Forest_Guardian_Automaton_9959t.glb	Dwarf Mech
+Monsters\Golems_Elementals\Golems_Elementals_9d1f81_10000t.glb	Wood Spirit
+Monsters\Golems_Elementals\Grovebound_Golem_19365t.glb	Mud Golem
+Monsters\Golems_Elementals\King_Golem_Illustration_10853t.glb	Moss Golem
+Monsters\Golems_Elementals\Lava_Golem_S_Fury_18268t.glb	Bronze Golem
+Monsters\Golems_Elementals\Plant_Infested_Rock_Elemental_Wolf_9994t_2.glb	Moss Werewolf
+Monsters\Golems_Elementals\Rugged_Golem_18970t.glb	Marble Golem

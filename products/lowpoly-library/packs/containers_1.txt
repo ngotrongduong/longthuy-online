@@ -1,0 +1,30 @@
+Props\Containers\Barrel_9818t.glb	Toxic Barrel
+Props\Containers\Rope_Bound_Wooden_Crate_9997t.glb	Wooden Crate
+Props\Containers\Horned_Skull_Chest_Deep_9999t.glb	Gem Chest
+Props\Containers\Treasure_Chest_3000t.glb	Pirate Chest
+Props\Containers\Stacked_Crates_10000t.glb	Crate Stack
+Props\Containers\Ironbound_Timber_Crate_5668t.glb	Banded Crate
+Props\Containers\Large_9999t.glb	Holographic Chest
+Props\Containers\Futuristic_Storage_Crate_10000t.glb	Sci-Fi Case
+Props\Containers\Dark_Fantasy_Medieval_Chest_Made_9982t.glb	Old Chest
+Props\Containers\Um_Baril_Cerveja_Madeira_10000t.glb	Barrel with Tap
+Props\Containers\Wooden_Barrel_Surface_Detail_9998t.glb	Big Barrel
+Props\Containers\Iron_Chest_9994t.glb	Iron Chest
+Props\Containers\Isometric_Prop_10000t.glb	Teal Chest
+Props\Containers\Golden_Treasure_Chest_4756t.glb	Gold Chest
+Props\Containers\Old_World_Rustic_Wooden_Crate_9800t.glb	Fish Crate
+Props\Containers\Crate_Tomatoes_9943t.glb	Tomato Crate
+Props\Containers\Large_9974t.glb	Ornate Chest
+Props\Containers\Wooden_Barrel_6918t.glb	Blue Barrel
+Props\Containers\Wooden_Pallet_2996t.glb	Wooden Pallet
+Props\Containers\Medieval_Ironbound_Chest_9984t.glb	Iron Cage Chest
+Props\Containers\Blue_Barrel_10000t_2.glb	Blue Drum
+Props\Containers\Midnight_Amethyst_Chest_9425t.glb	Purple Chest
+Props\Containers\Vintage_Medical_Supply_Chest_2423t.glb	Medic Box
+Props\Containers\Arcane_Wooden_Chest_5571t.glb	Purple Crate
+Props\Containers\Biomechanical_Treasure_Chest_Organic_Mechanical_9981t.glb	Red Chest
+Props\Containers\Fuel_Drum_Rack_6116t.glb	Drum Rack
+Props\Containers\Large_9983t.glb	Carved Chest
+Props\Containers\Old_Wooden_Barrel_Visible_Wear_10000t.glb	Blue Chest
+Props\Containers\Rusted_Oil_Drum_542t.glb	Rusty Drum
+Props\Containers\Treasure_Chest_4850t.glb	Wooden Chest

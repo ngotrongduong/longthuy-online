@@ -1,0 +1,30 @@
+Props\Food\Bread_Loaf_4872t.glb	Bread Loaf
+Props\Food\Loaf_Sour_Dough_Bread_10000t.glb	French Bread
+Props\Food\Roast_Feast_3954t.glb	Roast Pig
+Props\Food\Realistic_Traditional_Braided_Challah_Bread_8172t.glb	Braided Bread
+Props\Food\Chocolate_Swirl_Delight_10000t.glb	Chocolate Roll
+Props\Food\Pork_Chop_Presentation_9974t.glb	Pork Chop
+Props\Food\Juicy_Steak_Some_Rosmary_9956t.glb	Steak
+Props\Food\Layered_Ham_Cheese_Sandwich_Lettuce_5169t.glb	Sandwich
+Props\Food\Pear_7038t.glb	Pear
+Props\Food\Candy_Cane_3000t.glb	Green Candy Cane
+Props\Food\Cucumber_2106t.glb	Cucumber
+Props\Food\Hex_Scoops_Graveyard_Cone_7866t.glb	Chocolate Ice Cream
+Props\Food\Slab_Red_Meat_10000t.glb	Raw Beef
+Props\Food\Slab_Red_Meat_9999t_2.glb	Ribeye Steak
+Props\Food\Slice_Pepperoni_Pizza_Delight_7986t.glb	Pizza Slice
+Props\Food\Classic_Yellow_Onion_1440t.glb	Onion
+Props\Food\Food_d7ca19_10000t_2.glb	Lollipops
+Props\Food\Caramel_Cloud_Pudding_8052t.glb	Cute Pudding
+Props\Food\Cotton_Swirl_Delight_3000t.glb	Cotton Candy Pop
+Props\Food\Ornate_Glossy_Tea_Cup_Sitting_9800t.glb	Tea Cup
+Props\Food\Raspberry_9989t.glb	Raspberry
+Props\Food\Santa_Cupcake_Delight_5911t.glb	Christmas Cupcake
+Props\Food\Three_Chestnuts_4787t.glb	Chestnuts
+Props\Food\Bread_3000t_2.glb	Baguette
+Props\Food\Candy_Cane_Delight_3686t.glb	Candy Cane
+Props\Food\Collection_Funny_Surreal_Food_Dishes_4980t.glb	Steak Dinner
+Props\Food\Creamy_Delight_10000t_2.glb	Milkshake
+Props\Food\Golden_Sesame_Croissant_2872t.glb	Croissant
+Props\Food\Lattice_Apple_Pie_9953t.glb	Apple Pie
+Props\Food\Vibrant_Heart_Cake_10000t_2.glb	Rainbow Cake

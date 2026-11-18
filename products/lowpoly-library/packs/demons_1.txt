@@ -1,0 +1,26 @@
+Monsters\Demons\Molten_Monolith_1230t.glb	Lava Spire
+Monsters\Demons\Infernal_Bull_9975t.glb	Zombie Cow
+Monsters\Demons\Demons_c90192_1498t.glb	Demon Tower
+Monsters\Demons\Alien_Demon_Hybrid_Enemy_Creature_10000t.glb	Blue Fire Demon
+Monsters\Demons\Demon_Dog_9633t.glb	Stitched Plush Demon
+Monsters\Demons\Demonic_Dwarf_Large_Black_Beard_10000t_2.glb	Ogre Warrior
+Monsters\Demons\Demonic_Dwarf_Large_Black_Beard_10000t_4.glb	Horned Axe Dwarf
+Monsters\Demons\Rusted_Infernal_Golem_9991t.glb	Red Demon Lord
+Monsters\Demons\Cursed_Tomekeeper_9996t.glb	Cursed Cabinet
+Monsters\Demons\Fantasy_Demonic_Pile_Transparent_Slime_9998t.glb	Purple Blob Demon
+Monsters\Demons\Massive_Demonic_Wings_Fire_Boss_9498t.glb	Demon Wings
+Monsters\Demons\Silla_Demoniaca_10272t.glb	Demon Throne
+Monsters\Demons\Snowman_10405t.glb	Spider Snowman
+Monsters\Demons\Abyssal_Warden_10276t.glb	Shadow Knight
+Monsters\Demons\Dark_Demon_Warrior_Remeshed_10458t.glb	Spiked Demon
+Monsters\Demons\Demon_S_Roar_Mug_9985t.glb	Demon Skull Head
+Monsters\Demons\Demonic_Dwarf_Large_Black_Beard_10000t_3.glb	Horned Dwarf Demon
+Monsters\Demons\Elder_Devourer_6544t.glb	Pale Ghoul
+Monsters\Demons\Humanoid_Demon_15468t.glb	Winged Demon
+Monsters\Demons\Infernal_Demonic_Warlord_12042t.glb	Dark Demon Figurine
+Monsters\Demons\Krampus_Hunched_Goat_Demon_Curly_9998t.glb	Goat Fiend
+Monsters\Demons\Monster_Devil_5274t.glb	Purple Imp
+Monsters\Demons\Mostly_Black_Spots_Orange_Red_19624t.glb	Lava Imp
+Monsters\Demons\Mounstro_1_1670t.glb	Grey Ghoul
+Monsters\Demons\Oni_19999t.glb	Orange Ogre
+Monsters\Demons\Orku_14912t.glb	Goat Knight

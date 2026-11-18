@@ -1,0 +1,30 @@
+Monsters\Spiders_Insects\Stone_Scorpion_Warrior_3000t_2.glb	Rock Scorpion
+Monsters\Spiders_Insects\Spider_10000t.glb	Black Spider
+Monsters\Spiders_Insects\Spider_Like_Creature_Large_Intimidating_19599t.glb	Giant Brown Spider
+Monsters\Spiders_Insects\Lava_Scorpion_Manifestation_9122t.glb	Lava Scorpion
+Monsters\Spiders_Insects\Plasma_Arachnoid_9998t.glb	Mech Spider
+Monsters\Spiders_Insects\Mantivine_8758t.glb	Swamp Wasp
+Monsters\Spiders_Insects\Mignonne_Grosse_9990t_2.glb	Orange Jumping Spider
+Monsters\Spiders_Insects\Ancient_Armored_Beetle_12090t.glb	Horned Beetle
+Monsters\Spiders_Insects\Crimson_Carapace_Beetle_15562t.glb	Crimson Bug
+Monsters\Spiders_Insects\Jade_Arachnid_10000t_2.glb	Crystal Spider
+Monsters\Spiders_Insects\Grasshopper_9998t.glb	Grasshopper
+Monsters\Spiders_Insects\Insectoid_Frigate_15938t.glb	Armored Bug
+Monsters\Spiders_Insects\Insectoid_Station_16007t.glb	Spiked Star Bug
+Monsters\Spiders_Insects\Mantis_9899t_2.glb	Praying Mantis
+Monsters\Spiders_Insects\Spider_Enemy_5800t.glb	Purple Spider
+Monsters\Spiders_Insects\Venomous_Arachnid_Construct_2975t.glb	Toxic Spider
+Monsters\Spiders_Insects\Arachnid_Phantasm_10000t.glb	Black Widow
+Monsters\Spiders_Insects\Armored_Cricket_14987t.glb	Cricket
+Monsters\Spiders_Insects\Chinche_9935t.glb	Cockroach
+Monsters\Spiders_Insects\Futuristic_Spider_Robot_6_Legs_9998t_2.glb	Robot Spider
+Monsters\Spiders_Insects\Mutate_Insect_Queen_Ruler_10000t_2.glb	Insect Rider
+Monsters\Spiders_Insects\Rainbow_Pillbug_4978t.glb	Isopod
+Monsters\Spiders_Insects\Sauteuse_5645t.glb	Fuzzy Jumping Spider
+Monsters\Spiders_Insects\Spider_Queen_Upper_Body_Woman_9997t.glb	Spider Queen
+Monsters\Spiders_Insects\Arachnid_Feast_9831t.glb	Skull Spider
+Monsters\Spiders_Insects\Big_Boned_9996t_2.glb	Cyber Spider
+Monsters\Spiders_Insects\Brainweaver_Arachnid_3000t_2.glb	Pink Spider
+Monsters\Spiders_Insects\Colossal_Mechanical_Spider_Clockwork_Heart_14165t.glb	Golden Spider
+Monsters\Spiders_Insects\Crimson_Carapace_Spider_15246t_2.glb	Crimson Carapace Bug
+Monsters\Spiders_Insects\Crystal_Scorpion_3670t.glb	Crystal Scorpion

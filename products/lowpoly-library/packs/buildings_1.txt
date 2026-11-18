@@ -1,0 +1,30 @@
+Props\Buildings_Structures\Crimson_Cottage_9739t.glb	Red Cottage
+Props\Buildings_Structures\Medieval_Weapons_Shop_9800t.glb	Timber House
+Props\Buildings_Structures\Rustic_Cabin_9969t.glb	Stilt Hut
+Props\Buildings_Structures\Ancient_Archway_Ruins_9985t.glb	Ruined Arch
+Props\Buildings_Structures\Fantasy_Cottage_9995t.glb	Brown Cottage
+Props\Buildings_Structures\Hearthstone_Manor_7565t.glb	Tudor House
+Props\Buildings_Structures\House_5229t.glb	Red Roof House
+Props\Buildings_Structures\Stonewatch_Tower_9970t.glb	Dark Tower
+Props\Buildings_Structures\Enchanted_Tower_9416t.glb	Blue Spire Tower
+Props\Buildings_Structures\Cyberpunk_Apartments_3701t.glb	Apartment Block
+Props\Buildings_Structures\Portal_9994t.glb	Skull Crypt Gate
+Props\Buildings_Structures\Blue_Crystal_Alchemist_Shop_4579t.glb	Blue Roof House
+Props\Buildings_Structures\Medieval_Market_Stall_5298t.glb	Market Stall
+Props\Buildings_Structures\Thatched_Timber_Watchtower_9385t.glb	Watchtower
+Props\Buildings_Structures\Roman_Frontier_House_3853t.glb	Stone Villa
+Props\Buildings_Structures\Winter_Cabin_Retreat_10000t.glb	Snowy House
+Props\Buildings_Structures\Sand_Castle_Made_Out_Sand_9799t.glb	Sand Castle
+Props\Buildings_Structures\Wooden_Watchtower_5648t.glb	Pagoda Tower
+Props\Buildings_Structures\Castle_Hill_9979t.glb	Castle Diorama
+Props\Buildings_Structures\Gothic_Mansion_9986t.glb	Gothic Church
+Props\Buildings_Structures\Desert_Watchtower_3777t.glb	Stone Fort
+Props\Buildings_Structures\Elegant_Magical_Upgrade_Altar_Platform_9985t_2.glb	Magic Portal
+Props\Buildings_Structures\Lord_Rings_Castle_Wall_9999t.glb	Castle Wall
+Props\Buildings_Structures\Ancient_Stone_Portal_9998t.glb	Stone Ring Portal
+Props\Buildings_Structures\Brick_House_Illustration_8554t.glb	Brick House
+Props\Buildings_Structures\Hobbit_House_Open_Door_Windows_9800t.glb	Grass Hill House
+Props\Buildings_Structures\Medieval_House_9974t.glb	Big Tudor House
+Props\Buildings_Structures\Rock_Well_9981t.glb	Old Well
+Props\Buildings_Structures\Enchanted_Cottage_9995t.glb	Mossy Cottage
+Props\Buildings_Structures\Lord_Rings_Castle_Gate_10000t.glb	Castle Gate

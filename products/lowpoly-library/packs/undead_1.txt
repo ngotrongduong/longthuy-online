@@ -1,0 +1,30 @@
+Monsters\Undead\Medieval_Fantasy_Skeleton_Enemy_Standing_19600t.glb	Skeleton
+Monsters\Undead\Opal_Skull_8156t.glb	Opal Skull
+Monsters\Undead\Ghost_Skeleton_King_10000t_2.glb	Ghost King
+Monsters\Undead\Skeleton_Warrior_10000t_2.glb	Cartoon Skeleton Warrior
+Monsters\Undead\Zombie_Nightmare_9998t_2.glb	Zombie
+Monsters\Undead\Medium_Zombie_Rotting_Head_Bust_7902t.glb	Zombie Head
+Monsters\Undead\Monstre_Bleu_Dans_Chacune_Ses_10000t_2.glb	Blue Reaper
+Monsters\Undead\Skeleton_9971t.glb	Skeleton Shieldbearer
+Monsters\Undead\Zombie_Hand_9002t.glb	Zombie Grave
+Monsters\Undead\Antlered_Lich_Knight_10238t.glb	Antlered Death Knight
+Monsters\Undead\Skeleton_Archer_Character_6987t.glb	Skeleton Archer
+Monsters\Undead\Skeleton_Critter_9980t.glb	Skull Creature
+Monsters\Undead\Undead_Sentinel_10000t.glb	Green Skeleton
+Monsters\Undead\Bone_Pile_9987t.glb	Bone Pile
+Monsters\Undead\Reaper_Orthodox_Priest_Robes_Holding_9999t.glb	Grim Reaper
+Monsters\Undead\Skeleton_Warrior_9985t.glb	Skeleton Swordsman
+Monsters\Undead\Ancient_Egyptian_Skeleton_Priest_9995t.glb	Mummy Priestess
+Monsters\Undead\Enemy_Skeleton_10000t.glb	Horned Skeleton
+Monsters\Undead\Grim_Reaper_10091t.glb	Shadow Reaper
+Monsters\Undead\Lich_V1_9984t.glb	Crowned Lich
+Monsters\Undead\Living_Skeleton_Glowing_Red_Eyes_9972t.glb	Viking Skeleton
+Monsters\Undead\Nightmare_Hound_8640t.glb	Zombie Dog
+Monsters\Undead\Realistic_9995t.glb	Long-Haired Ghost
+Monsters\Undead\Skeleton_Corsair_6470t.glb	Pirate Skeleton
+Monsters\Undead\Skeleton_Humanoid_9998t_2.glb	Skeleton Mage
+Monsters\Undead\Cartoonish_Zombie_6621t.glb	Cartoon Zombie
+Monsters\Undead\Evil_Ghost_10000t.glb	Phantom
+Monsters\Undead\Fantasy_Floating_Wraith_9994t.glb	Hooded Wraith
+Monsters\Undead\Farmer_Ghoul_17743t.glb	Scarecrow Zombie
+Monsters\Undead\Iskelet_Olsun_Omuzlu_Olsun_Kask_9966t.glb	Skeleton Knight

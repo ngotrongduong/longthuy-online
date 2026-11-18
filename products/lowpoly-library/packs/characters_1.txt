@@ -1,0 +1,26 @@
+Characters\Characters\Robot_Never_Got_10190t.glb	Retro Robot
+Characters\Characters\Beet_Buddy_4402t.glb	Beet Monster
+Characters\Characters\Floral_Plant_Girl_10000t_2.glb	Forest Dryad
+Characters\Characters\Dark_Viking_Guardian_18323t.glb	Black Knight
+Characters\Characters\Mospeada_Vf_038l_Fuke_Type_15226t.glb	Pink Mech
+Characters\Characters\Shadow_Rogue_Medieval_Attire_9999t.glb	Hooded Rogue
+Characters\Characters\River_Archer_698t.glb	Green Archer
+Characters\Characters\Um_Ogro_Cientista_2995t_2.glb	Orc Merchant
+Characters\Characters\Characters_2d492f_9946t.glb	Pastel Cat
+Characters\Characters\Tactical_Soldier_10310t.glb	Soldier
+Characters\Characters\Dark_Elf_Veil_10980t.glb	Cloaked Wanderer
+Characters\Characters\Pirate_Adventurer_10000t_2.glb	Pirate Gunslinger
+Characters\Characters\Winged_Obsidian_Knight_10189t.glb	Dark Knight
+Characters\Characters\Doll_Like_Figure_Wooden_Limbs_10000t_2.glb	Wooden Mannequin
+Characters\Characters\Enormous_Humanoid_Layered_Thick_10000t.glb	Blue Mutant
+Characters\Characters\Tall_9995t_2.glb	Hooded Wraith
+Characters\Characters\Glowbot_10404t.glb	White Robot
+Characters\Characters\Mole_Warrior_10000t.glb	Brown Bear
+Characters\Characters\Shadow_Knight_1048t.glb	Leather Adventurer
+Characters\Characters\Ultra_Realistic_10000t_2.glb	Rat Warrior
+Characters\Characters\Characters_1b566f_16211t.glb	Chibi Crusader
+Characters\Characters\Fierce_Warlord_19600t.glb	Skull Barbarian
+Characters\Characters\Fierce_Warlord_19600t_2.glb	Barbarian Warrior
+Characters\Characters\Medieval_Rpg_Character_9918t.glb	Spear Huntress
+Characters\Characters\Old_Western_Bounty_Hunter_Small_10000t_2.glb	Cowboy
+Characters\Characters\Old_Western_Bounty_Hunter_Small_9998t_2.glb	Gunslinger Cowboy

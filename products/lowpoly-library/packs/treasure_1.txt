@@ -1,0 +1,30 @@
+Props\Treasure_Loot\Blue_Crystal_Snowflake_3108t.glb	Crystal Snowflake
+Props\Treasure_Loot\Crystals_4999t.glb	Rainbow Crystals
+Props\Treasure_Loot\Prismatic_Crystal_Cluster_3069t.glb	Purple Crystal Cluster
+Props\Treasure_Loot\Crystal_4762t.glb	Purple Crystal
+Props\Treasure_Loot\Treasure_S_Keep_9999t.glb	Treasure Chest
+Props\Treasure_Loot\Arcane_Crystal_Nexus_3456t.glb	Crystal Shrine
+Props\Treasure_Loot\Psychedelic_Eye_Trophy_3394t.glb	Eye Trophy
+Props\Treasure_Loot\Crystal_Cluster_7940t.glb	Pink Crystal Cluster
+Props\Treasure_Loot\Ice_Crystal_Spire_9952t.glb	Ice Crystal Spire
+Props\Treasure_Loot\Blue_Crystal_Cluster_9786t.glb	Blue Crystal Cluster
+Props\Treasure_Loot\Cosmic_Ring_Engine_9974t_2.glb	Cosmic Ring Orb
+Props\Treasure_Loot\Azure_Gemstone_10000t_2.glb	Turquoise Gemstone
+Props\Treasure_Loot\Ornate_Fantasy_Goblet_Encrusted_Gems_9992t.glb	Jeweled Goblet
+Props\Treasure_Loot\Azure_Prism_Monolith_639t.glb	Crystal Obelisk
+Props\Treasure_Loot\Azure_Diamond_Elixir_8785t.glb	Diamond Potion
+Props\Treasure_Loot\Elixir_Luminescence_2983t.glb	Blue Potion
+Props\Treasure_Loot\Emerald_Earthbreaker_10000t_2.glb	Emerald Stone Scepter
+Props\Treasure_Loot\Inferno_Gemstone_10000t_2.glb	Fire Crystal
+Props\Treasure_Loot\Ancient_Cryptic_Tablet_3000t_2.glb	Ancient Tablet
+Props\Treasure_Loot\Crystal_Starburst_8542t.glb	Crystal Starburst
+Props\Treasure_Loot\Emerald_Prism_Cluster_312t.glb	Emerald Crystals
+Props\Treasure_Loot\Big_Magical_Crystal_Standing_Metal_9028t.glb	Crystal on Stand
+Props\Treasure_Loot\Crystal_Starburst_8009t.glb	Ice Crystal Cluster
+Props\Treasure_Loot\Galaxien_Ei_5144t.glb	Galaxy Egg
+Props\Treasure_Loot\Golden_Sovereign_10000t_2.glb	Pharaoh Bust
+Props\Treasure_Loot\Rustic_Bell_Key_Artifact_10000t_2.glb	Bell Key Artifact
+Props\Treasure_Loot\Azure_Crystal_9821t.glb	Blue Crystal
+Props\Treasure_Loot\Constantinian_Medallion_10000t_2.glb	Gold Medallion
+Props\Treasure_Loot\Glowing_Potion_Bottle_Flower_Shaped_9993t_2.glb	Flower Potion
+Props\Treasure_Loot\Wing_Display_Stand_Floating_Magic_9999t_2.glb	Rainbow Wing Stand

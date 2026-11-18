@@ -1,0 +1,29 @@
+Animals\Animals\Flying_Fairy_Cat_Woman_15708t.glb	Fairy Cat
+Animals\Animals\Cat_5570t.glb	Grey Fluffy Cat
+Animals\Animals\Cat_6340t.glb	Black Cat
+Animals\Animals\Lava_Squid_10000t_2.glb	Ember Squid
+Animals\Animals\Blue_Serpent_18776t.glb	Blue Snake
+Animals\Animals\Chibi_Cat_14950t.glb	White Kitten
+Animals\Animals\Cat_598t.glb	Orange Tabby Cat
+Animals\Animals\Leafy_Mammoth_9996t_2.glb	Autumn Mammoth
+Animals\Animals\Fairly_Normal_Goat_1046t.glb	Goat
+Animals\Animals\Pup_1100t.glb	Shepherd Dog
+Animals\Animals\Whisker_Doodle_9957t.glb	Snow Kitten
+Animals\Animals\Bear_Mage_Metal_Paws_10000t.glb	Bear Wizard
+Animals\Animals\Phantom_Bunny_9883t.glb	Ghost Bunny
+Animals\Animals\Alberta_Wolverine_6368t.glb	Badger
+Animals\Animals\Circus_Elephant_Ball_11198t.glb	Circus Elephant
+Animals\Animals\Dalhia_Bernese_Mountain_Dog_5924t.glb	Mountain Dog
+Animals\Animals\Mini_Guinea_Pig_10000t_2.glb	Hamster
+Animals\Animals\Mosaic_Guppy_7908t.glb	Guppy
+Animals\Animals\Emberfox_9845t.glb	Flame Fox
+Animals\Animals\Puppy_Scholar_18303t.glb	Puppy on Books
+Animals\Animals\Vibrant_Serenity_10000t_2.glb	Betta Fish
+Animals\Animals\Geometric_Stag_5972t.glb	Stag
+Animals\Animals\Grey_Donkey_6642t.glb	Donkey
+Animals\Animals\Lumi_Pingo_19978t.glb	Robot Penguin
+Animals\Animals\Raven_4452t.glb	Crow
+Animals\Animals\Regal_Llama_9812t.glb	Llama
+Animals\Animals\Skalar_Chichlid_Fish_10000t.glb	Parrotfish
+Animals\Animals\Animals_d4d378_16599t.glb	Grey Cat
+Animals\Animals\Flying_Squid_16294t.glb	Octopus

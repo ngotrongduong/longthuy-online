@@ -1,0 +1,19 @@
+Props\Eggs\Mystical_Gemstone_Egg_5838t.glb	Amber Dragon Egg
+Props\Eggs\Celestial_Egg_8069t.glb	Winged Crystal Egg
+Props\Eggs\Golden_Jewel_Egg_4022t.glb	Golden Egg
+Props\Eggs\Dragon_Wing_Jewel_Egg_9998t.glb	Bat Wing Egg
+Props\Eggs\Festungs_Ei_5018t.glb	Castle Egg
+Props\Eggs\Geometric_Dragon_Egg_9185t.glb	Gold Dragon Egg
+Props\Eggs\Kosmisches_Drachenei_5065t.glb	Galaxy Egg
+Props\Eggs\Mystic_Obsidian_Egg_10000t.glb	Obsidian Egg
+Props\Eggs\Ornate_Ancient_Egg_7641t.glb	Amethyst Egg
+Props\Eggs\Basket_Eggs_5772t.glb	Egg Basket
+Props\Eggs\Chocolate_Egg_9862t.glb	Chocolate Egg
+Props\Eggs\Egg_5369t.glb	Frost Egg
+Props\Eggs\Eggs_4ad9c6_1352t.glb	Fire Nest Eggs
+Props\Eggs\Exploding_Emoji_2070t.glb	Hatching Egg
+Props\Eggs\Fantasy_Dragon_Egg_Farm_2096t.glb	Lava Egg
+Props\Eggs\Gummy_Bear_Egg_9995t.glb	Gummy Bear Egg
+Props\Eggs\Regullar_Shadow_Secret_Egg_Gatcha_10000t.glb	Punk Monster Egg
+Props\Eggs\Robot_Egg_9690t.glb	Robot Egg
+Props\Eggs\Violet_Spore_Egg_3620t.glb	Spotted Alien Egg

@@ -42,5 +42,5 @@ best motion is BossMotion and MountLife, not the plain pet walk.
 
 64 rigged low-poly fantasy creatures for pet, simulator and adventure games, each with its own skeleton and a
 built-in animator. Press Play and they breathe, look around and flick their tails, and they walk or trot whenever
-you move them. No animation assets to upload, no permissions to fix. [...] Not included: AI or follow logic,
-attack or jump clips. README inside. Made with an AI assistant's help, tested in Roblox Studio.
+you move them. No animation assets to upload, no permissions to fix. [...] Not included: follow or roaming
+scripts, attack or jump clips. README inside.

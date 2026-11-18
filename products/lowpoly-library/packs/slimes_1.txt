@@ -1,0 +1,29 @@
+Monsters\Slimes_Blobs\Mecha_Slime_17450t.glb	Toxic Machine Slime
+Monsters\Slimes_Blobs\Cosmic_Pink_Slime_13350t.glb	Galaxy Slime
+Monsters\Slimes_Blobs\Diamond_Slime_7628t.glb	Ice Slime
+Monsters\Slimes_Blobs\Magma_Slime_8315t.glb	Lava Slime
+Monsters\Slimes_Blobs\Slime_Chomper_9936t.glb	Shadow Biter
+Monsters\Slimes_Blobs\Amorphous_10510t.glb	Starry Slime Spirit
+Monsters\Slimes_Blobs\Slime_Chomper_9936t_2.glb	Black Goo Monster
+Monsters\Slimes_Blobs\Green_Jelly_Slime_1992t.glb	Green Dome Slime
+Monsters\Slimes_Blobs\Corrupted_Slime_Monster_Designed_As_11976t.glb	Octo Slime
+Monsters\Slimes_Blobs\Crystal_Clay_Slime_Monster_Tiny_18204t.glb	Teal Ghost Slime
+Monsters\Slimes_Blobs\Fat_Evil_Slime_Monster_Carrying_10000t.glb	Slime Frog King
+Monsters\Slimes_Blobs\Slime_King_19223t.glb	King Slime
+Monsters\Slimes_Blobs\Slimes_Blobs_65afd8_11742t.glb	Swamp Puddle
+Monsters\Slimes_Blobs\Glitching_Slime_Digital_Dungeons_7956t.glb	Spiky Void Slime
+Monsters\Slimes_Blobs\Green_Ooze_Rising_8074t.glb	Green Goo Fountain
+Monsters\Slimes_Blobs\Mystic_Slime_Mage_9914t.glb	Adventurer Slime
+Monsters\Slimes_Blobs\Slime_Girl_10000t_2.glb	Slime Girl
+Monsters\Slimes_Blobs\Slime_Serpent_11612t.glb	Slime Worm
+Monsters\Slimes_Blobs\Slime_Serpent_11636t.glb	Hairy Worm
+Monsters\Slimes_Blobs\Slime_Serpent_Which_Go_Out_7496t.glb	Slime Serpent
+Monsters\Slimes_Blobs\Slimes_Blobs_a9540d_10000t.glb	Goofy Slime
+Monsters\Slimes_Blobs\Smol_Little_Slime_10000t_2.glb	Blue Blob
+Monsters\Slimes_Blobs\Verdant_Sprout_Slime_1070t.glb	Sprout Slime
+Monsters\Slimes_Blobs\Wobbly_9962t.glb	Green Blob
+Monsters\Slimes_Blobs\Emerald_Ooze_10439t.glb	Slime Spirit
+Monsters\Slimes_Blobs\Emerald_Slime_10396t.glb	Mint Slime
+Monsters\Slimes_Blobs\Fat_Slime_Monster_Queen_Pointing_10000t.glb	Slime Ogre
+Monsters\Slimes_Blobs\Goo_Tree_Covered_Goo_Ooze_10750t.glb	Slime Tree
+Monsters\Slimes_Blobs\Green_Sprout_Slime_5320t.glb	Big Slime

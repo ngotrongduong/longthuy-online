@@ -1,0 +1,28 @@
+Monsters\Dragons\Crystalwing_Dragon_14095t.glb	Crystalwing Dragon
+Monsters\Dragons\Iron_Crowned_Dreadwyrm_13355t.glb	Dreadwyrm
+Monsters\Dragons\Azure_Scale_Dragon_Knight_10415t.glb	Lizard Dragon Knight
+Monsters\Dragons\Dragon_Prismatique_4222t.glb	Prismatic Dragon
+Monsters\Dragons\Bubblewing_Sprout_14852t.glb	Bubblewing Sprout
+Monsters\Dragons\Bulky_Ice_Dragon_16919t.glb	Ice Dragon
+Monsters\Dragons\Jewelbound_Citadel_Dragon_12959t.glb	Bone Citadel Dragon
+Monsters\Dragons\Dragons_c4f53e_4961t.glb	Serpent Dragon
+Monsters\Dragons\Abyssal_Spinewyrm_10379t.glb	Spine Wyrm
+Monsters\Dragons\Void_Dragon_5295t.glb	Void Dragon
+Monsters\Dragons\Western_Dragon_8710t.glb	Black Western Dragon
+Monsters\Dragons\Blazewyrm_4313t.glb	Blaze Wyrm
+Monsters\Dragons\Dragon_Figurine_Sleek_9000t.glb	Baby Dragon Figurine
+Monsters\Dragons\Dragon_Skull_3305t.glb	Horned Dragon Skull
+Monsters\Dragons\Dragon_Skull_3568t.glb	Dragon Skull
+Monsters\Dragons\Emberborn_Inferno_Drake_3262t.glb	Ember Drake
+Monsters\Dragons\Emerald_Dragon_6140t.glb	Chibi Crystal Dragon
+Monsters\Dragons\Ground_Dragon_Quetzal_5901t.glb	Quetzal Dragon
+Monsters\Dragons\Twin_Headed_Infernal_Hydra_6909t.glb	Twin Headed Hydra
+Monsters\Dragons\Zombie_Dragon_9998t.glb	Zombie Dragon
+Monsters\Dragons\Amethyst_Shadow_Drake_1092t.glb	Amethyst Drake
+Monsters\Dragons\Aureon_Sunscale_Dragon_14973t.glb	Sunscale Dragon
+Monsters\Dragons\Blue_9732t.glb	Blue Beast Dragon
+Monsters\Dragons\Bonewing_Terror_9958t.glb	Bonewing Dragon
+Monsters\Dragons\Celestial_Goldfish_Dragon_3192t.glb	Celestial Goldfish Dragon
+Monsters\Dragons\Celestial_Serpent_2999t.glb	Celestial Serpent
+Monsters\Dragons\Crimson_Gemfire_Dragon_9461t.glb	Gemfire Dragon
+Monsters\Dragons\Dark_10000t.glb	Dark Dragon

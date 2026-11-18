@@ -50,7 +50,6 @@ plain, commented Luau inside this model, and all numbers live in one Config.
   to call this kit's handler from it.
 
 No outside code is loaded, nothing is obfuscated, and no uploaded images or sounds are used.
-The code was written with the help of an AI assistant, then tested in Roblox Studio.
 
 ## Tags
 

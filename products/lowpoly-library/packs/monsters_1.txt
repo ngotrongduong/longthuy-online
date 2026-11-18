@@ -1,0 +1,30 @@
+Monsters\Other_Monsters\Other_Monsters_5a1c13_1369t.glb	Armored War Elephant
+Monsters\Other_Monsters\Giant_Mimic_9999t.glb	Mimic Statue
+Monsters\Other_Monsters\Horned_Bog_Creature_10000t_2.glb	Bug-Eyed Creature
+Monsters\Other_Monsters\Dnd_Mimic_10000t_2.glb	Mimic Chest
+Monsters\Other_Monsters\Ancient_Forest_Guardian_Boss_Creature_10000t_2.glb	Mushroom Guardian
+Monsters\Other_Monsters\Other_Monsters_acf498_10000t_2.glb	Spirit Deer
+Monsters\Other_Monsters\Archange_Corrompu_10000t.glb	Winged Dark Knight
+Monsters\Other_Monsters\Piranha_Grin_9986t_2.glb	Piranha
+Monsters\Other_Monsters\Freaky_Sphynx_Gargoyle_9996t.glb	Bat Monster Bust
+Monsters\Other_Monsters\Geode_Serpent_8396t.glb	Crystal Rock Snake
+Monsters\Other_Monsters\Leafy_Buddy_10000t_2.glb	Leaf Sprout
+Monsters\Other_Monsters\Shellmaw_12066t.glb	Armadillo Beast
+Monsters\Other_Monsters\Crowdeer_Illustration_9244t.glb	Skeleton Bird
+Monsters\Other_Monsters\Mimic_Chest_9965t.glb	Blue Mimic Chest
+Monsters\Other_Monsters\Spooky_Sprite_10000t.glb	Purple Ghost
+Monsters\Other_Monsters\Thunderwolf_Blaze_9994t_2.glb	Blue Flame Wolf
+Monsters\Other_Monsters\Mimic_Monster_Chest_9994t.glb	Dragon Mimic Chest
+Monsters\Other_Monsters\Monster_Chest_9970t.glb	Cartoon Mimic
+Monsters\Other_Monsters\Other_Monsters_785266_10540t.glb	Wolf
+Monsters\Other_Monsters\Dark_Mushroom_Creature_Female_Shape_5716t.glb	Mushroom Buddy
+Monsters\Other_Monsters\Fantasy_Monster_Made_Connected_Stones_10000t_4.glb	Crystal Back Beast
+Monsters\Other_Monsters\Harbinger_Dark_3774t.glb	Hooded Specter
+Monsters\Other_Monsters\Ice_Hound_3000t.glb	Ice Wolf
+Monsters\Other_Monsters\Mighty_Beast_9998t.glb	Lizard Brute
+Monsters\Other_Monsters\Skybound_Chihuahua_3966t.glb	Corgi Adventurer
+Monsters\Other_Monsters\Spiked_Ravager_12988t.glb	Spiked Lizard
+Monsters\Other_Monsters\Spiky_Red_Monster_9991t_2.glb	Red Spike Monster
+Monsters\Other_Monsters\Chibi_Forest_Boss_Creature_19599t.glb	Antler Goblin
+Monsters\Other_Monsters\Forest_Guardian_10000t_2.glb	Robot Crab
+Monsters\Other_Monsters\Grinning_Beast_4212t.glb	Toad Brute

@@ -1,0 +1,30 @@
+Monsters\Aliens_Mutants\Alien_Plant_9913t.glb	Alien Bulb Plant
+Monsters\Aliens_Mutants\Mushroom_Alien_10000t.glb	Mushroom Creature
+Monsters\Aliens_Mutants\Venomcarapace_15413t.glb	Alien Bug
+Monsters\Aliens_Mutants\Alien_Plant_9987t.glb	Alien Tree
+Monsters\Aliens_Mutants\Alien_Plant_9962t.glb	Alien Jungle Plant
+Monsters\Aliens_Mutants\Bizarre_Alien_Plant_Twisted_10000t.glb	Coral Plant
+Monsters\Aliens_Mutants\Shellshedder_11143t.glb	Spiked Beast
+Monsters\Aliens_Mutants\Alien_Livestock_2996t.glb	Shell Turtle
+Monsters\Aliens_Mutants\Aliens_Mutants_078f89_1300t.glb	Flying Ray
+Monsters\Aliens_Mutants\Alien_Hunter_9923t.glb	Alien Huntress
+Monsters\Aliens_Mutants\Alien_Livestock_2999t.glb	Space Beetle
+Monsters\Aliens_Mutants\Alien_Plant_9973t.glb	Pink Trap Flower
+Monsters\Aliens_Mutants\Alien_Warrior_3000t_2.glb	Green Alien Soldier
+Monsters\Aliens_Mutants\Aliens_Mutants_cb86a1_1494t.glb	Alien Pod Plant
+Monsters\Aliens_Mutants\Corporate_Alien_14151t.glb	Office Alien
+Monsters\Aliens_Mutants\Eldritch_Sentinel_10000t.glb	Blob Mutant
+Monsters\Aliens_Mutants\Eyestalk_Alien_14519t.glb	Eye Stalk Alien
+Monsters\Aliens_Mutants\Galactic_Guardian_8170t.glb	Blue Alien
+Monsters\Aliens_Mutants\Gray_Alien_Head_17674t.glb	Alien Head
+Monsters\Aliens_Mutants\Mutant_Evolution_8638t.glb	Mutant
+Monsters\Aliens_Mutants\Mutant_Walker_18284t.glb	Root Creature
+Monsters\Aliens_Mutants\Alien_Android_3000t.glb	Blue Android
+Monsters\Aliens_Mutants\Alien_Like_Underwater_Tree_5945t.glb	Purple Alien Tree
+Monsters\Aliens_Mutants\Alien_Livestock_2996t_2.glb	Pig Creature
+Monsters\Aliens_Mutants\Alien_Livestock_Bovino_3000t.glb	Horned Beast
+Monsters\Aliens_Mutants\Alien_Soldier_3000t_3.glb	Caped Alien
+Monsters\Aliens_Mutants\Alien_Sonda_9932t.glb	UFO Station
+Monsters\Aliens_Mutants\Alien_Undescoverd_Planet_9998t.glb	Yellow Alien
+Monsters\Aliens_Mutants\Alien_Warrior_3000t_3.glb	Alien Gunner
+Monsters\Aliens_Mutants\Aliens_Mutants_3151f9_1490t.glb	UFO

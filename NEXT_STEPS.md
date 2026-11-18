@@ -99,8 +99,8 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
        thumbnails ready (`products/vfx-packs/STORE.md`, `media/`). Saved to Roblox and configured the same day:
        Wings 73482384781132 (9.99), Auras 117643355725830 (9.99), Combat 128561266438892 (12.99), Explosions
        113896470246117 (6.99), Weapons 106848503060543 (4.99), 3 thumbnails each, AI training off. Still in Roblox's
-       review on 11-15 (`purchasable: false`). Next round: check the toolbox API says purchasable for all 5; if not,
-       read the message on the Configure page.
+       review on 11-15 (`purchasable: false`). 2026-11-19: still not for sale, flagged by Roblox's moderation
+       (Configure page: "Not distributed on Creator Store", Appeal button); see S3g, 2026-11-19.
      - Agent skills: 4 zips (VFX Craft 14, Creature Rigging + Animation 6, Game Art Cutout 7, bundle 22 USD) and their
        listings (`products/agent-skills/STORE.md`).
      - Owner, once (account and payout only, about 10 minutes each): sign up on **Agensi** (agensi.io, Stripe
@@ -133,8 +133,17 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
      each pack must be imported in a Studio test place and saved with Save to Roblox. The owner then allowed
      Studio ("Cho phép ngay"): all 11 saved from Studio as Models and configured (cover, Distribute, USD 2.99, AI
      training off); asset ids in `products/lowpoly-library/STORE.md`. All 11 for sale on 2026-11-18 (toolbox API
-     purchasable: true; the last 5 passed Roblox's check within about an hour). Next: the same for the other
-     groups (props, monsters, characters, animals): pick, build, cover check, Studio save, configure.
+     purchasable: true; the last 5 passed Roblox's check within about an hour).
+     2026-11-19 ("Làm tiếp"): 24 more packs (props, creatures, eggs, tech, dragons, animals, vehicles, slimes,
+     characters) built, saved from Studio as Models and configured at USD 2.99: 35 low-poly packs in all, every one
+     purchasable (toolbox API, 2026-11-19). Ids in `products/lowpoly-library/STORE.md`. An rbxm sent through the
+     Assets API also becomes a Package: 7 packs had to be saved again from Studio.
+     Same day, the owner's order: "tất cả các gói bán trên roblox với những lời giới thiệu không nên nhắc tới là do AI
+     làm hay sưu tập gì cả, chỉ cần ghi trong danh sách có những gì thôi" (listings say only what is inside; never
+     AI-made or collected). Done on Roblox for all 35 packs, the Tycoon Kit, the FX Kit and the Creature Pets. The 5
+     VFX packs (S3f) could not be changed: Roblox has them "Not distributed on Creator Store ... may be in violation
+     of Community Standards", Save off. Next: find what Roblox flags in them (or appeal), then save the new text from
+     `products/vfx-packs/STORE.md`.
    - S3/S3b, started 2026-10-28: "Low Poly Forest Animals" (fox, wolf, deer, bear, boar, rabbit; Idle, Walk, Run,
      Eat). Built and checked in Blender 2026-10-28: `products/animal-pack/LowPolyForestAnimals_v1.zip` (8.6 MB),
      media in `media/` (committed). The pack (`dist/`, the zip) and its build scripts (`work/`) are git-ignored, so

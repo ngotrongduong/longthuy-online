@@ -18,6 +18,11 @@ Roblox AI training off, the description below. Toolbox API right after: publishe
 became purchasable later). Store page: `create.roblox.com/store/asset/<id>`. If one is still not purchasable after
 a day, open its Configure page and look for a message.
 
+Checked 2026-11-19: all 5 are still `purchasable: false`. Each Configure page says "Not distributed on Creator
+Store. This asset may be in violation of Roblox Community Standards" with an Appeal button, and Pricing Disabled;
+Save stays off, so the descriptions on Roblox still carry the old AI lines (the text below is the new one, without
+them). Ways on: appeal each one, or find what Roblox flags (a picture, a script), fix it and save a new Model.
+
 Why these prices: pack 1 (10 effects) sells at 6.99 and the creature pack at 14.99; most paid VFX packs on the
 Creator Store sit between 5 and 15 USD. The combat pack has the most work in it (each skill is a full sequence), the
 weapons pack is the smallest. Revisit after 4 weeks (one change a week, `PLAN.md`).
@@ -51,8 +56,7 @@ attribute (`VfxWings = "wings.seraph"`) and the included runtime does the rest: 
 phones, clean removal.
 
 Inside: the wings, the VfxLib runtime, an install folder (two scripts you move and switch on), a demo and a README.
-Every picture was drawn for this pack. Not included: sounds, flight gameplay. Made with an AI assistant's help,
-tested in Roblox Studio. Use in your own experiences; no resale.
+Not included: sounds, flight gameplay. Use in your own experiences; no resale.
 
 ### Magic Auras & Shields FX (25 Auras)
 
@@ -62,9 +66,8 @@ body, petal storm, skull aura, wind swirl, glitch, a campfire, golden and hologr
 Press Play and the demo shows them all. To put one on a player, set the attribute `VfxAura = "aura.portal_ring"`;
 remove it and the aura fades out. The runtime lowers detail far away and on cheap phones.
 
-Inside: the auras, the VfxLib runtime, an install folder, a demo and a README. Every picture was drawn for this pack.
-Not included: sounds, gameplay (buffs, damage). Made with an AI assistant's help, tested in Roblox Studio. Use in
-your own experiences; no resale.
+Inside: the auras, the VfxLib runtime, an install folder, a demo and a README.
+Not included: sounds, gameplay (buffs, damage). Use in your own experiences; no resale.
 
 ### Combat Skills FX Pack (26 Skills)
 
@@ -76,9 +79,8 @@ ward and a frost burst.
 Press Play: the demo casts every skill from one dummy at another. In your game, one call plays a skill from the
 caster at the target (self, melee or projectile, set per skill). The runtime keeps it light on phones.
 
-Inside: the skills, the VfxLib runtime, an install folder, a demo and a README. Every picture was drawn for this
-pack. Not included: damage, cooldowns, animations, sounds. Made with an AI assistant's help, tested in Roblox Studio.
-Use in your own experiences; no resale.
+Inside: the skills, the VfxLib runtime, an install folder, a demo and a README. Not included: damage,
+cooldowns, animations, sounds. Use in your own experiences; no resale.
 
 ### Explosions & Status FX Pack (14 Effects)
 
@@ -89,9 +91,8 @@ characters.
 Press Play to see them all. One call plays a burst where you want it; a status effect follows a character while an
 attribute is set. Light on phones.
 
-Inside: the effects, the VfxLib runtime, an install folder, a demo and a README. Every picture was drawn for this
-pack. Not included: damage, sounds. Made with an AI assistant's help, tested in Roblox Studio. Use in your own
-experiences; no resale.
+Inside: the effects, the VfxLib runtime, an install folder, a demo and a README. Not included: damage, sounds.
+Use in your own experiences; no resale.
 
 ### Weapon Auras & Trails FX (7 Effects)
 
@@ -101,9 +102,8 @@ running characters).
 Press Play to see them on demo weapons. Put an aura on any tool's handle with one attribute; the trails follow what
 they are attached to. Light on phones.
 
-Inside: the effects, the VfxLib runtime, an install folder, a demo and a README. Every picture was drawn for this
-pack. Not included: the weapon models, sounds. Made with an AI assistant's help, tested in Roblox Studio. Use in
-your own experiences; no resale.
+Inside: the effects, the VfxLib runtime, an install folder, a demo and a README. Not included: the weapon
+models, sounds. Use in your own experiences; no resale.
 
 ## Other stores (after the Creator Store pages are live)
 

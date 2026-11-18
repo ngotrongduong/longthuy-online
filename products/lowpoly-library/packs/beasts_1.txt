@@ -1,0 +1,30 @@
+Monsters\Beasts_Mythic\Lava_Leviathan_6504t.glb	Spiked Beast
+Monsters\Beasts_Mythic\Beasts_Mythic_e045c6_8460t.glb	Armored Werewolf
+Monsters\Beasts_Mythic\Crie_Um_Lobisomem_Gigante_Das_10000t.glb	White Wolf
+Monsters\Beasts_Mythic\Final_Evolved_Spirit_Named_Flame_9994t.glb	Phoenix
+Monsters\Beasts_Mythic\Leviathan_Corsair_19689t.glb	Sea Hydra
+Monsters\Beasts_Mythic\Werewolf_Warrior_9998t.glb	Golden Werewolf
+Monsters\Beasts_Mythic\Beasts_Mythic_65cbe3_10000t.glb	Giant Octopus
+Monsters\Beasts_Mythic\Crystal_Unicorn_10000t.glb	Crystal Unicorn
+Monsters\Beasts_Mythic\Furred_Werewolf_Clad_Viking_Garb_10000t.glb	Axe Yeti Warrior
+Monsters\Beasts_Mythic\Griffon_6683t.glb	Royal Griffin
+Monsters\Beasts_Mythic\Rustjaw_Leviathan_10215t.glb	Bone Shark
+Monsters\Beasts_Mythic\Snowbound_Wendigo_7509t.glb	Antler Wendigo
+Monsters\Beasts_Mythic\Verdant_Gryphon_13782t.glb	Green Griffin
+Monsters\Beasts_Mythic\Warewolf_18798t.glb	Three Headed Wolf
+Monsters\Beasts_Mythic\Werewolf_9946t.glb	Brown Werewolf
+Monsters\Beasts_Mythic\Azurewing_Gryphon_9565t.glb	Ice Griffin
+Monsters\Beasts_Mythic\Crimson_Howl_10330t.glb	Crimson Beast
+Monsters\Beasts_Mythic\Grif_5983t.glb	Sphinx Griffin
+Monsters\Beasts_Mythic\Kraken_Awakens_10000t.glb	Kraken
+Monsters\Beasts_Mythic\Lunar_Werebeast_2998t.glb	Blue Werewolf
+Monsters\Beasts_Mythic\Massive_Steampunk_Kraken_Emerges_Flooded_13161t.glb	Swamp Tentacle Beast
+Monsters\Beasts_Mythic\Phenix_16929t.glb	Fire Bird
+Monsters\Beasts_Mythic\Stereotypical_Wendego_9803t.glb	Pale Stalker
+Monsters\Beasts_Mythic\Storm_Chimera_4228t.glb	Storm Manticore
+Monsters\Beasts_Mythic\Tenfold_Spined_Behemoth_10171t.glb	Thorn Spider Beast
+Monsters\Beasts_Mythic\Thunder_Wendigo_4206t.glb	Lightning Beast
+Monsters\Beasts_Mythic\Azurefang_Leviathan_9557t.glb	Armored Shark
+Monsters\Beasts_Mythic\Beasts_Mythic_485a4e_5292t.glb	Yeti
+Monsters\Beasts_Mythic\Canard_Licorne_Arc_En_Ciel_3139t.glb	Unicorn Duck
+Monsters\Beasts_Mythic\Cerberus_Divine_Colection_12649t.glb	Cerberus

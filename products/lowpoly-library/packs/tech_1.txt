@@ -1,0 +1,29 @@
+Props\SciFi_Tech\Industrial_Machine_Unit_Prop_Fluid_9997t_2.glb	Rusty Boiler
+Props\SciFi_Tech\SciFi_Tech_e563e1_5888t.glb	Retro TV
+Props\SciFi_Tech\Industrial_Machine_Unit_Prop_Fluid_10000t_2.glb	Tank Machine
+Props\SciFi_Tech\Black_Computer_Monitor_9989t_2.glb	Computer Monitor
+Props\SciFi_Tech\Horror_Generator_9799t.glb	Generator
+Props\SciFi_Tech\Air_Compressor_Engine_9870t.glb	Red Pump
+Props\SciFi_Tech\Black_Computer_Keyboard_10000t_2.glb	Keyboard
+Props\SciFi_Tech\Classis_Television_10000t_2.glb	Wooden TV
+Props\SciFi_Tech\Futuristic_Imperial_Hover_Drone_Carrier_9799t.glb	Red Airship
+Props\SciFi_Tech\Industrial_Quadrotor_Drone_9838t.glb	Drone
+Props\SciFi_Tech\Little_Mascine_5404t.glb	Control Box
+Props\SciFi_Tech\Panel_Llave_Elctrica_Fl_1258t.glb	Card Terminal
+Props\SciFi_Tech\Small_9998t.glb	Gadget Phone
+Props\SciFi_Tech\Snow_Runner_Console_3764t.glb	Level Treadmill
+Props\SciFi_Tech\Toxic_Reactor_Complex_7906t.glb	Factory
+Props\SciFi_Tech\Vieille_Tv_1939t.glb	Old TV
+Props\SciFi_Tech\Airport_Display_Board_2350t.glb	Arrivals Board
+Props\SciFi_Tech\Ibm_Keypunch_Machine_3889t.glb	Vending Machine
+Props\SciFi_Tech\Lightning_Core_Capsule_6794t.glb	Energy Capsule
+Props\SciFi_Tech\Magic_Capsule_Purple_9k_8972t.glb	Purple Teleporter
+Props\SciFi_Tech\Magic_Capsule_Red_9k_9011t.glb	Red Teleporter
+Props\SciFi_Tech\Magic_Capsule_Yellow_9k_8965t.glb	Gold Teleporter
+Props\SciFi_Tech\Monitor_710t.glb	Flat Monitor
+Props\SciFi_Tech\Over_Arcade_9991t_2.glb	Old Arcade Cabinet
+Props\SciFi_Tech\Quantum_Power_Rack_3323t.glb	Server Rack
+Props\SciFi_Tech\Rusty_Control_Console_6652t.glb	Old Console
+Props\SciFi_Tech\Small_9996t.glb	Circuit Tag
+Props\SciFi_Tech\Tactical_Phone_522t.glb	Walkie Talkie
+Props\SciFi_Tech\Tv_Antigua_1108t.glb	Black TV

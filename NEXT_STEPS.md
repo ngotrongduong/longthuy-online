@@ -101,6 +101,13 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
        113896470246117 (6.99), Weapons 106848503060543 (4.99), 3 thumbnails each, AI training off. Still in Roblox's
        review on 11-15 (`purchasable: false`). 2026-11-19: still not for sale, flagged by Roblox's moderation
        (Configure page: "Not distributed on Creator Store", Appeal button); see S3g, 2026-11-19.
+       Reason on roblox.com/report-appeals: "Misusing Roblox Systems" for each (11-15), the same as the FX Kit
+       on 11-07, which came back by itself before 11-16. Checked 11-19: the pack code has no require by id,
+       loadstring, getfenv, HttpService or obfuscation, PackTextures is empty; toolbox shows hasScripts false,
+       visibilityStatus 3, as the FX Kit did while blocked. Nothing to fix found; do not re-upload (re-sending
+       moderated content risks the account). The owner said "Gửi kháng nghị": 5 appeals SENT 2026-11-19 (the same
+       509-character text each; `products/vfx-packs/STORE.md`); Roblox says about 5 business days. Next round: read
+       roblox.com/report-appeals and the toolbox API; once one is purchasable, save its new description (STORE.md).
      - Agent skills: 4 zips (VFX Craft 14, Creature Rigging + Animation 6, Game Art Cutout 7, bundle 22 USD) and their
        listings (`products/agent-skills/STORE.md`).
      - Owner, once (account and payout only, about 10 minutes each): sign up on **Agensi** (agensi.io, Stripe

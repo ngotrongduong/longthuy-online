@@ -21,7 +21,16 @@ a day, open its Configure page and look for a message.
 Checked 2026-11-19: all 5 are still `purchasable: false`. Each Configure page says "Not distributed on Creator
 Store. This asset may be in violation of Roblox Community Standards" with an Appeal button, and Pricing Disabled;
 Save stays off, so the descriptions on Roblox still carry the old AI lines (the text below is the new one, without
-them). Ways on: appeal each one, or find what Roblox flags (a picture, a script), fix it and save a new Model.
+them). Reason on roblox.com/report-appeals: "Misusing Roblox Systems" (the FX Kit had the same on 11-07 and came
+back by itself). No cause found in the code. Appeals sent 2026-11-19 for all 5 (answer in about 5 business days):
+
+> This model is a visual effects pack made by our studio: particles, beams and trails with their own runtime in
+> plain, readable Luau (no obfuscation, no require by asset id, no HttpService, no loadstring). Every image in it
+> was uploaded by this account. The server script ships disabled; the README asks the buyer to move it into
+> ServerScriptService and enable it. Our earlier kit on the same code (Hatch & Hit FX Kit, 117863653160979) had
+> the same flag and is back on the Creator Store. Please review it again.
+
+Once a pack is purchasable again, open its Configure page and save the description below (without the AI lines).
 
 Why these prices: pack 1 (10 effects) sells at 6.99 and the creature pack at 14.99; most paid VFX packs on the
 Creator Store sit between 5 and 15 USD. The combat pack has the most work in it (each skill is a full sequence), the

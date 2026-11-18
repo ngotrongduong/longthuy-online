@@ -43,8 +43,10 @@ Found 2026-11-18 (owner's list), checked where Claude could:
 - Tripo API (developers.tripo3d.ai, the old platform.tripo3d.ai): already signed in with the owner's account. API
   credits are billed apart from Studio (the FAQ says a Studio plan does not cover the API); balance 0.00, no key yet.
   The 2024 "2,000 free credits for a first API key" is not shown anywhere on the Billing or API Keys pages, so it may
-  be gone; creating the first key is the only test. Creating a key needs the owner's yes; the key is stored on this
-  PC only (outside the repo), never in git. Pricing 1 credit = USD 0.01; text to 3D 10-20 credits.
+  be gone. Owner said yes 11-18: first key "longthuy-roblox-packs" created; it works (GET
+  api.tripo3d.ai/v2/openapi/user/balance -> balance 0, frozen 0) but NO free credits came, so the 2024 offer is over.
+  The key is stored on this PC only at C:\Users\ngotr\.tripo\api_key.txt, never in git. Pricing 1 credit = USD 0.01;
+  text to 3D 10-20 credits. Nothing more to do here unless Tripo announces API credits again.
 - Meshy Contributor Program (Discord): 1,000 credits or a Pro month for an accepted project. Needs the owner's Discord.
 - Tripo Creator Program: post a work in #creator-showcase on Tripo's Discord, cash per accepted work (rate not
   public) plus USD 5 per referral, paid monthly from USD 50. Needs the owner's Discord.

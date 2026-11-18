@@ -38,13 +38,13 @@ USD 2.99 a pack, the lowest price the Creator Store takes for a Model. Paid weap
 | axes_1 | Low Poly Axes Pack (26) | 26 | 9.3 MB | 126975866262517 | 2026-11-18 |
 | hammers_1 | Low Poly Hammers & Maces Pack (30) | 30 | 11.1 MB | 136867296819046 | 2026-11-18 |
 | polearms_1 | Low Poly Spears & Scythes Pack (30) | 30 | 12.7 MB | 104645121123859 | 2026-11-18 |
-| bows_1 | Low Poly Bows & Crossbows Pack (30) | 30 | 11.3 MB | 133315051274678 | saved, in review |
+| bows_1 | Low Poly Bows & Crossbows Pack (30) | 30 | 11.3 MB | 133315051274678 | 2026-11-18 |
 | daggers_1 | Low Poly Daggers & Knives Pack (29) | 29 | 10.6 MB | 136987197708808 | 2026-11-18 |
-| staffs_1 | Low Poly Magic Staffs Pack (27) | 27 | 12.5 MB | 85859846393388 | saved, in review |
+| staffs_1 | Low Poly Magic Staffs Pack (27) | 27 | 12.5 MB | 85859846393388 | 2026-11-18 |
 | guns_1 | Low Poly Guns Pack (27) | 27 | 12.5 MB | 123870503302156 | 2026-11-18 |
-| shields_1 | Low Poly Shields Pack (22) | 22 | 8.5 MB | 131582416760062 | saved, in review |
-| explosives_1 | Low Poly Bombs & Grenades Pack (29) | 29 | 10.2 MB | 112319583066666 | saved, in review |
-| artillery_1 | Low Poly Cannons & Tanks Pack (30) | 30 | 14.1 MB | 122521676678778 | saved, in review |
+| shields_1 | Low Poly Shields Pack (22) | 22 | 8.5 MB | 131582416760062 | 2026-11-18 |
+| explosives_1 | Low Poly Bombs & Grenades Pack (29) | 29 | 10.2 MB | 112319583066666 | 2026-11-18 |
+| artillery_1 | Low Poly Cannons & Tanks Pack (30) | 30 | 14.1 MB | 122521676678778 | 2026-11-18 |
 
 ## Description (same for each pack; fill in <N> and <kind>)
 

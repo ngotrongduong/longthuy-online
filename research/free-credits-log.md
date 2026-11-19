@@ -55,6 +55,11 @@ Found 2026-11-18 (owner's list), checked where Claude could:
 - Tripo Game Hub (5,000 + 10,000 credits): only for games made on Tripo Game Hub; using them for Roblox packs breaks
   its terms, so no.
 
+Found 2026-11-19 (Meshy email of 11-17): Z-Axis Awards (meshy.ai/z-axis-awards), judged, USD 300,000, 6 tracks
+(Gaming = playable games, demos, mods), closes 2027-01-24 UTC, winners 2027-02-17. Needs a complete finished work
+(e.g. a playable Roblox demo), so it is a separate piece of work, not a daily entry. Its "Creator Perks": the Meshy
+1,000 credits are "All claimed"; the rest are other companies' coupons and credits (not Meshy/Tripo).
+
 ## Contests entered
 
 Owner's order 2026-11-17: check Gmail, the Meshy and Tripo sites (and their Discord) for contests and enter them.
@@ -77,5 +82,6 @@ Discord is signed out in Chrome, so it is skipped. Meshy had no open contest on 
 | 2026-11-15 | 733 | 1,035 | Tripo referral share prepared (+30 when posted) | X post with Tripo's prefilled text left open in the owner's Chrome; the tool refused to press Post |
 | 2026-11-17 | 628 | 1,775 -> 1,650 | Agentic Canvas Workflow Challenge entered (125 credits) | Only 655 of the 3,000 MegaJam credits are left (expire 11-23). The canvas Share panel shows a "Daily Reward: Download or Share, 30 credits once a day (expire this month)"; copying the link did not pay it |
 | 2026-11-17 | 628 | 1,925 -> 1,775 | Contests: 3 Three-Body warships + 2 Sea of Generation figurines entered (150 credits) | Balances fell overnight from other sessions' work (Tripo image-to-model and garden props; Meshy 733 -> 628), not from this task. Daily task now also enters contests |
+| 2026-11-19 | 13 | 1,710 -> 1,680, EXP 440 -> 450/500 (Lv1) | Tripo daily generation (30 credits, +10 EXP, prop: crystal cluster) | X showed a Cloudflare "Verify you are human" check on the Tripo share, so no X posts today (Tripo referral and Meshy share skipped; Claude may not pass bot checks). Weekly Tripo tasks already obtained. No new Tripo contest; new Meshy Z-Axis Awards noted above (long build, to 2027-01-24). Gmail: no survey, nothing in Spam. Meshy balance fell to 13 from other sessions' work |
 | 2026-11-16 | 733 | 1,065 -> 4,065 | Tripo MegaJam code: +3,000 credits (expire 2026-11-23) | Owner's yes; form with his name and email; Pro plan unchanged (renews 12-09). Meshy Loyalty: not for yearly plans |
 | 2026-11-16 | 733 (540 expire Dec 7) | 1,055 -> 1,065, EXP 410 -> 420/500 (Lv1) | Tripo: referral share posted on X (+30); daily generation (30 credits, +10 EXP, prop 2: potion bottles); weekly Feature My Model + Submit Simultaneously (+40, model "low-poly pony 3d model"). Meshy: X share posted (Crystal Slime Citadel, pays 10 per click, 0/40 so far) | X posts today: 2 (Tripo referral, Meshy share), the tool pressed Post itself today. X rejects a repeat of the identical Tripo text ("You already said that") - one Tripo share a day is the most. Meshy shared models: Crystal Slime Citadel. Gmail: no survey; USD 2 Tripo Cash (Diwali reward, issued 11-13, valid 7 days) unused by rule. Events (Three-Body warships to 11-25, Sea of Generation to 12-13, Agentic Canvas to 11-28) need new themed models: skipped. A leftover X compose tab (duplicate Tripo text, unsent) may still be open: close it without posting |

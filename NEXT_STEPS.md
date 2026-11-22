@@ -108,6 +108,9 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
        moderated content risks the account). The owner said "Gửi kháng nghị": 5 appeals SENT 2026-11-19 (the same
        509-character text each; `products/vfx-packs/STORE.md`); Roblox says about 5 business days. Next round: read
        roblox.com/report-appeals and the toolbox API; once one is purchasable, save its new description (STORE.md).
+       2026-11-22: all 5 appeals ACCEPTED; all 5 purchasable (toolbox API), prices unchanged; the new descriptions
+       (no AI lines) saved on all 5 and read back by the API. Lesson: a "Misusing Roblox Systems" flag on a clean
+       code pack is lifted by an appeal within 3 days.
      - Agent skills: 4 zips (VFX Craft 14, Creature Rigging + Animation 6, Game Art Cutout 7, bundle 22 USD) and their
        listings (`products/agent-skills/STORE.md`).
      - Owner, once (account and payout only, about 10 minutes each): sign up on **Agensi** (agensi.io, Stripe

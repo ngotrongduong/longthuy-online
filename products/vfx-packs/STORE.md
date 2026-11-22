@@ -30,7 +30,7 @@ back by itself). No cause found in the code. Appeals sent 2026-11-19 for all 5 (
 > ServerScriptService and enable it. Our earlier kit on the same code (Hatch & Hit FX Kit, 117863653160979) had
 > the same flag and is back on the Creator Store. Please review it again.
 
-Once a pack is purchasable again, open its Configure page and save the description below (without the AI lines).
+2026-11-22: all 5 appeals accepted, all 5 purchasable at the prices above; the descriptions below saved on all 5.
 
 Why these prices: pack 1 (10 effects) sells at 6.99 and the creature pack at 14.99; most paid VFX packs on the
 Creator Store sit between 5 and 15 USD. The combat pack has the most work in it (each skill is a full sequence), the

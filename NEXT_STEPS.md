@@ -213,6 +213,12 @@ Done 2026-10-26 (now in the KPI row): this folder is the clone, and Fiverr G1 an
    built-in browser. Owner: sign in to Upwork there (or cancel the renewal himself); then any session cancels it
    and notes it in `PLAN.md` > Capital and the 2026-11-16 KPI row. The scheduled gate run (11-16 09:00) found
    Upwork signed out in Chrome too, so nothing was clicked; this item stays until the cancel is done.
+   2026-11-23 weekly round: Upwork still signed out in the built-in browser. **Last day is 11-24**: if the owner does
+   not sign in or cancel by then, USD 19.99 is charged on 11-25 (then cancel before the next cycle).
+6. **Creator Store, 11-23**: first 2 sales (Bows 11-19, Bombs 11-22, USD 2.99). Read sales weekly in Chrome
+   (create.roblox.com/dashboard/transactions > Creator Store > Incoming Payments). Price test: FX Kit 6.99 -> 2.99
+   on 11-23; on 11-30 compare its sales with the Tycoon Kit (9.99) and Creature Pets (14.99). Next packs: more
+   weapon themes first (what sold), from `products/lowpoly-library/`.
 4. **Signed out on 11-16: Fiverr too.** Owner: sign in to Fiverr in the app's built-in browser (and pass the bot
    check on the G1 edit page). Then the G1 title change (item 2) and the week's numbers.
 5. **Creator Store, 11-16**: Tycoon Kit, Creature Pets and FX Kit purchasable (the FX Kit is back on sale, no

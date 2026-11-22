@@ -1,6 +1,7 @@
 # Hatch & Hit FX Kit (10 Effects, Mobile Ready): Creator Store
 
-Live since 2026-11-07: Model **117863653160979**, USD 6.99, Distribute on Creator Store on, Roblox AI training off,
+Live since 2026-11-07: Model **117863653160979**, USD 6.99 until 2026-11-23, then **USD 2.99** (weekly round test: only
+the USD 2.99 packs sold), Distribute on Creator Store on, Roblox AI training off,
 3 thumbnails (in moderation). Store page: create.roblox.com/store/asset/117863653160979. VFX pack 1 of
 `products/vfx-packs/PLAN.md`.
 

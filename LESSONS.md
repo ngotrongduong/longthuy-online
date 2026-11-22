@@ -3,6 +3,25 @@
 Each Monday: the numbers, profit against spending, what worked, what did not and why, the lessons, and what changes
 next week. Keep each week short. Lessons that still hold go in "Standing lessons" at the bottom.
 
+## Review of 2026-11-23 (week Nov 16 – Nov 22)
+
+- **Numbers**: first money. Creator Store: 2 sales, Low Poly Bows & Crossbows (11-19) and Bombs & Grenades (11-22),
+  USD 2.99 each, net 2.70 each (A$8.02 in the 30-day escrow). 35 low-poly packs + 5 VFX packs (back on sale 11-22
+  after appeals) + 3 kits on sale. Fiverr, Upwork and the built-in browser's Roblox are signed out: no dashboards;
+  Gmail has no Fiverr order or message and no Upwork client message. Upwork: 0 proposals (signed out all week).
+- **Profit against spending**: gross 5.98, net 5.40. November: 5.40 - 9.99 = -4.59 on own spending, about -304.59
+  with the tools. The Plus renewal (19.99 on 11-25) is still not cancelled.
+- **What worked**: many cheap packs: 2 sales within 4 days of the first 11 packs going live, with no ads and no
+  sign-ins needed. Appeals lifted all 5 VFX packs in 3 days.
+- **What did not**: services earned nothing again; both service sites stay signed out, so even the Plus cancel waits.
+  Nothing priced above USD 2.99 has sold in 2+ weeks.
+- **Why**: the Creator Store buyer is a hobby developer who picks cheap, clearly named packs; weapons are a common
+  need. The bigger kits are new, unrated and priced 3-5x the packs. Two sales are too few to prove which.
+- **Lessons**: cheap themed packs are the first channel that sells; keep adding them (weapons first). Test whether
+  price blocks the bigger kits, one kit at a time.
+- **Next week**: FX Kit at 2.99 (the change); watch which packs sell; more packs in the theme that sells; cancel
+  Plus the moment Upwork is signed in.
+
 ## Review of 2026-11-16 (week Nov 9 – Nov 15)
 
 - **Numbers**: Fiverr and Upwork were both signed out in the app's built-in browser, so dashboards were not read.
@@ -93,3 +112,6 @@ next week. Keep each week short. Lessons that still hold go in "Standing lessons
   Bid early on posts with few proposals; fixed-price fits go out only from a live session.
 - Paid plans must earn back their cost by their gate date, or they go (Upwork Plus: 3 weeks, USD 0, cancelled).
 - Sign-ins expire in the built-in browser: each weekly round can lose its numbers. Products earn without them.
+  Creator Store sales are readable in Chrome (Mue_you): create.roblox.com/dashboard/transactions, Creator Store tab,
+  Incoming Payments.
+- A "Misusing Roblox Systems" flag on a clean pack is lifted by an appeal within about 3 days.
